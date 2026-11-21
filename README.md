@@ -10,7 +10,7 @@ Análisis reproducible en R y Quarto sobre la relación entre nivel educativo, o
 
 Este proyecto analiza la relación entre educación y situación laboral entre la población de **25 a 34 años** en España, utilizando microdatos trimestrales de la **Encuesta de Población Activa (EPA)** correspondientes al periodo **2021T1–2026T3**.
 
-El objetivo es estudiar hasta qué punto el nivel educativo se asocia con la probabilidad de estar ocupado y cómo varía esta relación en función del sexo, la comunidad autónoma y el periodo temporal. El trabajo combina herramientas de análisis estadístico con una perspectiva sociológica de la desigualdad: no se limita a describir las diferencias entre grupos educativos, sino que incorpora modelos multivariables con términos de interacción para examinar si esas brechas se mantienen al controlar otras características sociodemográficas y territoriales.
+El objetivo es estudiar hasta qué punto el nivel educativo se asocia con la probabilidad de estar ocupado y cómo varía esta relación en función del sexo, la comunidad autónoma y el periodo temporal. El trabajo combina herramientas de análisis estadístico con una perspectiva sociológica de la desigualdad: no se limita a describir las diferencias entre grupos educativos, sino que incorpora modelos multivariables para examinar si esas brechas se mantienen al controlar otras características sociodemográficas y territoriales.
 
 El resultado es un flujo de trabajo reproducible elaborado con **R** y **Quarto**, acompañado de visualizaciones, tablas estadísticas e informe web compilado en HTML.
 
@@ -103,44 +103,51 @@ A partir del modelo principal (**M4**), se calculan **probabilidades predichas e
 - **R:** procesamiento, limpieza, armonización y modelización estadística.
 - **Tidyverse:** manipulación y transformación de datos (`dplyr`, `tidyr`, `readr`, `stringr`).
 - **ggplot2:** visualización de tendencias temporales, brechas de género y probabilidades predichas.
-- **Quarto:** generación del informe científico reproducible en HTML (`informe_epa.qmd`)[cite: 3, 5].
+- **Quarto:** generación del informe científico reproducible en HTML (`informe_epa.qmd`).
 - **GLM (`quasibinomial`):** estimación de modelos logísticos ponderados y contraste de interacciones.
 
 ---
 
 ## 7. Estructura del repositorio
 
-```text
-epa-transicion-laboral/
-│
-├── data-raw/                     # Microdatos trimestrales originales de la EPA (ignorados en Git)
-├── data-clean/                   # Bases consolidadas y armonizadas en .rds/.parquet (ignoradas en Git)
-│
-├── docs/
-│   └── index.html                # Informe HTML compilado para GitHub Pages
-│
-├── output/
-│   ├── graficos/                 # Visualizaciones descriptivas nacionales y educativas
-│   ├── fase_4b/                  # Tablas y gráficos comparativos interanuales y territoriales
-│   └── fase_5/                   # Tablas de coeficientes, probabilidades predichas, brechas y gráficos GLM
-│
-├── scripts/
-│   ├── 01_auditoria_microdatos.R
-│   ├── 02_construccion_base.R
-│   ├── 03_operacionalizacion.R
-│   ├── 04_analisis_descriptivo.R
-│   └── 05_modelos_multivariables.R
+    epa-transicion-laboral/
+    │
+    ├── data-raw/                     # Microdatos trimestrales originales de la EPA (ignorados en Git)
+    ├── data-clean/                   # Bases consolidadas y armonizadas en .rds/.parquet (ignoradas en Git)
+    │
+    ├── docs/
+    │   └── index.html                # Informe HTML compilado para GitHub Pages
+    │
+    ├── output/
+    │   ├── graficos/                 # Visualizaciones descriptivas nacionales y educativas
+    │   ├── fase_4b/                  # Tablas y gráficos comparativos interanuales y territoriales
+    │   └── fase_5/                   # Tablas de coeficientes, probabilidades predichas, brechas y gráficos GLM
+    │
+    ├── scripts/
+    │   ├── 01_auditoria_microdatos.R
+    │   ├── 02_construccion_base.R
+    │   ├── 03_operacionalizacion.R
+    │   ├── 04_analisis_descriptivo.R
+    │   └── 05_modelos_multivariables.R
+    │
+    ├── .gitignore
+    ├── epa-transicion-laboral.Rproj  # Archivo de proyecto de RStudio
+    ├── informe_epa.qmd               # Documento fuente reproducible en Quarto
+    └── README.md
+
+---
+
 ## 8. Reproducibilidad
 
-El flujo de análisis está modularizado en scripts secuenciales dentro de `scripts/` y consolidado en `informe_epa.qmd`[cite: 5]:
+El flujo de análisis está modularizado en scripts secuenciales dentro de `scripts/` y consolidado en `informe_epa.qmd`:
 
-1. **Auditoría e integración:** lectura y validación de los 23 ficheros trimestrales de la EPA (`2021T1–2026T3`)[cite: 5].
+1. **Auditoría e integración:** lectura y validación de los 23 ficheros trimestrales de la EPA (`2021T1–2026T3`).
 2. **Construcción y operacionalización:** armonización de niveles educativos, situación laboral, contrato, jornada y factores de elevación.
 3. **Análisis descriptivo y comparativo:** cálculo de tasas ponderadas, variaciones interanuales y desagregaciones por sexo y CCAA.
 4. **Modelización multivariable:** estimación de los modelos `M1`–`M4`, contraste $F$ de interacción y cálculo de probabilidades predichas con intervalos de confianza.
-5. **Compilación del informe:** renderizado de `informe_epa.qmd` con Quarto a partir de los resultados exportados en `output/`[cite: 5].
+5. **Compilación del informe:** renderizado de `informe_epa.qmd` con Quarto a partir de los resultados exportados en `output/`.
 
-Para reproducir los cálculos desde cero, basta con abrir `epa-transicion-laboral.Rproj` en RStudio[cite: 5], descargar los microdatos trimestrales desde la web del INE en `data-raw/` y ejecutar los scripts en orden numérico.
+Para reproducir los cálculos desde cero, basta con abrir `epa-transicion-laboral.Rproj` en RStudio, descargar los microdatos trimestrales desde la web del INE en `data-raw/` y ejecutar los scripts en orden numérico.
 
 ---
 
@@ -157,5 +164,5 @@ Para reproducir los cálculos desde cero, basta con abrir `epa-transicion-labora
 ## 10. Referencias y autoría
 
 - **Autor:** Javier Echube Bestué — Grado en Sociología, Universitat de València.
-- **Fuente de datos:** Instituto Nacional de Estadística (INE). *Encuesta de Población Activa (EPA): metodología, diseño de registro y microdatos trimestrales (2021T1–2026T3)*[cite: 5].
+- **Fuente de datos:** Instituto Nacional de Estadística (INE). *Encuesta de Población Activa (EPA): metodología, diseño de registro y microdatos trimestrales (2021T1–2026T3)*.
 - **Software:** R Core Team (*R: A Language and Environment for Statistical Computing*) y Posit (*Quarto*).
