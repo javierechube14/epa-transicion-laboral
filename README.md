@@ -130,8 +130,32 @@ epa-transicion-laboral/
 │   ├── 03_operacionalizacion.R
 │   ├── 04_analisis_descriptivo.R
 │   └── 05_modelos_multivariables.R
-│
-├── .gitignore
-├── epa-transicion-laboral.Rproj  # Archivo de proyecto de RStudio
-├── informe_epa.qmd               # Documento fuente reproducible en Quarto
-└── README.md
+## 8. Reproducibilidad
+
+El flujo de análisis está modularizado en scripts secuenciales dentro de `scripts/` y consolidado en `informe_epa.qmd`[cite: 5]:
+
+1. **Auditoría e integración:** lectura y validación de los 23 ficheros trimestrales de la EPA (`2021T1–2026T3`)[cite: 5].
+2. **Construcción y operacionalización:** armonización de niveles educativos, situación laboral, contrato, jornada y factores de elevación.
+3. **Análisis descriptivo y comparativo:** cálculo de tasas ponderadas, variaciones interanuales y desagregaciones por sexo y CCAA.
+4. **Modelización multivariable:** estimación de los modelos `M1`–`M4`, contraste $F$ de interacción y cálculo de probabilidades predichas con intervalos de confianza.
+5. **Compilación del informe:** renderizado de `informe_epa.qmd` con Quarto a partir de los resultados exportados en `output/`[cite: 5].
+
+Para reproducir los cálculos desde cero, basta con abrir `epa-transicion-laboral.Rproj` en RStudio[cite: 5], descargar los microdatos trimestrales desde la web del INE en `data-raw/` y ejecutar los scripts en orden numérico.
+
+---
+
+## 9. Limitaciones metodológicas
+
+- **Diseño transversal repetido:** la EPA no permite seguir longitudinalmente a los mismos individuos ni reconstruir transiciones laborales personales.
+- **Definición de no ocupación:** la variable dependiente agrupa bajo la categoría `0` tanto a personas desempleadas como inactivas, por lo que mide la probabilidad global de estar ocupado y no exclusivamente el acceso al empleo entre la población activa.
+- **Diseño muestral complejo:** aunque se emplean los factores de elevación de la encuesta, los modelos no reproducen íntegramente la estratificación y conglomeración del diseño muestral complejo; los errores estándar e intervalos de confianza deben interpretarse como aproximaciones del modelo.
+- **Tamaños muestrales territoriales:** las estimaciones correspondientes a territorios con muestras reducidas (especialmente Ceuta y Melilla) presentan mayor incertidumbre estadística.
+- **Alcance asociativo:** los resultados expresan asociaciones estadísticas ajustadas y no relaciones causales estrictas.
+
+---
+
+## 10. Referencias y autoría
+
+- **Autor:** Javier Echube Bestué — Grado en Sociología, Universitat de València.
+- **Fuente de datos:** Instituto Nacional de Estadística (INE). *Encuesta de Población Activa (EPA): metodología, diseño de registro y microdatos trimestrales (2021T1–2026T3)*[cite: 5].
+- **Software:** R Core Team (*R: A Language and Environment for Statistical Computing*) y Posit (*Quarto*).
