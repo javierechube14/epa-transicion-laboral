@@ -1,0 +1,2155 @@
+archivo,hoja,fila,texto
+dr_EPA_2021.xlsx,Diseño,1,Variable | Diccionario de la variable | Longitud | Tipo | FormatoR | Decimales | Posición | Orden | Diccionario ubicado en la hoja… | Descripción | Observaciones
+dr_EPA_2021.xlsx,Diseño,2,"CICLO | T_CICLO | 3 | A | A3 | 1 | 1 | Tablas5 | Período de referencia
+Todas las personas / viviendas
+Valores: 194 (T1-2021), 195 (T2-2021) ...   203 (T2-2023)….
+                 
+ | Datos de control"
+dr_EPA_2021.xlsx,Diseño,3,"CCAA | TCCAA | 2 | A | A2 | 4 | 2 | Tablas2 | Comunidad autónoma
+Todas las personas / viviendas"
+dr_EPA_2021.xlsx,Diseño,4,"PROV | TPROV | 2 | A | A2 | 6 | 3 | Tablas2 | Provincia donde se ubica la vivienda
+Todas las personas / viviendas"
+dr_EPA_2021.xlsx,Diseño,5,"NVIVI | 5 | A | A5 | 8 | 4 | Número de orden del hogar
+"
+dr_EPA_2021.xlsx,Diseño,6,"NIVEL | TNIVEL | 1 | A | A1 | 13 | 5 | Tablas1 | Variable que indica el nivel del registro en el fichero
+Tipo de registro: Persona de 16  y más añosTodas las personas"
+dr_EPA_2021.xlsx,Diseño,7,"NPERS | 2 | A | A2 | 14 | 6 | Número de orden de la persona en el hogar
+Todas las personas
+01-19"
+dr_EPA_2021.xlsx,Diseño,8,"EDAD1 | T5EDAD | 2 | A | A2 | 16 | 7 | Tablas1 | Edad, grupos quinquenales de años cumplidos
+Todas las personas | Datos demográficos"
+dr_EPA_2021.xlsx,Diseño,9,"RELPP1 | TRELPP | 1 | A | A1 | 18 | 8 | Tablas1 | Relación con la persona de referencia
+Todas las personas"
+dr_EPA_2021.xlsx,Diseño,10,"SEXO1 | TSEXO | 1 | A | A1 | 19 | 9 | Tablas1 | Sexo
+Todas las personas"
+dr_EPA_2021.xlsx,Diseño,11,"NCONY | T_ORDEN | 2 | A | A2 | 20 | 10 | Tablas4 | Número de orden del cónyuge o pareja en el hogar
+Todas las personas (sólo se pregunta a aquellas personas de 16 y más años)
+01-1900 No tiene o no reside en la vivienda"
+dr_EPA_2021.xlsx,Diseño,12,"NPADRE | T_ORDEN | 2 | A | A2 | 22 | 11 | Tablas4 | Número de orden del padre en el hogar
+Todas las personas
+01-1900 No tiene o no reside en la vivienda"
+dr_EPA_2021.xlsx,Diseño,13,"NMADRE | T_ORDEN | 2 | A | A2 | 24 | 12 | Tablas4 | Número de orden de la madre en el hogar
+Todas las personas
+01-19
+00 No tiene o no reside en la vivienda"
+dr_EPA_2021.xlsx,Diseño,14,RELLMILI | 1 | A | A1 | 26 | 13 | Relleno antigua variable MILI
+dr_EPA_2021.xlsx,Diseño,15,"ECIV1 | TECIV | 1 | A | A1 | 27 | 14 | Tablas1 | Estado civil legal
+Todas las personas (sólo se pregunta a aquellas personas de 16 o más años)"
+dr_EPA_2021.xlsx,Diseño,16,"PRONA1 | TPROV | 2 | A | A2 | 28 | 15 | Tablas2 | Si es en España, indicar provincia
+Personas nacidas en España"
+dr_EPA_2021.xlsx,Diseño,17,"REGNA1 | TREGNA | 3 | A | A3 | 30 | 16 | Tablas3 | Región del país extranjero de nacimiento
+Personas nacidas en el extranjero
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2021.xlsx,Diseño,18,"NAC1 | TNACIO | 1 | A | A1 | 33 | 17 | Tablas1 | Nacionalidad
+Todas las personas"
+dr_EPA_2021.xlsx,Diseño,19,"EXREGNA1 | TREGNAP | 3 | A | A3 | 34 | 18 | Tablas3 | Región del país de la nacionalidad extranjera
+Todas las personas con nacionalidad extranjera o doble nacionalidad
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2021.xlsx,Diseño,20,"ANORE1 | N_ANORE | 2 | N | I2 | 37 | 19 | Tablas4 | Años de residencia en España
+Extranjeros o nacidos en España que han residido fuera del país por un período superior o igual a 1 año (0-99)
+0 para menos de un año en España"
+dr_EPA_2021.xlsx,Diseño,21,"NFORMA | TNFORMA | 2 | A | A2 | 39 | 20 | Tablas1 | Nivel de estudios2 *Todas las personas de 16 y más años
+CNED 2014 (01-81) CNED 2000 (11-80) | Formación y nivel de estudios"
+dr_EPA_2021.xlsx,Diseño,22,RELLB1 | 2 | A | A2 | 41 | 21 | Relleno en apartado de formación
+dr_EPA_2021.xlsx,Diseño,23,"EDADEST | N_EDEST | 3 | N | I3 | 43 | 22 | Tablas4 | Edad en la que alcanzó el máximo nivel de estudios
+Todas las personas de 16 y más años no analfabetas (7-110)
+0 - No sabe fecha en la que alcanzó el máximo nivel de estudios
+"
+dr_EPA_2021.xlsx,Diseño,24,"CURSR | TCURSR | 1 | A | A1 | 46 | 23 | Tablas1 | Ha cursado estudios reglados (enseñanza regular) durante las cuatro últimas semanas
+Todas las personas de 16 y más años"
+dr_EPA_2021.xlsx,Diseño,25,"NCURSR | TNCURSR | 2 | A | A2 | 47 | 24 | Tablas1 | Nivel de los estudios reglados que cursa 2 *Todas las personas de 16 y más años que han cursado estudios reglados durante las 4 últimas semanas
+CNED 2014 (11-81) CNED 2000 (11-61)"
+dr_EPA_2021.xlsx,Diseño,26,"CURSNR | TCURSR | 1 | A | A1 | 49 | 25 | Tablas1 | Ha realizado algún curso de formación no reglada, durante las cuatro últimas semanas
+Todas las personas de 16 y más años
+CNED 2014 (91-94) CNED 2000 (21-93)"
+dr_EPA_2021.xlsx,Diseño,27,OBJFORM | TOBJNR | 1 | A | A1 | 50 | 26 | Tablas1 | Objetivo de la formación no regladaTodas las personas
+dr_EPA_2021.xlsx,Diseño,28,RELLB2 | 6 | A | A6 | 51 | 27 | Relleno en apartado de formación
+dr_EPA_2021.xlsx,Diseño,29,"TRAREM | TSINO | 1 | A | A1 | 57 | 28 | Tablas1 | Si ha realizado un trabajo remunerado durante la semana pasada
+Todas las personas de 16 a 89 años | Trabajó en la semana de referencia"
+dr_EPA_2021.xlsx,Diseño,30,"AYUDFA | TSINO | 1 | A | A1 | 58 | 29 | Tablas1 | Ayuda familiar. Realización de trabajo no remunerado empresa familiar
+Todas las personas que no trabajaron en la semana de referencia a cambio de remuneración"
+dr_EPA_2021.xlsx,Diseño,31,"AUSENT | TSINO | 1 | A | A1 | 59 | 30 | Tablas1 | A pesar de no haber trabajado ¿tenía un empleo o negocio?
+Todas las personas que no trabajaron en la semana de referencia a cambio de remuneración"
+dr_EPA_2021.xlsx,Diseño,32,"RZNOTB | TRZNOTB | 2 | A | A2 | 60 | 31 | Tablas1 | Razones por las que no trabajó, teniendo empleo
+Todas las personas que no trabajaron la semana de referencia, ni ayudan en el negocio familiar, y tenían empleo"
+dr_EPA_2021.xlsx,Diseño,33,"VINCUL | TVINCUL | 2 | A | A2 | 62 | 32 | Tablas1 | Vinculación con el empleo de personas con empleo ausentes en la semana de referencia
+Personas que tenían un empleo del cual estaban ausentes la semana de referencia"
+dr_EPA_2021.xlsx,Diseño,34,"NUEVEM | TNUEVEM | 1 | A | A1 | 64 | 33 | Tablas1 | Ha encontrado empleo 
+Personas de 16 a 74 años sin empleo y que no han buscado uno en las cuatro últimas semanas"
+dr_EPA_2021.xlsx,Diseño,35,"OCUP1 | TOCUP | 1 | A | A1 | 65 | 34 | Tablas1 | Ocupación principal
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+Categorías generadas a partir de T1-2011 con códigos según CNO 2011 | Datos del empleo principal"
+dr_EPA_2021.xlsx,Diseño,36,"ACT1 | TACTIV | 1 | A | A1 | 66 | 35 | Tablas1 | Actividad principal 1
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+Categorías generadas a partir de T1-2008 con Códigos según CNAE 2009. Hasta T4-2007 se obtuvieron con la clasificación de actividades CNAE-93 rev-1. (véase Anexo códigos CNAE 2009 y 1993 para más información sobre la correspondencia entre ambas clasificaciones)"
+dr_EPA_2021.xlsx,Diseño,37,SITU | TSITUAC | 2 | A | A2 | 67 | 36 | Tablas1 | ¿Cuál es su situación profesional (actividad principal)? Todas las personas que trabajaron o tenían empleo la semana de referencia
+dr_EPA_2021.xlsx,Diseño,38,"SP | TADMTB | 1 | A | A1 | 69 | 37 | Tablas1 | Tipo de administración en la que trabaja
+Todos los asalariados del sector público"
+dr_EPA_2021.xlsx,Diseño,39,"DUCON1 | T1DUCON | 1 | A | A1 | 70 | 38 | Tablas1 | Tiene contrato indefinido o temporal
+Todos los asalariados"
+dr_EPA_2021.xlsx,Diseño,40,"DUCON2 | T2DUCON | 1 | A | A1 | 71 | 39 | Tablas1 | Relación laboral de carácter permanente o discontinuo
+Asalariados con contrato o relación laboral indefinidos"
+dr_EPA_2021.xlsx,Diseño,41,"DUCON3 | T3DUCON | 2 | A | A2 | 72 | 40 | Tablas1 | Tipo de contrato o relación laboral de carácter temporal
+Asalariados con contrato temporal"
+dr_EPA_2021.xlsx,Diseño,42,"TCONTM | T_CONTM | 2 | A | A2 | 74 | 41 | Tablas4 | Duración en meses del contrato o relación laboral temporal  (si ha trabajado un mes o más)
+Asalariados con contrato temporal cuya duración mínima de contrato es un mes
+Valores: 00-96"
+dr_EPA_2021.xlsx,Diseño,43,"TCONTD | T_CONTD | 2 | A | A2 | 76 | 42 | Tablas4 | Duración en días del contrato o relación laboral temporal (si ha trabajado menos de un mes)
+Asalariados con contrato temporal cuya duración máxima de contrato es menos de un mes
+Valores: 00-30; 99"
+dr_EPA_2021.xlsx,Diseño,44,"DREN | 3 | N | I3 | 78 | 43 | Tiempo en meses desde la renovación del contrato
+Asalariados
+Valores: 0-720"
+dr_EPA_2021.xlsx,Diseño,45,"DCOM | 3 | N | I3 | 81 | 44 | Tiempo en meses en la empresa
+Ocupados
+Valores: 0-720"
+dr_EPA_2021.xlsx,Diseño,46,"PROEST | TPROV | 2 | A | A2 | 84 | 45 | Tablas2 | Provincia donde está ubicado
+Todas las personas que trabajaron o tenían empleo la semana de referencia"
+dr_EPA_2021.xlsx,Diseño,47,"REGEST | TREGEST | 3 | A | A3 | 86 | 46 | Tablas3 | Región o País donde está ubicado
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2021.xlsx,Diseño,48,"PARCO1 | T1PARCO | 1 | A | A1 | 89 | 47 | Tablas1 | Tipo de jornada, completa o parcial
+Todas las personas que trabajaron o tenían empleo la semana de referencia"
+dr_EPA_2021.xlsx,Diseño,49,"PARCO2 | T2PARCO | 2 | A | A2 | 90 | 48 | Tablas1 | Motivo de tener jornada parcial
+Ocupados a tiempo parcial"
+dr_EPA_2021.xlsx,Diseño,50,"HORASP | THORAS | 4 | A | A4 | 92 | 49 | Tablas4 | Horas pactadas en contrato o acuerdo de trabajo (hhmm)
+Todos los asalariados
+Valores: hhmm
+01:00-98:00    Horario conocido; valores válidos hh:mm
+99:99             No sabe (incluye ""No tiene horas pactadas por contratro"")
+ | *Se han actualizado las descripciones, hasta T2 de 2024 eran:
+01:00-98:00  Horario conocido; valores válidos hh:mm
+99:00        Las horas varían de una semana a otra / no puede dar una estimación
+99:99        No sabe horas:minutos"
+dr_EPA_2021.xlsx,Diseño,51,"HORASH | T2HORAS | 4 | A | A4 | 96 | 50 | Tablas4 | Número de horas semanales que dedica a este trabajo habitualmente (hhmm)
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+Valores: hhmm
+01:00-98:00     Horario conocido; valores válidos hh:mm
+99:00              Las horas varían de una semana a otra / no puede dar una estimación
+99:99              No sabe horas:minutos | *Se ha añadido nuevo diccionario, las descripciones ahora son diferentes a las de HORASP"
+dr_EPA_2021.xlsx,Diseño,52,"HORASE | THORASE | 4 | A | A4 | 100 | 51 | Tablas4 | Número de horas efectivas que dedicó a este trab. la semana pasada (hhmm)
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+Valores: hhmm
+00:00-98:00    Horario conocido; valores válidos hh:mm
+99:99             No sabe horas:minutos
+98:59             Mas de 98:00 horas en la semana de referencia (código específico pandemia COVID19)
+Las horas de aquellos que estuvieron recibiendo formación relacionada con el empleo fuera del establecimiento en la semana de referencia se consideran horas efectivas trabajadas"
+dr_EPA_2021.xlsx,Diseño,53,"EXTRA | TSINO | 1 | A | A1 | 104 | 52 | Tablas1 | Realizó horas extraordinarias en la semana de referencia
+Asalariados"
+dr_EPA_2021.xlsx,Diseño,54,"EXTPAG | TEXTRAO | 4 | A | A4 | 105 | 53 | Tablas4 | Número de horas extraordinarias pagadas realizadas en la semana de referencia (hhmm)
+Asalariados (y asimilados) que han realizado horas extraValores: hhmm
+00:00-98:00     00= No hizo horas extra pagadas durante la semana de referencia
+9999               99= No puede precisar / no sabe
+"
+dr_EPA_2021.xlsx,Diseño,55,"EXTNPG | TEXTRAO | 4 | A | A4 | 109 | 54 | Tablas4 | Número de horas extraordinarias NO pagadas realizadas en la semana de referencia (hhmm)
+Asalariados (y asimilados) que han realizado horas extraValores: hhmm
+00:00-98:00     00= No hizo horas extra pagadas durante la semana de referencia
+9999               99= No puede precisar / no sabe"
+dr_EPA_2021.xlsx,Diseño,56,RELLB3 | 2 | A | A2 | 113 | 55 | Relleno apartado caracteristicas empleo
+dr_EPA_2021.xlsx,Diseño,57,"TRAPLU | TSINO | 1 | A | A1 | 115 | 56 | Tablas1 | Si tiene otro u otros empleos
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia | Segundo empleo"
+dr_EPA_2021.xlsx,Diseño,58,"OCUPLU1 | TOCUP | 1 | A | A1 | 116 | 57 | Tablas1 | ¿Cuál es la ocupación u oficio en el segundo empleo?
+Todas las personas de 16 y más años que trabajaron o tenían segundo empleo la semana de referencia"
+dr_EPA_2021.xlsx,Diseño,59,ACTPLU1 | TACTIV | 1 | A | A1 | 117 | 58 | Tablas1 | Actividad del establecimiento donde tiene el segundo empleo 1Todas las personas de 16 y más años que tenían segundo empleo la semana de referencia
+dr_EPA_2021.xlsx,Diseño,60,"SITPLU | TSITUAC | 2 | A | A2 | 118 | 59 | Tablas1 | Situación profesional en el segundo empleo
+Todas las personas de 16 y más años que tenían segundo empleo la semana de referencia"
+dr_EPA_2021.xlsx,Diseño,61,"HOREPLU | THORASE | 4 | A | A4 | 120 | 60 | Tablas4 | Nº de horas efectivas trabaj. la semana pasada en el segundo empleo (hhmm)
+Todas las personas de 16 y más años que tenían segundo empleo la semana de referencia
+Valores: hhmm
+'00:00-98:00    Horario conocido; valores válidos hh:mm
+99:99              No sabe horas:minutos
+ | * Desde el T3 de 2023 se cambia el nombre de la variable HORPLU por HOREPLU para que esté acorde con la denominación dada en el resto de ficheros de la EPA, a raíz de los cambios de 2021"
+dr_EPA_2021.xlsx,Diseño,62,"MASHOR | TMASHOR | 1 | A | A1 | 124 | 61 | Tablas1 | Si desearía trabajar más o menos horas
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia | Deseo de trabajar mas horas"
+dr_EPA_2021.xlsx,Diseño,63,"DISMAS | TSINO | 1 | A | A1 | 125 | 62 | Tablas1 | Estaría disponible para trabajar más horas antes de 15 días desde la semana de referencia
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia y desean trabajar más horas"
+dr_EPA_2021.xlsx,Diseño,64,"RZNDISH | TRZNDSH | 2 | A | A2 | 126 | 63 | Tablas1 | Razones por las que no podría trabajar más horas
+Personas de 16 y más años que trabajaron o tenían empleo la semana de referencia, que desean trabajar más horas pero no están disponibles para hacerlo antes de 15 días"
+dr_EPA_2021.xlsx,Diseño,65,"HORDES | T_2HORA | 2 | A | A2 | 128 | 64 | Tablas4 | Número de horas que desearía trabajar habitualmente
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia y desean trabajar más o menos horas
+Valores: hh
+hh=01-98    De 1 a 98 horas
+hh=99         No puede precisar / no sabe
+"
+dr_EPA_2021.xlsx,Diseño,66,"BUSOTR | TSINO | 1 | A | A1 | 130 | 65 | Tablas1 | Busca otro empleo o está haciendo gestiones para establecerse por su cuenta
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia"
+dr_EPA_2021.xlsx,Diseño,67,"BUSCA | TSINO | 1 | A | A1 | 131 | 66 | Tablas1 | Ha buscado empleo en las últimas cuatro semanas
+Personas de 16 a 74 años sin empleo que no han trabajado en la semana de referencia | Búsqueda de empleo"
+dr_EPA_2021.xlsx,Diseño,68,"DESEA | TSINO | 1 | A | A1 | 132 | 67 | Tablas1 | Desearía tener un empleo
+Personas de 16 a 74 años sin empleo que no han trabajado en la semana de referencia, no han encontrado empleo y no han buscado empleo en las últimas 4 semanas"
+dr_EPA_2021.xlsx,Diseño,69,"FOBACT | TFOBACT | 1 | A | A1 | 133 | 68 | Tablas1 | Búsqueda de empleo activa. 
+Métodos activos de encontrar empleo"
+dr_EPA_2021.xlsx,Diseño,70,"NBUSCA | TNBUSCA | 2 | A | A2 | 134 | 69 | Tablas1 | Razones por las que no busca empleo
+Personas sin empleo que no buscan empleo (ni han encontrado uno al que aún no se han incorporado)ni desean tener uno"
+dr_EPA_2021.xlsx,Diseño,71,"RZULT | TRZULT | 2 | A | A2 | 136 | 70 | Tablas1 | Razón principal por la que dejó el último empleoPersonas de 16 a 89 años que no tienen empleo ni trabajaron la semana de referencia, pero trabajaron antes y que dejaron su empleo hace 8 años o menos"
+dr_EPA_2021.xlsx,Diseño,72,"ITBU | TITBU | 2 | A | A2 | 138 | 71 | Tablas1 | Tiempo que lleva buscando empleo / estuvo buscando empleo
+Personas que buscan empleo o que han encontrado un empleo al que se van a incorporar"
+dr_EPA_2021.xlsx,Diseño,73,"DISP | TSINO | 1 | A | A1 | 140 | 72 | Tablas1 | Disponible para trabajar en un plazo de 15 días
+Todas las personas de 16 a 74 años sin empleo que lo buscan o no lo buscan pero lo han encontrado (incluye quienes han empezado a trabajar con posterioridad a la semana de referencia y antes de la entrevista)"
+dr_EPA_2021.xlsx,Diseño,74,"RZNDIS | TRZNDIS | 1 | A | A1 | 141 | 73 | Tablas1 | Razones para no poder empezar a trabajar en un plazo de 15 días
+Todas las personas de 16 a 74 años sin empleo que lo buscan o que no lo buscan pero lo han encontrado y que no estarían disponibles para incorporarse en dicho plazo"
+dr_EPA_2021.xlsx,Diseño,75,"EMPANT | TSINO | 1 | A | A1 | 142 | 74 | Tablas1 | Si ha realizado antes algún trabajo
+Todas las personas de 16 a 89 años que no trabajaron la semana de referencia y no tienen empleo | Experiencia profesional"
+dr_EPA_2021.xlsx,Diseño,76,"DTANT | 3 | N | I3 | 143 | 75 | Número de meses transcurridos desde que dejó su último empleo
+No ocupados de 16 a 89 años que trabajaron antes
+Valores: 0-924"
+dr_EPA_2021.xlsx,Diseño,77,"OCUPA | TOCUP | 1 | A | A1 | 146 | 76 | Tablas1 | Ocupación u oficio que desempeñaba en su último empleo, si hace menos de un año que lo dejó (*)Personas de 16 a 89 años que no tienen empleo ni trabajaron la semana de referencia, pero trabajaron antes y que dejaron su empleo hace 1 año o menos
+Si dejaron su empleo hace más de un año es una variable anual"
+dr_EPA_2021.xlsx,Diseño,78,"ACTA | TACTIV | 1 | A | A1 | 147 | 77 | Tablas1 | Actividad del establecimiento  donde trabajaba, si hace menos de un año que lo dejó (1, *)Personas de 16 a 89 años que no tienen empleo ni trabajaron la semana de referencia, pero trabajaron antes y que dejaron su empleo hace 1 año o menos
+Si dejaron su empleo hace más de un año es una variable anual"
+dr_EPA_2021.xlsx,Diseño,79,"SITUA | TSITUAC | 2 | A | A2 | 148 | 78 | Tablas1 | Situación profesional que tenía en su anterior trabajo, si hace menos de un año que lo dejó (*)Personas de 16 a 89 años que no tienen empleo ni trabajaron la semana de referencia, pero trabajaron antes y que dejaron su empleo hace 1 año o menosSi dejaron su empleo hace más de un año es una variable anual"
+dr_EPA_2021.xlsx,Diseño,80,"OFEMP | TOFEMP | 1 | A | A1 | 150 | 79 | Tablas1 | Situación el domingo pasado, en relación con las of. Empleo de la admon.
+Todas las personas de 16 a 74 años | Inscripción en la oficina de empleo pública"
+dr_EPA_2021.xlsx,Diseño,81,"SIDI1 | TSID | 2 | A | A2 | 151 | 80 | Tablas1 | Situación inactividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años | Situaciones diversas"
+dr_EPA_2021.xlsx,Diseño,82,"SIDI2 | TSID | 2 | A | A2 | 153 | 81 | Tablas1 | Situación inactividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años"
+dr_EPA_2021.xlsx,Diseño,83,"SIDI3 | TSID | 2 | A | A2 | 155 | 82 | Tablas1 | Situación inactividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años"
+dr_EPA_2021.xlsx,Diseño,84,"SIDAC1 | TSIDAC | 1 | A | A1 | 157 | 83 | Tablas1 | Situación de actividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años"
+dr_EPA_2021.xlsx,Diseño,85,"SIDAC2 | TSIDAC | 1 | A | A1 | 158 | 84 | Tablas1 | Situación de actividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años"
+dr_EPA_2021.xlsx,Diseño,86,"DAUSVAC | N_2DIAS | 2 | N | F2.1 | 1 | 159 | 85 | Tablas4 | Dias de ausencia por vacaciones, días festivos, horario flexible o similar Todas las personas de 16 y más años con empleo que informan de ausencia por vacaciones, días festivos, horario flexible o similar
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia | Días de ausencia"
+dr_EPA_2021.xlsx,Diseño,87,"DAUSENF | N_2DIAS | 2 | N | F2.1 | 1 | 161 | 86 | Tablas4 | Días de ausencia por enfermedad
+Todas las personas de 16 y más años con empleo que informan de ausencia por enfermedad
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia"
+dr_EPA_2021.xlsx,Diseño,88,"DAUSOTR | N_2DIAS | 2 | N | F2.1 | 1 | 163 | 87 | Tablas4 | Días de ausencia por otras razones
+Todas las personas de 16 y más años con empleo que informan de ausencia por otras razones distintas de vacaciones, festivos, horario flexible o similar o enfermedad
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia"
+dr_EPA_2021.xlsx,Diseño,89,"TRAANT | TSINONS | 1 | A | A1 | 165 | 88 | Tablas1 | Si trabajó en algún momento el año pasado
+Todas las personas de 16 y más años, sólo en el primer trimestre 
+ | Si trabajó el año pasado"
+dr_EPA_2021.xlsx,Diseño,90,"AOI | TAOI | 2 | A | A2 | 166 | 89 | Tablas1 | Clasificación de los entrevistados por relación con la actividad económica según criterios OIT
+Todas las personas de 16 y más años | Variables derivadas"
+dr_EPA_2021.xlsx,Diseño,91,RELLB4 | 2 | A | A2 | 168 | 90 | Relleno variables derivadas
+dr_EPA_2021.xlsx,Diseño,92,"FACTOREL | 7 | N | F7.2 | 2 | 170 | 91 | Factor de elevación 
+Todos los registrosValores: XXXXX.XX                                                                                            Para reproducir los datos publicados en INEbase (presentados en miles de personas) hay que dividir por mil"
+dr_EPA_2021.xlsx,Diseño,93,*** TOTAL *** | 176
+dr_EPA_2021.xlsx,Diseño,94,
+dr_EPA_2021.xlsx,Diseño,95,Variables trimestrales nuevas respecto de la EPA-2005-2020
+dr_EPA_2021.xlsx,Diseño,96,
+dr_EPA_2021.xlsx,Diseño,97,"* Las variables OCUPA, ACTA, SITUA se ofrecen sólo si hace a lo sumo un año que dejaron el empleo."
+dr_EPA_2021.xlsx,Diseño,98,Rellenos para facilitar en lo posible en mantenimiento de variables en las mismas posiciones que en el diseño EPA de periodos anteriores
+dr_EPA_2021.xlsx,Diseño,99,"1 A partir del primer trimestre de 2008, en las posiciones habituales de las variables de actividad las categorías se han obtenido con la nueva clasificación de actividades CNAE 2009. Se ha tratado de buscar la continuidad de las agrupaciones con la antigua CNAE-1993 rev-1, utilizada hasta el T4-2007, pero la correspondencia de ambas clasificaciones no es perfecta. Para más información sobre las diferencias véase Anexo Códigos CNAE 2009 y 1993)"
+dr_EPA_2021.xlsx,Diseño,100,"2 A partir del primer trimestre de 2014, en las posiciones habituales de las variables de estudios las categorías se han obtenido con la nueva clasificación de estudios CNED 2014. Se ha tratado de buscar la continuidad de las agrupaciones con la antigua CNED 2000, utilizada hasta el T4-2012 pero la correspondencia de ambas clasificaciones no es perfecta. Para más información sobre las diferencias véase Anexo Códigos CNED 2014 y 2000)"
+dr_EPA_2021.xlsx,Diseño,101,* Nuevo código 38 en NFORMA y NCURSR. El de estudios en curso (NCURSR) se añade como válido a partir del segundo trimestre de 2015 y el de formación alcanzado (NFORMA) a partir del segundo trimestre de 2016
+dr_EPA_2021.xlsx,DiseñoN2,1,Variable | Diccionario de la variable | Longitud | Tipo | FormatoR | Decimales | Posición | Orden | Diccionario ubicado en la hoja… | Descripción | Observaciones
+dr_EPA_2021.xlsx,DiseñoN2,2,"CICLO | T_CICLO | 3 | A | A3 | 1 | 1 | Tablas5 | Período de referencia
+Todas las personas / viviendas
+Valores: 194 (T1-2021), 195 (T2-2021) ...   203 (T2-2023)….
+                 
+ | Datos de control"
+dr_EPA_2021.xlsx,DiseñoN2,3,"CCAA | TCCAA | 2 | A | A2 | 4 | 2 | Tablas2 | Comunidad autónoma
+Todas las personas / viviendas"
+dr_EPA_2021.xlsx,DiseñoN2,4,"PROV | TPROV | 2 | A | A2 | 6 | 3 | Tablas2 | Provincia donde se ubica la vivienda
+Todas las personas"
+dr_EPA_2021.xlsx,DiseñoN2,5,"NVIVI | 5 | A | A5 | 8 | 4 | Número de orden del hogar
+"
+dr_EPA_2021.xlsx,DiseñoN2,6,"NIVEL | TNIVEL | 1 | A | A1 | 13 | 5 | Tablas1 | Variable que indica el nivel del registro en el fichero
+Tipo de registro: Persona menor de 16 añosTodas las personas"
+dr_EPA_2021.xlsx,DiseñoN2,7,"NPERS | 2 | A | A2 | 14 | 6 | Número de orden de la persona en el hogar
+Todas las personas
+01-19"
+dr_EPA_2021.xlsx,DiseñoN2,8,"EDAD2 | T5EDAD | 2 | A | A2 | 16 | 7 | Tablas1 | Edad, grupos quinquenales de años cumplidos
+Todas las personas | Datos demográficos"
+dr_EPA_2021.xlsx,DiseñoN2,9,"RELPP2 | TRELPP | 1 | A | A1 | 18 | 8 | Tablas1 | Relación con la persona de referencia
+Todas las personas"
+dr_EPA_2021.xlsx,DiseñoN2,10,"SEXO2 | TSEXO | 1 | A | A1 | 19 | 9 | Tablas1 | Sexo
+Todas las personas"
+dr_EPA_2021.xlsx,DiseñoN2,11,"NCONY | T_ORDEN | 2 | A | A2 | 20 | 10 | Tablas4 | Número de orden del cónyuge o pareja en el hogar
+Personas de 12 a 15 años que han sido seleccionadas como cónyuges de una persona de 16 y más años.
+01-1900 No tiene o no reside en la vivienda"
+dr_EPA_2021.xlsx,DiseñoN2,12,"NPADRE | T_ORDEN | 2 | A | A2 | 22 | 11 | Tablas4 | Número de orden del padre en el hogar
+Todas las personas
+01-1900 No tiene o no reside en la vivienda"
+dr_EPA_2021.xlsx,DiseñoN2,13,"NMADRE | T_ORDEN | 2 | A | A2 | 24 | 12 | Tablas4 | Número de orden de la madre en el hogar
+Todas las personas
+01-19
+00 No tiene o no reside en la vivienda"
+dr_EPA_2021.xlsx,DiseñoN2,14,RELLB1 | 2 | A | A2 | 26 | 13 | Relleno (blancos)
+dr_EPA_2021.xlsx,DiseñoN2,15,"PRONA2 | TPROV | 2 | A | A2 | 28 | 14 | Tablas2 | Si es en España, indicar provincia
+Personas nacidas en España"
+dr_EPA_2021.xlsx,DiseñoN2,16,"REGNA2 | TREGNA | 3 | A | A3 | 30 | 15 | Tablas3 | Región del país extranjero de nacimiento
+Personas nacidas en el extranjero
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2021.xlsx,DiseñoN2,17,"NAC2 | TNACIO | 1 | A | A1 | 33 | 16 | Tablas1 | Nacionalidad
+Todas las personas"
+dr_EPA_2021.xlsx,DiseñoN2,18,"EXREGNA2 | TREGNAP | 3 | A | A3 | 34 | 17 | Tablas3 | Región del país de la nacionalidad extranjera
+Todas las personas con nacionalidad extranjera o doble nacionalidad
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2021.xlsx,DiseñoN2,19,"ANORE2 | N_ANORE | 2 | A | A2 | 37 | 18 | Tablas4 | Años de residencia en España
+Extranjeros o nacidos en España que han residido fuera del país por un período superior o igual a 1 año  (0-99)
+0 para menos de un año en España"
+dr_EPA_2021.xlsx,DiseñoN2,20,RELLB2 | 126 | A | A126 | 39 | 19 | Relleno (blancos)
+dr_EPA_2021.xlsx,DiseñoN2,21,RELLB3 | 1 | A | A1 | 165 | 20 | Relleno (blanco)
+dr_EPA_2021.xlsx,DiseñoN2,22,RELL_DER | 4 | A | A4 | 166 | 21 | Relleno variables derivadas
+dr_EPA_2021.xlsx,DiseñoN2,23,"FACTOREL | 7 | N | F7.2 | 2 | 170 | 22 | Factor de elevación 
+Todos los registrosValores: XXXXX.XX                                                                                            Para reproducir los datos publicados en INEbase (presentados en miles de personas) hay que dividir por mil | Variable derivada"
+dr_EPA_2021.xlsx,DiseñoN2,24,TOTAL | 176
+dr_EPA_2021.xlsx,Tablas1,1,TNIVEL | NIVEL
+dr_EPA_2021.xlsx,Tablas1,2,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,3,1 | Persona de 16 o más años
+dr_EPA_2021.xlsx,Tablas1,4,2 | Menor de 16 años
+dr_EPA_2021.xlsx,Tablas1,5,
+dr_EPA_2021.xlsx,Tablas1,6,T5EDAD | EDAD1
+dr_EPA_2021.xlsx,Tablas1,7,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,8,00 | 0 a 4 años
+dr_EPA_2021.xlsx,Tablas1,9,05 | 5 a 9 años
+dr_EPA_2021.xlsx,Tablas1,10,10 | 10 a 15 años
+dr_EPA_2021.xlsx,Tablas1,11,16 | 16 a 19 años
+dr_EPA_2021.xlsx,Tablas1,12,20 | 20 a 24 años
+dr_EPA_2021.xlsx,Tablas1,13,25 | 25 a 29 años
+dr_EPA_2021.xlsx,Tablas1,14,30 | 30 a 34 años
+dr_EPA_2021.xlsx,Tablas1,15,35 | 35 a 39 años
+dr_EPA_2021.xlsx,Tablas1,16,40 | 40 a 44 años
+dr_EPA_2021.xlsx,Tablas1,17,45 | 45 a 49 años
+dr_EPA_2021.xlsx,Tablas1,18,50 | 50 a 54 años
+dr_EPA_2021.xlsx,Tablas1,19,55 | 55 a 59 años
+dr_EPA_2021.xlsx,Tablas1,20,60 | 60 a 64 años
+dr_EPA_2021.xlsx,Tablas1,21,65 | 65 o más años
+dr_EPA_2021.xlsx,Tablas1,22,
+dr_EPA_2021.xlsx,Tablas1,23,TRELPP | RELPP1
+dr_EPA_2021.xlsx,Tablas1,24,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,25,1 | Persona de referencia (p.r.)
+dr_EPA_2021.xlsx,Tablas1,26,2 | Cónyuge o pareja de la p.r.
+dr_EPA_2021.xlsx,Tablas1,27,"3 | Hijo/a, hijastro/a (de la p.r o pareja del mismo)"
+dr_EPA_2021.xlsx,Tablas1,28,"4 | Yerno , nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a)"
+dr_EPA_2021.xlsx,Tablas1,29,"5 | Nieto/a, nieto/a de la p.r. o de su pareja (incluye nietastros/as e ambos)"
+dr_EPA_2021.xlsx,Tablas1,30,"6 | Padre, madre, suegro/a de la p.r o pareja de los mismos (padrastro, madrastra)"
+dr_EPA_2021.xlsx,Tablas1,31,7 | Otro pariente de la p.r (o pareja del mismo)
+dr_EPA_2021.xlsx,Tablas1,32,8 | Persona del servicio doméstico
+dr_EPA_2021.xlsx,Tablas1,33,9 | Sin parentesco con la p.r.
+dr_EPA_2021.xlsx,Tablas1,34,
+dr_EPA_2021.xlsx,Tablas1,35,TSEXO | SEXO1
+dr_EPA_2021.xlsx,Tablas1,36,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,37,1 | Hombre
+dr_EPA_2021.xlsx,Tablas1,38,6 | Mujer
+dr_EPA_2021.xlsx,Tablas1,39,
+dr_EPA_2021.xlsx,Tablas1,40,TECIV | ECIV1
+dr_EPA_2021.xlsx,Tablas1,41,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,42,1 | Soltero
+dr_EPA_2021.xlsx,Tablas1,43,2 | Casado
+dr_EPA_2021.xlsx,Tablas1,44,3 | Viudo
+dr_EPA_2021.xlsx,Tablas1,45,4 | Separado o divorciado
+dr_EPA_2021.xlsx,Tablas1,46,
+dr_EPA_2021.xlsx,Tablas1,47,TNACIO | NAC1
+dr_EPA_2021.xlsx,Tablas1,48,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,49,1 | Española
+dr_EPA_2021.xlsx,Tablas1,50,2 | Española y doble nacionalidad
+dr_EPA_2021.xlsx,Tablas1,51,3 | Extranjera
+dr_EPA_2021.xlsx,Tablas1,52,
+dr_EPA_2021.xlsx,Tablas1,53,TNFORMA | NFORMA
+dr_EPA_2021.xlsx,Tablas1,54,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,55,"AN | Analfabetos (código 01 en CNED-2014), (código 80 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,56,"P1 | Educación primaria incompleta (código 02 en CNED-2014), (código 11 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,57,"P2 | Educación primaria (código 10 en CNED-2014), (código 12 en CNED 2000)"
+dr_EPA_2021.xlsx,Tablas1,58,"S1 | Primera etapa de educación secundaria (códigos 21-24 en CNED-2014), (códigos 21-23, 31, 36* en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,59,"SG | Segunda etapa de educación secundaria. Orientación general (código 32 en CNED-2014), (código 32 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,60,"SP | Segunda etapa de educación secundaria. Orientación profesional (incluye educación postsecundaria no superior) (códigos 33-35, 38**, 41 en CNED-2014), (códigos 33, 34, 41 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,61,"SU | Educación superior (códigos 51, 52, 61-63, 71-75, 81 en CNED-2014), (códigos 50-56, 59, 61 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,62,
+dr_EPA_2021.xlsx,Tablas1,63,TCURSR | CURSR *** (1 veces más)
+dr_EPA_2021.xlsx,Tablas1,64,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,65,1 | Sí
+dr_EPA_2021.xlsx,Tablas1,66,2 | Estudiante en vacaciones
+dr_EPA_2021.xlsx,Tablas1,67,3 | No
+dr_EPA_2021.xlsx,Tablas1,68,
+dr_EPA_2021.xlsx,Tablas1,69,TNCURSR | NCURSR
+dr_EPA_2021.xlsx,Tablas1,70,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,71,"PR | Educación primaria (códigos 11-13 en CNED-2014), (códigos 11-13 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,72,"S1 | Primera etapa de educación secundaria (códigos 21-23 en CNED-2014), (códigos 22, 23, 36** en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,73,"SG | Segunda etapa de educación secundaria. Orientación general (códigos 31, 32 en CNED-2014), (código 32 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,74,"SP | Segunda etapa de educación secundaria. Orientación profesional (incluye educación postsecundaria no superior (códigos 33-35*, 36-37, 38***, 41 en CNED-2014), (códigos 33, 34 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,75,"SU | Educación superior (códigos 51, 52, 61-63, 71-75, 81 en CNED-2014), (códigos 50-52, 54-56, 59, 61 en CNED-2000)"
+dr_EPA_2021.xlsx,Tablas1,76,
+dr_EPA_2021.xlsx,Tablas1,77,TOBJNR | OBJFORM
+dr_EPA_2021.xlsx,Tablas1,78,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,79,1 | Proporcionar formación relacionada con la ocupación actual
+dr_EPA_2021.xlsx,Tablas1,80,2 | Proporcionar formación relacionada con un posible empleo futuro
+dr_EPA_2021.xlsx,Tablas1,81,3 | Proporcionar formación no relacionada con el trabajo (interés personal u otros motivos)
+dr_EPA_2021.xlsx,Tablas1,82,
+dr_EPA_2021.xlsx,Tablas1,83,TSINO | TRAREM *** (10 veces más)
+dr_EPA_2021.xlsx,Tablas1,84,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,85,1 | Sí
+dr_EPA_2021.xlsx,Tablas1,86,6 | No
+dr_EPA_2021.xlsx,Tablas1,87,
+dr_EPA_2021.xlsx,Tablas1,88,TSINONS | TRAANT
+dr_EPA_2021.xlsx,Tablas1,89,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,90,1 | Sí
+dr_EPA_2021.xlsx,Tablas1,91,6 | No
+dr_EPA_2021.xlsx,Tablas1,92,0 | No sabe
+dr_EPA_2021.xlsx,Tablas1,93,
+dr_EPA_2021.xlsx,Tablas1,94,TRZNOTB | RZNOTB
+dr_EPA_2021.xlsx,Tablas1,95,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,96,01 | Vacaciones o dias de permiso
+dr_EPA_2021.xlsx,Tablas1,97,02 | Permiso por nacimiento de un hijo
+dr_EPA_2021.xlsx,Tablas1,98,03 | Excedencia por nacimiento de un hijo
+dr_EPA_2021.xlsx,Tablas1,99,"04 | Enfermedad, accidente o incapacidad temporal del encuestado"
+dr_EPA_2021.xlsx,Tablas1,100,"05 | Jornada de verano, horario variable, flexible o similar"
+dr_EPA_2021.xlsx,Tablas1,101,06 | Actividades de representación sindical
+dr_EPA_2021.xlsx,Tablas1,102,07 | Nuevo empleo en el que aún no había empezado a trabajar
+dr_EPA_2021.xlsx,Tablas1,103,08 | Fijo discontinuo o trabajador estacional en la época de menor actividad
+dr_EPA_2021.xlsx,Tablas1,104,09 | Mal tiempo
+dr_EPA_2021.xlsx,Tablas1,105,10 | Paro parcial por razones técnicas o económicas
+dr_EPA_2021.xlsx,Tablas1,106,11 | Se encuentra en expediente de regulación de empleo
+dr_EPA_2021.xlsx,Tablas1,107,12 | Huelga o conflicto laboral
+dr_EPA_2021.xlsx,Tablas1,108,13 | Haber recibido enseñanza o formación relacionada con el trabajo
+dr_EPA_2021.xlsx,Tablas1,109,14 | Razones personales o responsabilidades familiares
+dr_EPA_2021.xlsx,Tablas1,110,15 | Otras razones
+dr_EPA_2021.xlsx,Tablas1,111,00 | No sabe
+dr_EPA_2021.xlsx,Tablas1,112,
+dr_EPA_2021.xlsx,Tablas1,113,TVINCUL | VINCUL
+dr_EPA_2021.xlsx,Tablas1,114,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,115,"01 | Vacaciones o día de permiso;  Permiso por nacimiento de un hijo;  Enfermedad, accidente o incapacidad temporal del encuestado; Jornada de verano, horario variable, flexible o similar; Haber recibido enseñanza o formación relacionada con el trabajo"
+dr_EPA_2021.xlsx,Tablas1,116,02 | Excedencia por cuidado de hijos con vinculación fuerte con el empleo.
+dr_EPA_2021.xlsx,Tablas1,117,"04 | Fijo discontinuo o trabajador estacional en la época de menor actividad, que realiza regularmente alguna tarea relacionada con el empleo estacional"
+dr_EPA_2021.xlsx,Tablas1,118,"05 | Actividades de representación sindical; Mal tiempo; Expediente de regulación de empleo; Paro parcial por razones técnicas; Encontrarse en expediente de regulación de empleo; Huelga o conflicto laboral; Razones personales o responsabilidades familiares, Otras razones; No sabe. En todos los casos, siempre que mantengan un vínculo fuerte con el empleo."
+dr_EPA_2021.xlsx,Tablas1,119,"07 | Excedencia por cuidado de hijos, con vinculación débil con el empleo"
+dr_EPA_2021.xlsx,Tablas1,120,"08 | Fijo discontinuo o trabajador estacional en la época de menor actividad, que ya no realiza regularmente ninguna tarea relacionada con el empleo estacional"
+dr_EPA_2021.xlsx,Tablas1,121,"09 | Actividades de representación sindical; Mal tiempo; Expediente de regulación de empleo; Paro parcial por razones técnicas; Encontrarse en expediente de regulación de empleo; Huelga o conflicto laboral; Razones personales o responsabilidades familiares, Otras razones; No sabe. En todos los casos, siempre que su vinculación con el empleo sea débil."
+dr_EPA_2021.xlsx,Tablas1,122,11 | Nuevo empleo en el que aún no había empezado a trabajar
+dr_EPA_2021.xlsx,Tablas1,123,
+dr_EPA_2021.xlsx,Tablas1,124,TNUEVEM | NUEVEM
+dr_EPA_2021.xlsx,Tablas1,125,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,126,"1 | Sí, se incorporará en un plazo inferior o igual a  tres meses"
+dr_EPA_2021.xlsx,Tablas1,127,"2 | Sí, se incorporará en un plazo superior a tres meses"
+dr_EPA_2021.xlsx,Tablas1,128,3 | No
+dr_EPA_2021.xlsx,Tablas1,129,
+dr_EPA_2021.xlsx,Tablas1,130,TOCUP | OCUP1 *** (2 veces más)
+dr_EPA_2021.xlsx,Tablas1,131,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,132,0 | Ocupaciones militares (códigos CNO-2011). Fuerzas armadas (códigos CNO-1994)
+dr_EPA_2021.xlsx,Tablas1,133,1 | Directores y gerentes (códigos CNO-2011). Dirección de las empresas y de las  Administraciones Públicas (códigos CNO-1994)
+dr_EPA_2021.xlsx,Tablas1,134,2 | Técnicos y Profesionales científicos e intelectuales (códigos CNO-2011)
+dr_EPA_2021.xlsx,Tablas1,135,3 | Técnicos y Profesionales de apoyo (códigos CNO-2011)
+dr_EPA_2021.xlsx,Tablas1,136,"4 | Empleados contables, administrativos y otros empleados de oficina (códigos CNO-2011). Empleados de tipo administrativo (códigos CNO-1994)"
+dr_EPA_2021.xlsx,Tablas1,137,"5 | Trabajadores de servicios de restauración, personales, protección y vendedores de comercio (códigos CNO-2011)"
+dr_EPA_2021.xlsx,Tablas1,138,"6 | Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero (códigos CNO-2011).Trabajadores cualificados en la agricultura y en la pesca (códigos CNO-1994)"
+dr_EPA_2021.xlsx,Tablas1,139,"7 | Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria (códigos CNO-2011). Artesanos y trabajadores cualificados de las industrias manufactureras, la construcción, y la minería, excepto operadores de instalaciones y maquinaria (códigos CNO-1994)"
+dr_EPA_2021.xlsx,Tablas1,140,"8 | Operadores de instalaciones y maquinaria, y montadores (códigos CNO-2011)"
+dr_EPA_2021.xlsx,Tablas1,141,9 | Ocupaciones elementales (códigos CNO-2011). Trabajadores no cualificados (códigos CNO-1994)
+dr_EPA_2021.xlsx,Tablas1,142,
+dr_EPA_2021.xlsx,Tablas1,143,TACTIV | ACT1 *** (2 veces más)
+dr_EPA_2021.xlsx,Tablas1,144,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,145,"0 | Agricultura, ganadería, silvicultura y pesca (códigos CNAE-09: 01, 02 y 03), (códigos CNAE-93: 01, 02 y 05)"
+dr_EPA_2021.xlsx,Tablas1,146,"1 | Industria de la alimentación, textil, cuero, madera y papel (códigos CNAE-09: del 10 al 18), (códigos CNAE-93 del 15 al 22)"
+dr_EPA_2021.xlsx,Tablas1,147,"2 | Industrias extractivas, refino de petróleo, industria química, farmaceutica, industria del caucho y materias plásticas, suministro energía eléctrica, gas, vapor y aire acondicionado, suministro de agua, gestión de residuos. Metalurgia (códigos CNAE-09: del 05 al 09, del 19 al 25, 35 y del 36 al 39), (códigos CNAE-93: del 10 al 14, del 23 al 28, 40 y 41)"
+dr_EPA_2021.xlsx,Tablas1,148,"3 | Construcción de maquinaria, equipo eléctrico y material de transporte. Instalación y reparación industrial  (códigos CNAE-09 del 26 al 33), (códigos CNAE-93 del 29 al 37)"
+dr_EPA_2021.xlsx,Tablas1,149,"4 | Construcción (códigos CNAE-09: del 41 al 43), (código CNAE-93: 45)"
+dr_EPA_2021.xlsx,Tablas1,150,"5 | Comercio al por mayor y al por menor y sus instalaciones y reparaciones. Reparación de automóviles, hostelería (códigos CNAE-09: del 45 al 47, 55 y 56), (códigos CNAE-93: 50, 51, 52 y 55)"
+dr_EPA_2021.xlsx,Tablas1,151,"6 | Transporte y almacenamiento. Información y comunicaciones (códigos CNAE-09 del 49 al 53 y del 58 al 63), (códigos CNAE-93 del 60 al 64)"
+dr_EPA_2021.xlsx,Tablas1,152,"7 | Intermediación financiera, seguros, actividades inmobiliarias, servicios profesionales, científicos, administrativos y otros (códigos CNAE-09: del 64 al 66, 68, del 69 al 75 y del 77 al 82), (códigos CNAE-93 del 65 al 67 y del 70 al 74)"
+dr_EPA_2021.xlsx,Tablas1,153,"8 | Administración Pública, educación y actividades sanitarias (códigos CNAE-09: 84, 85 y del 86 al 88), (códigos CNAE-93: 75, 80 y 85)"
+dr_EPA_2021.xlsx,Tablas1,154,"9 | Otros servicios (códigos CNAE-09: del 90 al 93, del 94 al 96, 97y  99), (códigos CNAE-93: del 90 al 93, 95 y 99)"
+dr_EPA_2021.xlsx,Tablas1,155,
+dr_EPA_2021.xlsx,Tablas1,156,TSITUAC | SITU *** (2 veces más)
+dr_EPA_2021.xlsx,Tablas1,157,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,158,01 | Empresario con asalariados
+dr_EPA_2021.xlsx,Tablas1,159,03 | Trabajador independiente o empresario sin asalariados
+dr_EPA_2021.xlsx,Tablas1,160,05 | Miembro de una cooperativa
+dr_EPA_2021.xlsx,Tablas1,161,06 | Ayuda en la empresa o negocio familiar
+dr_EPA_2021.xlsx,Tablas1,162,07 | Asalariado sector público
+dr_EPA_2021.xlsx,Tablas1,163,08 | Asalariado sector privado
+dr_EPA_2021.xlsx,Tablas1,164,09 | Otra situación
+dr_EPA_2021.xlsx,Tablas1,165,
+dr_EPA_2021.xlsx,Tablas1,166,TADMTB | SP
+dr_EPA_2021.xlsx,Tablas1,167,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,168,1 | Administración central
+dr_EPA_2021.xlsx,Tablas1,169,2 | Administración de la Seguridad Social
+dr_EPA_2021.xlsx,Tablas1,170,3 | Administración de Comunidad Autónoma
+dr_EPA_2021.xlsx,Tablas1,171,4 | Administración local
+dr_EPA_2021.xlsx,Tablas1,172,5 | Empresas públicas e Instituciones financieras públicas
+dr_EPA_2021.xlsx,Tablas1,173,6 | Otro tipo
+dr_EPA_2021.xlsx,Tablas1,174,0 | No sabe
+dr_EPA_2021.xlsx,Tablas1,175,
+dr_EPA_2021.xlsx,Tablas1,176,T1DUCON | DUCON1
+dr_EPA_2021.xlsx,Tablas1,177,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,178,1 | Indefinido
+dr_EPA_2021.xlsx,Tablas1,179,6 | Temporal
+dr_EPA_2021.xlsx,Tablas1,180,
+dr_EPA_2021.xlsx,Tablas1,181,T2DUCON | DUCON2
+dr_EPA_2021.xlsx,Tablas1,182,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,183,1 | Permanente
+dr_EPA_2021.xlsx,Tablas1,184,6 | Discontinuo
+dr_EPA_2021.xlsx,Tablas1,185,
+dr_EPA_2021.xlsx,Tablas1,186,T3DUCON | DUCON3
+dr_EPA_2021.xlsx,Tablas1,187,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,188,01 | Eventual por circunstancias de la producción
+dr_EPA_2021.xlsx,Tablas1,189,02 | De formación o aprendizaje
+dr_EPA_2021.xlsx,Tablas1,190,03 | Estacional o de temporada
+dr_EPA_2021.xlsx,Tablas1,191,04 | Cubre un período de prueba
+dr_EPA_2021.xlsx,Tablas1,192,05 | Cubre la ausencia total o parcial de otro trabajador
+dr_EPA_2021.xlsx,Tablas1,193,06 | Para obra o servicio determinado
+dr_EPA_2021.xlsx,Tablas1,194,07 | Verbal no incluido en las opciones anteriores
+dr_EPA_2021.xlsx,Tablas1,195,08 | Otro tipo
+dr_EPA_2021.xlsx,Tablas1,196,"09 | De prácticas (becarios, períodos de prácticas, asistentes de investigación, etc.)"
+dr_EPA_2021.xlsx,Tablas1,197,00 | No sabe
+dr_EPA_2021.xlsx,Tablas1,198,
+dr_EPA_2021.xlsx,Tablas1,199,T1PARCO | PARCO1
+dr_EPA_2021.xlsx,Tablas1,200,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,201,1 | Completa
+dr_EPA_2021.xlsx,Tablas1,202,6 | Parcial
+dr_EPA_2021.xlsx,Tablas1,203,
+dr_EPA_2021.xlsx,Tablas1,204,T2PARCO | PARCO2
+dr_EPA_2021.xlsx,Tablas1,205,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,206,01 | Seguir cursos de enseñanza o formación
+dr_EPA_2021.xlsx,Tablas1,207,02 | Enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,208,03 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2021.xlsx,Tablas1,209,04 | Otras razones familiares o personales
+dr_EPA_2021.xlsx,Tablas1,210,05 | No haber podido encontrar un trabajo de jornada completa
+dr_EPA_2021.xlsx,Tablas1,211,06 | No querer un trabajo de jornada completa
+dr_EPA_2021.xlsx,Tablas1,212,07 | Otras razones
+dr_EPA_2021.xlsx,Tablas1,213,00 | Desconoce el motivo
+dr_EPA_2021.xlsx,Tablas1,214,
+dr_EPA_2021.xlsx,Tablas1,215,TMASHOR | MASHOR
+dr_EPA_2021.xlsx,Tablas1,216,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,217,1 | Sí
+dr_EPA_2021.xlsx,Tablas1,218,"2 | No, desearía trabajar menos horas con reducción proporcional de salario"
+dr_EPA_2021.xlsx,Tablas1,219,3 | No
+dr_EPA_2021.xlsx,Tablas1,220,
+dr_EPA_2021.xlsx,Tablas1,221,TRZNDIS | RZNDIS
+dr_EPA_2021.xlsx,Tablas1,222,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,223,1 | Tener que completar estudios o formación
+dr_EPA_2021.xlsx,Tablas1,224,2 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2021.xlsx,Tablas1,225,3 | Por enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,226,4 | Por otras razones
+dr_EPA_2021.xlsx,Tablas1,227,
+dr_EPA_2021.xlsx,Tablas1,228,TRZNDSH | RZNDISH
+dr_EPA_2021.xlsx,Tablas1,229,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,230,01 | Tener que completar estudios o formación
+dr_EPA_2021.xlsx,Tablas1,231,02 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2021.xlsx,Tablas1,232,03 | Enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,233,04 | Otras razones
+dr_EPA_2021.xlsx,Tablas1,234,05 | Por no poder dejar su empleo actual debido al periodo de preaviso
+dr_EPA_2021.xlsx,Tablas1,235,
+dr_EPA_2021.xlsx,Tablas1,236,TFOBACT | FOBACT
+dr_EPA_2021.xlsx,Tablas1,237,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,238,1 | Métodos activos de búsqueda de empleo
+dr_EPA_2021.xlsx,Tablas1,239,6 | Métodos no activos de búsqueda de empleo
+dr_EPA_2021.xlsx,Tablas1,240,
+dr_EPA_2021.xlsx,Tablas1,241,TNBUSCA | NBUSCA
+dr_EPA_2021.xlsx,Tablas1,242,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,243,01 | No hay empleo adecuado disponible
+dr_EPA_2021.xlsx,Tablas1,244,02 | Está afectado por una regulación de empleo
+dr_EPA_2021.xlsx,Tablas1,245,03 | Por enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,246,04 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2021.xlsx,Tablas1,247,05 | Tiene otras responsabilidades familiares o personales
+dr_EPA_2021.xlsx,Tablas1,248,06 | Está cursando estudios o recibiendo formación
+dr_EPA_2021.xlsx,Tablas1,249,07 | Está jubilado
+dr_EPA_2021.xlsx,Tablas1,250,08 | Otras razones
+dr_EPA_2021.xlsx,Tablas1,251,00 | No sabe
+dr_EPA_2021.xlsx,Tablas1,252,
+dr_EPA_2021.xlsx,Tablas1,253,TRZULT | RZULT
+dr_EPA_2021.xlsx,Tablas1,254,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,255,01 | Despido o supresión del puesto (incluye regulación de empleo)
+dr_EPA_2021.xlsx,Tablas1,256,02 | Fin del contrato (incluye los fijos-discontinuos y los trabajos estacionales) s
+dr_EPA_2021.xlsx,Tablas1,257,03 | Enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,258,04 | Realizar estudios o recibir formación
+dr_EPA_2021.xlsx,Tablas1,259,05 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2021.xlsx,Tablas1,260,06 | Otras razones familiares o personales
+dr_EPA_2021.xlsx,Tablas1,261,07 | Jubilación anticipada
+dr_EPA_2021.xlsx,Tablas1,262,08 | Jubilación normal
+dr_EPA_2021.xlsx,Tablas1,263,09 | Otras razones (incluye el cese en una actividad propia y por voluntad propia)
+dr_EPA_2021.xlsx,Tablas1,264,00 | No sabe
+dr_EPA_2021.xlsx,Tablas1,265,
+dr_EPA_2021.xlsx,Tablas1,266,TITBU | ITBU
+dr_EPA_2021.xlsx,Tablas1,267,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,268,01 | Menos de 1 mes
+dr_EPA_2021.xlsx,Tablas1,269,02 | De 1 a < 3 meses
+dr_EPA_2021.xlsx,Tablas1,270,03 | De 3 a < 6 meses
+dr_EPA_2021.xlsx,Tablas1,271,04 | De  6 meses a < 1 año
+dr_EPA_2021.xlsx,Tablas1,272,05 | De 1 año a < 1 año y medio
+dr_EPA_2021.xlsx,Tablas1,273,06 | De 1 año y medio a < 2 años
+dr_EPA_2021.xlsx,Tablas1,274,07 | De 2 a < 4 años
+dr_EPA_2021.xlsx,Tablas1,275,08 | 4 años o más
+dr_EPA_2021.xlsx,Tablas1,276,
+dr_EPA_2021.xlsx,Tablas1,277,TOFEMP | OFEMP
+dr_EPA_2021.xlsx,Tablas1,278,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,279,1 | Estaba inscrito como demandante y recibía algún tipo de prestación
+dr_EPA_2021.xlsx,Tablas1,280,2 | Estaba inscrito como demandante sin recibir subsidio o prestación por desempleo
+dr_EPA_2021.xlsx,Tablas1,281,3 | No estaba inscrito como demandante
+dr_EPA_2021.xlsx,Tablas1,282,4 | No contesta / No sabe
+dr_EPA_2021.xlsx,Tablas1,283,
+dr_EPA_2021.xlsx,Tablas1,284,TSID | SIDI1 *** (2 veces más)
+dr_EPA_2021.xlsx,Tablas1,285,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,286,01 | Estudiante (aunque esté de vacaciones)
+dr_EPA_2021.xlsx,Tablas1,287,02 | Percibía una pensión de jubilación o unos ingresos de prejubilación
+dr_EPA_2021.xlsx,Tablas1,288,03 | Dedicado a las labores del hogar
+dr_EPA_2021.xlsx,Tablas1,289,04 | Incapacitado permanente
+dr_EPA_2021.xlsx,Tablas1,290,05 | Percibiendo una pensión distinta a la de jubilación (o prejubilación)
+dr_EPA_2021.xlsx,Tablas1,291,"06 | Realizando sin remuneración trabajos sociales, actividades benéficas…"
+dr_EPA_2021.xlsx,Tablas1,292,07 | Otras situaciones
+dr_EPA_2021.xlsx,Tablas1,293,00 | No sabe / No refiere estado de inactividad
+dr_EPA_2021.xlsx,Tablas1,294,
+dr_EPA_2021.xlsx,Tablas1,295,TSIDAC | SIDAC1 *** (1 veces más)
+dr_EPA_2021.xlsx,Tablas1,296,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,297,1 | Trabajando
+dr_EPA_2021.xlsx,Tablas1,298,2 | Buscando empleo
+dr_EPA_2021.xlsx,Tablas1,299,
+dr_EPA_2021.xlsx,Tablas1,300,TAOI | AOI
+dr_EPA_2021.xlsx,Tablas1,301,Código | Descripción
+dr_EPA_2021.xlsx,Tablas1,302,03 | Ocupados subempleados por insuficiencia de horas
+dr_EPA_2021.xlsx,Tablas1,303,04 | Resto de ocupados
+dr_EPA_2021.xlsx,Tablas1,304,05 | Parados que buscan primer empleo
+dr_EPA_2021.xlsx,Tablas1,305,06 | Parados que han trabajado antes
+dr_EPA_2021.xlsx,Tablas1,306,07 | Inactivos 1 (desanimados)
+dr_EPA_2021.xlsx,Tablas1,307,08 | Inactivos 2 (junto con los desanimados forman los activos potenciales)
+dr_EPA_2021.xlsx,Tablas1,308,09 | Inactivos 3 (resto de inactivos)
+dr_EPA_2021.xlsx,Tablas2,1,TCCAA | CCAA
+dr_EPA_2021.xlsx,Tablas2,2,Código | Descripción
+dr_EPA_2021.xlsx,Tablas2,3,01 | Andalucía
+dr_EPA_2021.xlsx,Tablas2,4,02 | Aragón
+dr_EPA_2021.xlsx,Tablas2,5,"03 | Asturias, Principado de"
+dr_EPA_2021.xlsx,Tablas2,6,"04 | Balears, Illes"
+dr_EPA_2021.xlsx,Tablas2,7,05 | Canarias
+dr_EPA_2021.xlsx,Tablas2,8,06 | Cantabria
+dr_EPA_2021.xlsx,Tablas2,9,07 | Castilla y León
+dr_EPA_2021.xlsx,Tablas2,10,08 | Castilla-La Mancha
+dr_EPA_2021.xlsx,Tablas2,11,09 | Cataluña
+dr_EPA_2021.xlsx,Tablas2,12,10 | Comunitat Valenciana
+dr_EPA_2021.xlsx,Tablas2,13,11 | Extremadura
+dr_EPA_2021.xlsx,Tablas2,14,12 | Galicia
+dr_EPA_2021.xlsx,Tablas2,15,"13 | Madrid, Comunidad de"
+dr_EPA_2021.xlsx,Tablas2,16,"14 | Murcia, Región de"
+dr_EPA_2021.xlsx,Tablas2,17,"15 | Navarra, Comunidad Foral de"
+dr_EPA_2021.xlsx,Tablas2,18,16 | País Vasco
+dr_EPA_2021.xlsx,Tablas2,19,"17 | Rioja, La"
+dr_EPA_2021.xlsx,Tablas2,20,51 | Ceuta
+dr_EPA_2021.xlsx,Tablas2,21,52 | Melilla
+dr_EPA_2021.xlsx,Tablas2,22,
+dr_EPA_2021.xlsx,Tablas2,23,TPROV | PROV *** (2 veces más)
+dr_EPA_2021.xlsx,Tablas2,24,Código | Descripción
+dr_EPA_2021.xlsx,Tablas2,25,01 | Araba/Álava
+dr_EPA_2021.xlsx,Tablas2,26,02 | Albacete
+dr_EPA_2021.xlsx,Tablas2,27,03 | Alicante/Alacant
+dr_EPA_2021.xlsx,Tablas2,28,04 | Almería
+dr_EPA_2021.xlsx,Tablas2,29,05 | Ávila
+dr_EPA_2021.xlsx,Tablas2,30,06 | Badajoz
+dr_EPA_2021.xlsx,Tablas2,31,"07 | Balears, Illes"
+dr_EPA_2021.xlsx,Tablas2,32,08 | Barcelona
+dr_EPA_2021.xlsx,Tablas2,33,09 | Burgos
+dr_EPA_2021.xlsx,Tablas2,34,10 | Cáceres
+dr_EPA_2021.xlsx,Tablas2,35,11 | Cádiz
+dr_EPA_2021.xlsx,Tablas2,36,12 | Castellón /Castelló
+dr_EPA_2021.xlsx,Tablas2,37,13 | Ciudad Real
+dr_EPA_2021.xlsx,Tablas2,38,14 | Córdoba
+dr_EPA_2021.xlsx,Tablas2,39,"15 | Coruña, A"
+dr_EPA_2021.xlsx,Tablas2,40,16 | Cuenca
+dr_EPA_2021.xlsx,Tablas2,41,17 | Girona
+dr_EPA_2021.xlsx,Tablas2,42,18 | Granada
+dr_EPA_2021.xlsx,Tablas2,43,19 | Guadalajara
+dr_EPA_2021.xlsx,Tablas2,44,20 | Gipuzkoa
+dr_EPA_2021.xlsx,Tablas2,45,21 | Huelva
+dr_EPA_2021.xlsx,Tablas2,46,22 | Huesca
+dr_EPA_2021.xlsx,Tablas2,47,23 | Jaén
+dr_EPA_2021.xlsx,Tablas2,48,24 | León
+dr_EPA_2021.xlsx,Tablas2,49,25 | Lleida
+dr_EPA_2021.xlsx,Tablas2,50,"26 | Rioja, La"
+dr_EPA_2021.xlsx,Tablas2,51,27 | Lugo
+dr_EPA_2021.xlsx,Tablas2,52,28 | Madrid
+dr_EPA_2021.xlsx,Tablas2,53,29 | Málaga
+dr_EPA_2021.xlsx,Tablas2,54,30 | Murcia
+dr_EPA_2021.xlsx,Tablas2,55,31 | Navarra
+dr_EPA_2021.xlsx,Tablas2,56,32 | Ourense
+dr_EPA_2021.xlsx,Tablas2,57,33 | Asturias
+dr_EPA_2021.xlsx,Tablas2,58,34 | Palencia
+dr_EPA_2021.xlsx,Tablas2,59,"35 | Palmas, Las"
+dr_EPA_2021.xlsx,Tablas2,60,36 | Pontevedra
+dr_EPA_2021.xlsx,Tablas2,61,37 | Salamanca
+dr_EPA_2021.xlsx,Tablas2,62,38 | Santa Cruz de Tenerife
+dr_EPA_2021.xlsx,Tablas2,63,39 | Cantabria
+dr_EPA_2021.xlsx,Tablas2,64,40 | Segovia
+dr_EPA_2021.xlsx,Tablas2,65,41 | Sevilla
+dr_EPA_2021.xlsx,Tablas2,66,42 | Soria
+dr_EPA_2021.xlsx,Tablas2,67,43 | Tarragona
+dr_EPA_2021.xlsx,Tablas2,68,44 | Teruel
+dr_EPA_2021.xlsx,Tablas2,69,45 | Toledo
+dr_EPA_2021.xlsx,Tablas2,70,46 | Valencia/València
+dr_EPA_2021.xlsx,Tablas2,71,47 | Valladolid
+dr_EPA_2021.xlsx,Tablas2,72,48 | Bizkaia
+dr_EPA_2021.xlsx,Tablas2,73,49 | Zamora
+dr_EPA_2021.xlsx,Tablas2,74,50 | Zaragoza
+dr_EPA_2021.xlsx,Tablas2,75,51 | Ceuta
+dr_EPA_2021.xlsx,Tablas2,76,52 | Melilla
+dr_EPA_2021.xlsx,Tablas3,1,TREGNAP | EXREGNA1
+dr_EPA_2021.xlsx,Tablas3,2,Código | Descripción
+dr_EPA_2021.xlsx,Tablas3,3,115 | UE- 15
+dr_EPA_2021.xlsx,Tablas3,4,125 | UE- 25 (no UE-15)
+dr_EPA_2021.xlsx,Tablas3,5,128 | UE- 28 (no UE-27)
+dr_EPA_2021.xlsx,Tablas3,6,100 | Resto de Europa
+dr_EPA_2021.xlsx,Tablas3,7,200 | África
+dr_EPA_2021.xlsx,Tablas3,8,300 | América del Norte
+dr_EPA_2021.xlsx,Tablas3,9,310 | Centroamérica y Caribe
+dr_EPA_2021.xlsx,Tablas3,10,350 | Sudamérica
+dr_EPA_2021.xlsx,Tablas3,11,400 | Asia Oriental (Lejano Oriente)
+dr_EPA_2021.xlsx,Tablas3,12,410 | Asia Occidental (Oriente Próximo)
+dr_EPA_2021.xlsx,Tablas3,13,420 | Asia del Sur y Sudoeste
+dr_EPA_2021.xlsx,Tablas3,14,500 | Oceanía
+dr_EPA_2021.xlsx,Tablas3,15,999 | Apátridas
+dr_EPA_2021.xlsx,Tablas3,16,
+dr_EPA_2021.xlsx,Tablas3,17,TREGNA | REGNA1
+dr_EPA_2021.xlsx,Tablas3,18,Código | Descripción
+dr_EPA_2021.xlsx,Tablas3,19,115 | UE- 15
+dr_EPA_2021.xlsx,Tablas3,20,125 | UE- 25 (no UE-15)
+dr_EPA_2021.xlsx,Tablas3,21,128 | UE- 28 (no UE-27)
+dr_EPA_2021.xlsx,Tablas3,22,100 | Resto de Europa
+dr_EPA_2021.xlsx,Tablas3,23,200 | África
+dr_EPA_2021.xlsx,Tablas3,24,300 | América del Norte
+dr_EPA_2021.xlsx,Tablas3,25,310 | Centroamérica y Caribe
+dr_EPA_2021.xlsx,Tablas3,26,350 | Sudamérica
+dr_EPA_2021.xlsx,Tablas3,27,400 | Asia Oriental (Lejano Oriente)
+dr_EPA_2021.xlsx,Tablas3,28,410 | Asia Occidental (Oriente Próximo)
+dr_EPA_2021.xlsx,Tablas3,29,420 | Asia del Sur y Sudoeste
+dr_EPA_2021.xlsx,Tablas3,30,500 | Oceanía
+dr_EPA_2021.xlsx,Tablas3,31,
+dr_EPA_2021.xlsx,Tablas3,32,TREGEST | REGEST
+dr_EPA_2021.xlsx,Tablas3,33,Código | Descripción
+dr_EPA_2021.xlsx,Tablas3,34,115 | UE- 15 (Excepto Francia y Portugal)
+dr_EPA_2021.xlsx,Tablas3,35,125 | UE- 25 (no UE-15)
+dr_EPA_2021.xlsx,Tablas3,36,128 | UE- 28 (no UE-27)
+dr_EPA_2021.xlsx,Tablas3,37,100 | Resto de Europa (Excepto Andorra)
+dr_EPA_2021.xlsx,Tablas3,38,200 | África (Excepto Marruecos)
+dr_EPA_2021.xlsx,Tablas3,39,300 | América del Norte
+dr_EPA_2021.xlsx,Tablas3,40,310 | Centroamérica y Caribe
+dr_EPA_2021.xlsx,Tablas3,41,350 | Sudamérica
+dr_EPA_2021.xlsx,Tablas3,42,400 | Asia Oriental (Lejano Oriente)
+dr_EPA_2021.xlsx,Tablas3,43,410 | Asia Occidental (Oriente Próximo)
+dr_EPA_2021.xlsx,Tablas3,44,420 | Asia del Sur y Sudoeste
+dr_EPA_2021.xlsx,Tablas3,45,500 | Oceanía
+dr_EPA_2021.xlsx,Tablas3,46,600 | Portugal
+dr_EPA_2021.xlsx,Tablas3,47,610 | Francia
+dr_EPA_2021.xlsx,Tablas3,48,620 | Andorra
+dr_EPA_2021.xlsx,Tablas3,49,630 | Marruecos
+dr_EPA_2021.xlsx,Tablas4,1,N_EDEST | EDADEST
+dr_EPA_2021.xlsx,Tablas4,2,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,3,00 | No sabe la fecha en la que alcanzó el máximo nivel de estudios
+dr_EPA_2021.xlsx,Tablas4,4,
+dr_EPA_2021.xlsx,Tablas4,5,T_ORDEN | NCONY *** (2 veces más)
+dr_EPA_2021.xlsx,Tablas4,6,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,7,00 | No tiene o no reside en la vivienda
+dr_EPA_2021.xlsx,Tablas4,8,
+dr_EPA_2021.xlsx,Tablas4,9,N_ANORE | ANORE1
+dr_EPA_2021.xlsx,Tablas4,10,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,11,00 | Menos de un año en España
+dr_EPA_2021.xlsx,Tablas4,12,
+dr_EPA_2021.xlsx,Tablas4,13,T_2HORA | HORDES
+dr_EPA_2021.xlsx,Tablas4,14,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,15,99 | No puede precisar /no sabe
+dr_EPA_2021.xlsx,Tablas4,16,
+dr_EPA_2021.xlsx,Tablas4,17,T_CONTM | TCONTM
+dr_EPA_2021.xlsx,Tablas4,18,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,19,96 | 96 meses o más
+dr_EPA_2021.xlsx,Tablas4,20,00 | Desconoce la respuesta pero es al menos un mes
+dr_EPA_2021.xlsx,Tablas4,21,
+dr_EPA_2021.xlsx,Tablas4,22,T_CONTD | TCONTD
+dr_EPA_2021.xlsx,Tablas4,23,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,24,99 | No sabe
+dr_EPA_2021.xlsx,Tablas4,25,00 | Desconoce la respuesta pero es menos de un mes
+dr_EPA_2021.xlsx,Tablas4,26,
+dr_EPA_2021.xlsx,Tablas4,27,THORAS | HORASP
+dr_EPA_2021.xlsx,Tablas4,28,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,29,"9999 | No sabe (incluye ""No tiene horas pactadas por contrato"")"
+dr_EPA_2021.xlsx,Tablas4,30,
+dr_EPA_2021.xlsx,Tablas4,31,T2HORAS | HORASH
+dr_EPA_2021.xlsx,Tablas4,32,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,33,9999 | No sabe horas:minutos
+dr_EPA_2021.xlsx,Tablas4,34,9900 | Las horas varían de una semana a otra/no puede dar una estimación
+dr_EPA_2021.xlsx,Tablas4,35,
+dr_EPA_2021.xlsx,Tablas4,36,THORASE | HORASE *** (1 veces más)
+dr_EPA_2021.xlsx,Tablas4,37,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,38,9999 | No sabe horas:minutos
+dr_EPA_2021.xlsx,Tablas4,39,9859 | Más de 98:00 horas en la semana de referencia (código específico pandemia COVID19)
+dr_EPA_2021.xlsx,Tablas4,40,0000 | No trabajó durante la semana de referencia
+dr_EPA_2021.xlsx,Tablas4,41,
+dr_EPA_2021.xlsx,Tablas4,42,TEXTRAO | EXTPAG *** (1 veces más)
+dr_EPA_2021.xlsx,Tablas4,43,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,44,9999 | No puede precisar /No sabe
+dr_EPA_2021.xlsx,Tablas4,45,0000 | No hizo horas extra durante la semana de referencia
+dr_EPA_2021.xlsx,Tablas4,46,
+dr_EPA_2021.xlsx,Tablas4,47,N_2DIAS | DAUSVAC *** (2 veces más)
+dr_EPA_2021.xlsx,Tablas4,48,Código | Descripción
+dr_EPA_2021.xlsx,Tablas4,49,99 | No sabe días de ausencia
+dr_EPA_2021.xlsx,Tablas5,1,T_CICLO | CICLO
+dr_EPA_2021.xlsx,Tablas5,2,Código | Descripción
+dr_EPA_2021.xlsx,Tablas5,3,194 | 2021T1
+dr_EPA_2021.xlsx,Tablas5,4,195 | 2021T2
+dr_EPA_2021.xlsx,Tablas5,5,196 | 2021T3
+dr_EPA_2021.xlsx,Tablas5,6,197 | 2021T4
+dr_EPA_2021.xlsx,Tablas5,7,198 | 2022T1
+dr_EPA_2021.xlsx,Tablas5,8,199 | 2022T2
+dr_EPA_2021.xlsx,Tablas5,9,200 | 2022T3
+dr_EPA_2021.xlsx,Tablas5,10,201 | 2022T4
+dr_EPA_2021.xlsx,Tablas5,11,202 | 2023T1
+dr_EPA_2021.xlsx,Tablas5,12,203 | 2023T2
+dr_EPA_2021.xlsx,Tablas5,13,204 | 2023T3
+dr_EPA_2021.xlsx,Tablas5,14,205 | 2023T4
+dr_EPA_2021.xlsx,Tablas5,15,206 | 2024T1
+dr_EPA_2021.xlsx,Tablas5,16,207 | 2024T2
+dr_EPA_2021.xlsx,Tablas5,17,208 | 2024T3
+dr_EPA_2021.xlsx,Tablas5,18,209 | 2024T4
+dr_EPA_2021.xlsx,Tablas5,19,210 | 2025T1
+dr_EPA_2021.xlsx,Tablas5,20,211 | 2025T2
+dr_EPA_2021.xlsx,Tablas5,21,212 | 2025T3
+dr_EPA_2021.xlsx,Tablas5,22,213 | 2025T4
+dr_EPA_2021.xlsx,Tablas5,23,214 | 2026T1
+dr_EPA_2021.xlsx,Tablas5,24,215 | 2026T2
+dr_EPA_2021.xlsx,Tablas5,25,216 | 2026T3
+dr_EPA_2021.xlsx,Tablas5,26,217 | 2026T4
+dr_EPA_2021.xlsx,Tablas5,27,218 | 2027T1
+dr_EPA_2021.xlsx,Tablas5,28,219 | 2027T2
+dr_EPA_2021.xlsx,Tablas5,29,220 | 2027T3
+dr_EPA_2021.xlsx,Tablas5,30,221 | 2027T4
+dr_EPA_2021.xlsx,Tablas5,31,222 | 2028T1
+dr_EPA_2021.xlsx,Tablas5,32,223 | 2028T2
+dr_EPA_2021.xlsx,Tablas5,33,224 | 2028T3
+dr_EPA_2021.xlsx,Tablas5,34,225 | 2028T4
+dr_EPA_2021.xlsx,Tablas5,35,226 | 2029T1
+dr_EPA_2021.xlsx,Tablas5,36,227 | 2029T2
+dr_EPA_2021.xlsx,Tablas5,37,228 | 2029T3
+dr_EPA_2021.xlsx,Tablas5,38,229 | 2029T4
+dr_EPA_2021.xlsx,Tablas5,39,230 | 2030T1
+dr_EPA_2021.xlsx,Tablas5,40,231 | 2030T2
+dr_EPA_2021.xlsx,Tablas5,41,232 | 2030T3
+dr_EPA_2021.xlsx,Tablas5,42,233 | 2030T4
+dr_EPA_2021.xlsx,Tablas5,43,234 | 2031T1
+dr_EPA_2021.xlsx,Tablas5,44,235 | 2031T2
+dr_EPA_2021.xlsx,Tablas5,45,236 | 2031T3
+dr_EPA_2021.xlsx,Tablas5,46,237 | 2031T4
+dr_EPA_2021.xlsx,Tablas5,47,238 | 2032T1
+dr_EPA_2021.xlsx,Tablas5,48,239 | 2032T2
+dr_EPA_2021.xlsx,Tablas5,49,240 | 2032T3
+dr_EPA_2021.xlsx,Tablas5,50,241 | 2032T4
+dr_EPA_2021.xlsx,Tablas5,51,242 | 2033T1
+dr_EPA_2021.xlsx,Tablas5,52,243 | 2033T2
+dr_EPA_2021.xlsx,Tablas5,53,244 | 2033T3
+dr_EPA_2021.xlsx,Tablas5,54,245 | 2033T4
+dr_EPA_2021.xlsx,Tablas5,55,246 | 2034T1
+dr_EPA_2021.xlsx,Tablas5,56,247 | 2034T2
+dr_EPA_2021.xlsx,Tablas5,57,248 | 2034T3
+dr_EPA_2021.xlsx,Tablas5,58,249 | 2034T4
+dr_EPA_2021.xlsx,Tablas5,59,250 | 2035T1
+dr_EPA_2021.xlsx,Tablas5,60,251 | 2035T2
+dr_EPA_2021.xlsx,Tablas5,61,252 | 2035T3
+dr_EPA_2021.xlsx,Tablas5,62,253 | 2035T4
+dr_EPA_2021.xlsx,Tablas5,63,254 | 2036T1
+dr_EPA_2021.xlsx,Tablas5,64,255 | 2036T2
+dr_EPA_2021.xlsx,Tablas5,65,256 | 2036T3
+dr_EPA_2021.xlsx,Tablas5,66,257 | 2036T4
+dr_EPA_2021.xlsx,Tablas5,67,258 | 2037T1
+dr_EPA_2021.xlsx,Tablas5,68,259 | 2037T2
+dr_EPA_2021.xlsx,Tablas5,69,260 | 2037T3
+dr_EPA_2021.xlsx,Tablas5,70,261 | 2037T4
+dr_EPA_2021.xlsx,Tablas5,71,262 | 2038T1
+dr_EPA_2021.xlsx,Tablas5,72,263 | 2038T2
+dr_EPA_2021.xlsx,Tablas5,73,264 | 2038T3
+dr_EPA_2021.xlsx,Tablas5,74,265 | 2038T4
+dr_EPA_2021.xlsx,Tablas5,75,266 | 2039T1
+dr_EPA_2021.xlsx,Tablas5,76,267 | 2039T2
+dr_EPA_2021.xlsx,Tablas5,77,268 | 2039T3
+dr_EPA_2021.xlsx,Tablas5,78,269 | 2039T4
+dr_EPA_2021.xlsx,Tablas5,79,270 | 2040T1
+dr_EPA_2021.xlsx,Tablas5,80,271 | 2040T2
+dr_EPA_2021.xlsx,Tablas5,81,272 | 2040T3
+dr_EPA_2021.xlsx,Tablas5,82,273 | 2040T4
+dr_EPA_2021.xlsx,Tablas5,83,274 | 2041T1
+dr_EPA_2021.xlsx,Tablas5,84,275 | 2041T2
+dr_EPA_2021.xlsx,Tablas5,85,276 | 2041T3
+dr_EPA_2021.xlsx,Tablas5,86,277 | 2041T4
+dr_EPA_2021.xlsx,Tablas5,87,278 | 2042T1
+dr_EPA_2021.xlsx,Tablas5,88,279 | 2042T2
+dr_EPA_2021.xlsx,Tablas5,89,280 | 2042T3
+dr_EPA_2021.xlsx,Tablas5,90,281 | 2042T4
+dr_EPA_2021.xlsx,Tablas5,91,282 | 2043T1
+dr_EPA_2021.xlsx,Tablas5,92,283 | 2043T2
+dr_EPA_2021.xlsx,Tablas5,93,284 | 2043T3
+dr_EPA_2021.xlsx,Tablas5,94,285 | 2043T4
+dr_EPA_2021.xlsx,Tablas5,95,286 | 2044T1
+dr_EPA_2021.xlsx,Tablas5,96,287 | 2044T2
+dr_EPA_2021.xlsx,Tablas5,97,288 | 2044T3
+dr_EPA_2021.xlsx,Tablas5,98,289 | 2044T4
+dr_EPA_2021.xlsx,Tablas5,99,290 | 2045T1
+dr_EPA_2021.xlsx,Tablas5,100,291 | 2045T2
+dr_EPA_2021.xlsx,Tablas5,101,292 | 2045T3
+dr_EPA_2021.xlsx,Tablas5,102,293 | 2045T4
+dr_EPA_2021.xlsx,Tablas5,103,294 | 2046T1
+dr_EPA_2021.xlsx,Tablas5,104,295 | 2046T2
+dr_EPA_2021.xlsx,Tablas5,105,296 | 2046T3
+dr_EPA_2021.xlsx,Tablas5,106,297 | 2046T4
+dr_EPA_2021.xlsx,Tablas5,107,298 | 2047T1
+dr_EPA_2021.xlsx,Tablas5,108,299 | 2047T2
+dr_EPA_2021.xlsx,Tablas5,109,300 | 2047T3
+dr_EPA_2021.xlsx,Tablas5,110,301 | 2047T4
+dr_EPA_2021.xlsx,Tablas5,111,302 | 2048T1
+dr_EPA_2021.xlsx,Tablas5,112,303 | 2048T2
+dr_EPA_2021.xlsx,Tablas5,113,304 | 2048T3
+dr_EPA_2021.xlsx,Tablas5,114,305 | 2048T4
+dr_EPA_2021.xlsx,Tablas5,115,306 | 2049T1
+dr_EPA_2021.xlsx,Tablas5,116,307 | 2049T2
+dr_EPA_2021.xlsx,Tablas5,117,308 | 2049T3
+dr_EPA_2021.xlsx,Tablas5,118,309 | 2049T4
+dr_EPA_2021.xlsx,Tablas5,119,310 | 2050T1
+dr_EPA_2021.xlsx,Tablas5,120,311 | 2050T2
+dr_EPA_2021.xlsx,Tablas5,121,312 | 2050T3
+dr_EPA_2021.xlsx,Tablas5,122,313 | 2050T4
+dr_EPA_2021.xlsx,AuxTabla3,1,Personas nacidas en el extranjero | Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia
+dr_EPA_2021.xlsx,AuxTabla3,2,
+dr_EPA_2021.xlsx,AuxTabla3,3,
+dr_EPA_2021.xlsx,AuxTabla3,4,115 = UE- 15 | 115 = UE- 15 (Excepto Francia y Portugal)
+dr_EPA_2021.xlsx,AuxTabla3,5,Alemania | Alemania
+dr_EPA_2021.xlsx,AuxTabla3,6,Austria | Austria
+dr_EPA_2021.xlsx,AuxTabla3,7,Bélgica | Bélgica
+dr_EPA_2021.xlsx,AuxTabla3,8,Dinamarca | Dinamarca
+dr_EPA_2021.xlsx,AuxTabla3,9,Finlandia | Finlandia
+dr_EPA_2021.xlsx,AuxTabla3,10,Francia | Grecia
+dr_EPA_2021.xlsx,AuxTabla3,11,Grecia | Irlanda
+dr_EPA_2021.xlsx,AuxTabla3,12,Irlanda | Italia
+dr_EPA_2021.xlsx,AuxTabla3,13,Italia | Luxemburgo
+dr_EPA_2021.xlsx,AuxTabla3,14,Luxemburgo | Países Bajos
+dr_EPA_2021.xlsx,AuxTabla3,15,Países Bajos | Suecia
+dr_EPA_2021.xlsx,AuxTabla3,16,Portugal
+dr_EPA_2021.xlsx,AuxTabla3,17,Suecia
+dr_EPA_2021.xlsx,AuxTabla3,18,
+dr_EPA_2021.xlsx,AuxTabla3,19,125 = UE- 25 (no UE-15) | 125 = UE- 25 (no UE-15)
+dr_EPA_2021.xlsx,AuxTabla3,20,Chipre | Chipre
+dr_EPA_2021.xlsx,AuxTabla3,21,Eslovenia | Eslovenia
+dr_EPA_2021.xlsx,AuxTabla3,22,Estonia | Estonia
+dr_EPA_2021.xlsx,AuxTabla3,23,Hungría | Hungría
+dr_EPA_2021.xlsx,AuxTabla3,24,Letonia | Letonia
+dr_EPA_2021.xlsx,AuxTabla3,25,Lituania | Lituania
+dr_EPA_2021.xlsx,AuxTabla3,26,Malta | Malta
+dr_EPA_2021.xlsx,AuxTabla3,27,Polonia | Polonia
+dr_EPA_2021.xlsx,AuxTabla3,28,República Checa o Chequia | República Checa o Chequia
+dr_EPA_2021.xlsx,AuxTabla3,29,República Eslovaca o Eslovaquia | República Eslovaca o Eslovaquia
+dr_EPA_2021.xlsx,AuxTabla3,30,
+dr_EPA_2021.xlsx,AuxTabla3,31,128*** = UE- 28 (no UE-27) | 128*** = UE- 28 (no UE-27)
+dr_EPA_2021.xlsx,AuxTabla3,32,Bulgaria | Bulgaria
+dr_EPA_2021.xlsx,AuxTabla3,33,Rumanía | Rumanía
+dr_EPA_2021.xlsx,AuxTabla3,34,Croacia | Croacia
+dr_EPA_2021.xlsx,AuxTabla3,35,
+dr_EPA_2021.xlsx,AuxTabla3,36,100 = Resto de Europa | 100 = Resto de Europa
+dr_EPA_2021.xlsx,AuxTabla3,37,Albania | Albania
+dr_EPA_2021.xlsx,AuxTabla3,38,Andorra | Andorra
+dr_EPA_2021.xlsx,AuxTabla3,39,Armenia | Armenia
+dr_EPA_2021.xlsx,AuxTabla3,40,Azerbaiyan | Azerbaiyan
+dr_EPA_2021.xlsx,AuxTabla3,41,Bielorrusia | Bielorrusia
+dr_EPA_2021.xlsx,AuxTabla3,42,Bosnia-herzegovina | Bosnia-herzegovina
+dr_EPA_2021.xlsx,AuxTabla3,43,Georgia | Georgia
+dr_EPA_2021.xlsx,AuxTabla3,44,Islandia | Islandia
+dr_EPA_2021.xlsx,AuxTabla3,45,Liechtenstein | Liechtenstein
+dr_EPA_2021.xlsx,AuxTabla3,46,Macedonia | Macedonia
+dr_EPA_2021.xlsx,AuxTabla3,47,Moldavia | Moldavia
+dr_EPA_2021.xlsx,AuxTabla3,48,Mónaco | Mónaco
+dr_EPA_2021.xlsx,AuxTabla3,49,Noruega | Noruega
+dr_EPA_2021.xlsx,AuxTabla3,50,Rusia | Rusia
+dr_EPA_2021.xlsx,AuxTabla3,51,San Marino | San Marino
+dr_EPA_2021.xlsx,AuxTabla3,52,Santa Sede | Santa Sede
+dr_EPA_2021.xlsx,AuxTabla3,53,Suiza | Suiza
+dr_EPA_2021.xlsx,AuxTabla3,54,Turquía | Turquía
+dr_EPA_2021.xlsx,AuxTabla3,55,Ucrania | Ucrania
+dr_EPA_2021.xlsx,AuxTabla3,56,Kosovo1 | Kosovo1
+dr_EPA_2021.xlsx,AuxTabla3,57,Montenegro1 | Montenegro1
+dr_EPA_2021.xlsx,AuxTabla3,58,Serbia1 | Serbia1
+dr_EPA_2021.xlsx,AuxTabla3,59,Islas Feroe 2 | Islas Feroe 2
+dr_EPA_2021.xlsx,AuxTabla3,60,Isla de Man 2 | Isla de Man 2
+dr_EPA_2021.xlsx,AuxTabla3,61,Guernsey 2 | Guernsey 2
+dr_EPA_2021.xlsx,AuxTabla3,62,Jersey 2 | Jersey 2
+dr_EPA_2021.xlsx,AuxTabla3,63,Gibraltar | Gibraltar
+dr_EPA_2021.xlsx,AuxTabla3,64,Reino unido 3 | Reino unido 3
+dr_EPA_2021.xlsx,AuxTabla3,65,
+dr_EPA_2021.xlsx,AuxTabla3,66,200 = África | 200 = África
+dr_EPA_2021.xlsx,AuxTabla3,67,Argelia | Argelia
+dr_EPA_2021.xlsx,AuxTabla3,68,Cabo Verde | Cabo Verde
+dr_EPA_2021.xlsx,AuxTabla3,69,Egipto | Egipto
+dr_EPA_2021.xlsx,AuxTabla3,70,Gambia | Gambia
+dr_EPA_2021.xlsx,AuxTabla3,71,Guinea Ecuatorial | Guinea Ecuatorial
+dr_EPA_2021.xlsx,AuxTabla3,72,Libia | Libia
+dr_EPA_2021.xlsx,AuxTabla3,73,Marruecos | Marruecos
+dr_EPA_2021.xlsx,AuxTabla3,74,Senegal | Senegal
+dr_EPA_2021.xlsx,AuxTabla3,75,Sudáfrica | Sudáfrica
+dr_EPA_2021.xlsx,AuxTabla3,76,Sudán | Sudán
+dr_EPA_2021.xlsx,AuxTabla3,77,Sahara Occidental | Sahara Occidental
+dr_EPA_2021.xlsx,AuxTabla3,78,Túnez | Túnez
+dr_EPA_2021.xlsx,AuxTabla3,79,Etiopía* | Etiopía*
+dr_EPA_2021.xlsx,AuxTabla3,80,Angola1 | Angola1
+dr_EPA_2021.xlsx,AuxTabla3,81,República Democrática del Congo1 | República Democrática del Congo1
+dr_EPA_2021.xlsx,AuxTabla3,82,Camerún1 | Camerún1
+dr_EPA_2021.xlsx,AuxTabla3,83,Ghana1 | Ghana1
+dr_EPA_2021.xlsx,AuxTabla3,84,Guinea1 | Guinea1
+dr_EPA_2021.xlsx,AuxTabla3,85,Guinea-Bissau1 | Guinea-Bissau1
+dr_EPA_2021.xlsx,AuxTabla3,86,Mali1 | Mali1
+dr_EPA_2021.xlsx,AuxTabla3,87,Mauritania1 | Mauritania1
+dr_EPA_2021.xlsx,AuxTabla3,88,Nigeria1 | Nigeria1
+dr_EPA_2021.xlsx,AuxTabla3,89,Otros Países de África1 | Otros Países de África1
+dr_EPA_2021.xlsx,AuxTabla3,90,
+dr_EPA_2021.xlsx,AuxTabla3,91,300 = América del Norte | 300 = América del Norte
+dr_EPA_2021.xlsx,AuxTabla3,92,Canadá | Canadá
+dr_EPA_2021.xlsx,AuxTabla3,93,Estados Unidos de Norteamérica | Estados Unidos de Norteamérica
+dr_EPA_2021.xlsx,AuxTabla3,94,"Territ. Dep. en América del Norte (Bermuda, | Territ. Dep. en América del Norte (Bermuda,"
+dr_EPA_2021.xlsx,AuxTabla3,95,"Groenlandia, Saint Pierre, Miquelon) | Groenlandia, Saint Pierre, Miquelon)"
+dr_EPA_2021.xlsx,AuxTabla3,96,
+dr_EPA_2021.xlsx,AuxTabla3,97,310 = Centroamérica y Caribe
+dr_EPA_2021.xlsx,AuxTabla3,98,Costa Rica | (*) Estos países se identifican a partir de 2004
+dr_EPA_2021.xlsx,AuxTabla3,99,Cuba | (1) Estos países se identifican a partir de 2006
+dr_EPA_2021.xlsx,AuxTabla3,100,"El Salvador | (**) A partir del T1-2009 se añade el código 127-'Países UE-27 no UE-25' que incluye Bulgaria (110) y Rumania (139), ya que se ha terminado el periodo transitorio por el que los trabajadores de Bulgaria y Rumania, pertenecientes a la UE, tenían restricciones en el mercado de trabajo"
+dr_EPA_2021.xlsx,AuxTabla3,101,Guatemala | (2) Estos países se identifican a partir de 2011
+dr_EPA_2021.xlsx,AuxTabla3,102,"Haití | (***) A partir del T1-2014 se elimina el código 127-'Países UE-27 no UE-25' que incluía Bulgaria (110) y Rumanía (139) y se sustituye por el código 128-'Países UE-28 no UE-27' que incluye Bulgaria, Rumanía y Croacia (112) que hasta el T1-2014 estaba incluida en el código 100= Resto de Europa"
+dr_EPA_2021.xlsx,AuxTabla3,103,"Honduras | (3) Reino Unido se codifica con un código 100='Resto de Europa"" pues desde el primer trimestre de 2020, ya no forma parte de la Unión Europea tras su salida de la misma, el 31 de enero de 2020."
+dr_EPA_2021.xlsx,AuxTabla3,104,México
+dr_EPA_2021.xlsx,AuxTabla3,105,Nicaragua
+dr_EPA_2021.xlsx,AuxTabla3,106,Panamá
+dr_EPA_2021.xlsx,AuxTabla3,107,Puerto Rico
+dr_EPA_2021.xlsx,AuxTabla3,108,República Dominicana
+dr_EPA_2021.xlsx,AuxTabla3,109,Otr. Países y Territ. dep. América Central y Caribe
+dr_EPA_2021.xlsx,AuxTabla3,110,350 = Sudamérica
+dr_EPA_2021.xlsx,AuxTabla3,111,Argentina
+dr_EPA_2021.xlsx,AuxTabla3,112,Bolivia
+dr_EPA_2021.xlsx,AuxTabla3,113,Brasil
+dr_EPA_2021.xlsx,AuxTabla3,114,Chile
+dr_EPA_2021.xlsx,AuxTabla3,115,Colombia
+dr_EPA_2021.xlsx,AuxTabla3,116,Ecuador
+dr_EPA_2021.xlsx,AuxTabla3,117,Paraguay
+dr_EPA_2021.xlsx,AuxTabla3,118,Perú
+dr_EPA_2021.xlsx,AuxTabla3,119,Uruguay
+dr_EPA_2021.xlsx,AuxTabla3,120,Venezuela
+dr_EPA_2021.xlsx,AuxTabla3,121,Otros Países y Territorios dep. en Sudamérica
+dr_EPA_2021.xlsx,AuxTabla3,122,400 = Asia Oriental (Lejano Oriente)
+dr_EPA_2021.xlsx,AuxTabla3,123,"China, incluyendo Hong-kong y Macao"
+dr_EPA_2021.xlsx,AuxTabla3,124,Corea del Norte
+dr_EPA_2021.xlsx,AuxTabla3,125,Corea del Sur
+dr_EPA_2021.xlsx,AuxTabla3,126,Japón
+dr_EPA_2021.xlsx,AuxTabla3,127,Mongolia
+dr_EPA_2021.xlsx,AuxTabla3,128,Taiwan
+dr_EPA_2021.xlsx,AuxTabla3,129,410 = Asia Occidental (Oriente Próximo)
+dr_EPA_2021.xlsx,AuxTabla3,130,Arabia Saudí
+dr_EPA_2021.xlsx,AuxTabla3,131,Irak
+dr_EPA_2021.xlsx,AuxTabla3,132,Israel
+dr_EPA_2021.xlsx,AuxTabla3,133,Jordania
+dr_EPA_2021.xlsx,AuxTabla3,134,Líbano
+dr_EPA_2021.xlsx,AuxTabla3,135,Siria
+dr_EPA_2021.xlsx,AuxTabla3,136,Palestina*
+dr_EPA_2021.xlsx,AuxTabla3,137,Otr. Países y Territ. dep. en el Oriente Próximo
+dr_EPA_2021.xlsx,AuxTabla3,138,420 = Asia del Sur y Sudoeste
+dr_EPA_2021.xlsx,AuxTabla3,139,Bangladesh
+dr_EPA_2021.xlsx,AuxTabla3,140,Camboya
+dr_EPA_2021.xlsx,AuxTabla3,141,Filipinas
+dr_EPA_2021.xlsx,AuxTabla3,142,India
+dr_EPA_2021.xlsx,AuxTabla3,143,Indonesia
+dr_EPA_2021.xlsx,AuxTabla3,144,Irán
+dr_EPA_2021.xlsx,AuxTabla3,145,Laos
+dr_EPA_2021.xlsx,AuxTabla3,146,Pakistán
+dr_EPA_2021.xlsx,AuxTabla3,147,Sri Lanka
+dr_EPA_2021.xlsx,AuxTabla3,148,Tailandia
+dr_EPA_2021.xlsx,AuxTabla3,149,Vietnam
+dr_EPA_2021.xlsx,AuxTabla3,150,kazajstán*
+dr_EPA_2021.xlsx,AuxTabla3,151,kirguistán*
+dr_EPA_2021.xlsx,AuxTabla3,152,Tayikistán*
+dr_EPA_2021.xlsx,AuxTabla3,153,Turkmenistán*
+dr_EPA_2021.xlsx,AuxTabla3,154,Uzbekistán*
+dr_EPA_2021.xlsx,AuxTabla3,155,Otr. Países y Territ. dep. en Asia del Sur y Sudeste
+dr_EPA_2021.xlsx,AuxTabla3,156,500 = Oceanía
+dr_EPA_2021.xlsx,AuxTabla3,157,Australia
+dr_EPA_2021.xlsx,AuxTabla3,158,Nueva Zelanda
+dr_EPA_2021.xlsx,AuxTabla3,159,Otros Países y Territ. Dependientes en Oceanía
+dr_EPA_2021.xlsx,AuxTabla3,160,999 = Apátridas
+dr_EPA_2021.xlsx,AuxTabla3,161,
+dr_EPA_2021.xlsx,AuxTabla3,162,(*) Estos países se identifican a partir de 2004
+dr_EPA_2021.xlsx,AuxTabla3,163,(1) Estos países se identifican a partir de 2006
+dr_EPA_2021.xlsx,AuxTabla3,164,"(**) A partir del T1-2009 se añade el código 127-'Países UE-27 no UE-25' que incluye Bulgaria (110) y Rumania (139), ya que se ha terminado el periodo transitorio por el que los trabajadores de Bulgaria y Rumania, pertenecientes a la UE, tenían restricciones en el mercado de trabajo"
+dr_EPA_2021.xlsx,AuxTabla3,165,(2) Estos países se identifican a partir de 2011
+dr_EPA_2021.xlsx,AuxTabla3,166,"(***) A partir del T1-2014 se elimina el código 127-'Países UE-27 no UE-25' que incluía Bulgaria (110) y Rumanía (139) y se sustituye por el código 128-'Países UE-28 no UE-27' que incluye Bulgaria, Rumanía y Croacia (112) que hasta el T1-2014 estaba incluida en el código 100= Resto de Europa"
+dr_EPA_2021.xlsx,AuxTabla3,167,"(3) Reino Unido se codifica con un código 100='Resto de Europa"" pues desde el primer trimestre de 2020, ya no forma parte de la Unión Europea tras su salida de la misma, el 31 de enero de 2020."
+dr_EPA_2026.xlsx,Diseño,1,Variable | Diccionario de la variable | Longitud | Tipo | FormatoR | Decimales | Posición | Orden | Diccionario ubicado en la hoja… | Descripción | Observaciones
+dr_EPA_2026.xlsx,Diseño,2,"CICLO | T_CICLO | 3 | A | A3 | 1 | 1 | Tablas5 | Período de referencia
+Todas las personas / viviendas
+Valores: 194 (T1-2021), 195 (T2-2021) ...   203 (T2-2023)….
+                 
+ | Datos de control"
+dr_EPA_2026.xlsx,Diseño,3,"CCAA | TCCAA | 2 | A | A2 | 4 | 2 | Tablas2 | Comunidad autónoma
+Todas las personas / viviendas"
+dr_EPA_2026.xlsx,Diseño,4,"PROV | TPROV | 2 | A | A2 | 6 | 3 | Tablas2 | Provincia donde se ubica la vivienda
+Todas las personas / viviendas"
+dr_EPA_2026.xlsx,Diseño,5,"NVIVI | 5 | A | A5 | 8 | 4 | Número de orden del hogar
+"
+dr_EPA_2026.xlsx,Diseño,6,"NIVEL | TNIVEL | 1 | A | A1 | 13 | 5 | Tablas1 | Variable que indica el nivel del registro en el fichero
+Tipo de registro: Persona de 16  y más añosTodas las personas"
+dr_EPA_2026.xlsx,Diseño,7,"NPERS | 2 | A | A2 | 14 | 6 | Número de orden de la persona en el hogar
+Todas las personas
+01-19"
+dr_EPA_2026.xlsx,Diseño,8,"EDAD1 | T5EDAD | 2 | A | A2 | 16 | 7 | Tablas1 | Edad, grupos quinquenales de años cumplidos
+Todas las personas | Datos demográficos"
+dr_EPA_2026.xlsx,Diseño,9,"RELPP1 | TRELPP | 1 | A | A1 | 18 | 8 | Tablas1 | Relación con la persona de referencia
+Todas las personas"
+dr_EPA_2026.xlsx,Diseño,10,"SEXO1 | TSEXO | 1 | A | A1 | 19 | 9 | Tablas1 | Sexo
+Todas las personas"
+dr_EPA_2026.xlsx,Diseño,11,"NCONY | T_ORDEN | 2 | A | A2 | 20 | 10 | Tablas4 | Número de orden del cónyuge o pareja en el hogar
+Todas las personas (sólo se pregunta a aquellas personas de 16 y más años)
+01-1900 No tiene o no reside en la vivienda"
+dr_EPA_2026.xlsx,Diseño,12,"NPADRE | T_ORDEN | 2 | A | A2 | 22 | 11 | Tablas4 | Número de orden del padre en el hogar
+Todas las personas
+01-1900 No tiene o no reside en la vivienda"
+dr_EPA_2026.xlsx,Diseño,13,"NMADRE | T_ORDEN | 2 | A | A2 | 24 | 12 | Tablas4 | Número de orden de la madre en el hogar
+Todas las personas
+01-19
+00 No tiene o no reside en la vivienda"
+dr_EPA_2026.xlsx,Diseño,14,RELLMILI | 1 | A | A1 | 26 | 13 | Relleno antigua variable MILI
+dr_EPA_2026.xlsx,Diseño,15,"ECIV1 | TECIV | 1 | A | A1 | 27 | 14 | Tablas1 | Estado civil legal
+Todas las personas (sólo se pregunta a aquellas personas de 16 o más años)"
+dr_EPA_2026.xlsx,Diseño,16,"PRONA1 | TPROV | 2 | A | A2 | 28 | 15 | Tablas2 | Si es en España, indicar provincia
+Personas nacidas en España"
+dr_EPA_2026.xlsx,Diseño,17,"REGNA1 | TREGNA | 3 | A | A3 | 30 | 16 | Tablas3 | Región del país extranjero de nacimiento
+Personas nacidas en el extranjero
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2026.xlsx,Diseño,18,"NAC1 | TNACIO | 1 | A | A1 | 33 | 17 | Tablas1 | Nacionalidad
+Todas las personas"
+dr_EPA_2026.xlsx,Diseño,19,"EXREGNA1 | TREGNAP | 3 | A | A3 | 34 | 18 | Tablas3 | Región del país de la nacionalidad extranjera
+Todas las personas con nacionalidad extranjera o doble nacionalidad
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2026.xlsx,Diseño,20,"ANORE1 | N_ANORE | 2 | N | I2 | 37 | 19 | Tablas4 | Años de residencia en España
+Extranjeros o nacidos en España que han residido fuera del país por un período superior o igual a 1 año (0-99)
+0 para menos de un año en España"
+dr_EPA_2026.xlsx,Diseño,21,"NFORMA | TNFORMA | 2 | A | A2 | 39 | 20 | Tablas1 | Nivel de estudios(1)   (2)Todas las personas de 16 y más años
+CNED 2014 (01-81) CNED 2000 (11-80) | Formación y nivel de estudios"
+dr_EPA_2026.xlsx,Diseño,22,RELLB1 | 2 | A | A2 | 41 | 21 | Relleno en apartado de formación
+dr_EPA_2026.xlsx,Diseño,23,"EDADEST | N_EDEST | 3 | N | I3 | 43 | 22 | Tablas4 | Edad en la que alcanzó el máximo nivel de estudios
+Todas las personas de 16 y más años no analfabetas (7-110)
+0 - No sabe fecha en la que alcanzó el máximo nivel de estudios
+"
+dr_EPA_2026.xlsx,Diseño,24,"CURSR | TCURSR | 1 | A | A1 | 46 | 23 | Tablas1 | Ha cursado estudios reglados (enseñanza regular) durante las cuatro últimas semanas
+Todas las personas de 16 y más años"
+dr_EPA_2026.xlsx,Diseño,25,"NCURSR | TNCURSR | 2 | A | A2 | 47 | 24 | Tablas1 | Nivel de los estudios reglados que cursa (1)   (2)Todas las personas de 16 y más años que han cursado estudios reglados durante las 4 últimas semanas
+CNED 2014 (11-81) CNED 2000 (11-61)"
+dr_EPA_2026.xlsx,Diseño,26,"CURSNR | TCURSR | 1 | A | A1 | 49 | 25 | Tablas1 | Ha realizado algún curso de formación no reglada, durante las cuatro últimas semanas
+Todas las personas de 16 y más años
+CNED 2014 (91-94) CNED 2000 (21-93)"
+dr_EPA_2026.xlsx,Diseño,27,OBJFORM | TOBJNR | 1 | A | A1 | 50 | 26 | Tablas1 | Objetivo de la formación no regladaTodas las personas
+dr_EPA_2026.xlsx,Diseño,28,RELLB2 | 6 | A | A6 | 51 | 27 | Relleno en apartado de formación
+dr_EPA_2026.xlsx,Diseño,29,"TRAREM | TSINO | 1 | A | A1 | 57 | 28 | Tablas1 | Si ha realizado un trabajo remunerado durante la semana pasada
+Todas las personas de 16 a 89 años | Trabajó en la semana de referencia"
+dr_EPA_2026.xlsx,Diseño,30,"AYUDFA | TSINO | 1 | A | A1 | 58 | 29 | Tablas1 | Ayuda familiar. Realización de trabajo no remunerado empresa familiar
+Todas las personas que no trabajaron en la semana de referencia a cambio de remuneración"
+dr_EPA_2026.xlsx,Diseño,31,"AUSENT | TSINO | 1 | A | A1 | 59 | 30 | Tablas1 | A pesar de no haber trabajado ¿tenía un empleo o negocio?
+Todas las personas que no trabajaron en la semana de referencia a cambio de remuneración"
+dr_EPA_2026.xlsx,Diseño,32,"RZNOTB | TRZNOTB | 2 | A | A2 | 60 | 31 | Tablas1 | Razones por las que no trabajó, teniendo empleo
+Todas las personas que no trabajaron la semana de referencia, ni ayudan en el negocio familiar, y tenían empleo"
+dr_EPA_2026.xlsx,Diseño,33,"VINCUL | TVINCUL | 2 | A | A2 | 62 | 32 | Tablas1 | Vinculación con el empleo de personas con empleo ausentes en la semana de referencia
+Personas que tenían un empleo del cual estaban ausentes la semana de referencia"
+dr_EPA_2026.xlsx,Diseño,34,"NUEVEM | TNUEVEM | 1 | A | A1 | 64 | 33 | Tablas1 | Ha encontrado empleo 
+Personas de 16 a 74 años sin empleo y que no han buscado uno en las cuatro últimas semanas"
+dr_EPA_2026.xlsx,Diseño,35,"OCUP1 | TOCUP | 1 | A | A1 | 65 | 34 | Tablas1 | Ocupación principal
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+Categorías generadas a partir de T1-2011 con códigos según CNO 2011 | Datos del empleo principal"
+dr_EPA_2026.xlsx,Diseño,36,"ACT1 | TACTIV | 1 | A | A1 | 66 | 35 | Tablas1 | Actividad principal
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+A partir T1-2026, categorías generadas con códigos según CNAE 2025. De T1-2008 hasta T4-2025 los códigos obtenidos siguen la CNAE 2009. Hasta T4-2007 se obtuvieron con la clasificación de actividades CNAE-93 rev-1."
+dr_EPA_2026.xlsx,Diseño,37,SITU | TSITUAC | 2 | A | A2 | 67 | 36 | Tablas1 | ¿Cuál es su situación profesional (actividad principal)? Todas las personas que trabajaron o tenían empleo la semana de referencia
+dr_EPA_2026.xlsx,Diseño,38,"SP | TADMTB | 1 | A | A1 | 69 | 37 | Tablas1 | Tipo de administración en la que trabaja
+Todos los asalariados del sector público"
+dr_EPA_2026.xlsx,Diseño,39,"DUCON1 | T1DUCON | 1 | A | A1 | 70 | 38 | Tablas1 | Tiene contrato indefinido o temporal
+Todos los asalariados"
+dr_EPA_2026.xlsx,Diseño,40,"DUCON2 | T2DUCON | 1 | A | A1 | 71 | 39 | Tablas1 | Relación laboral de carácter permanente o discontinuo
+Asalariados con contrato o relación laboral indefinidos"
+dr_EPA_2026.xlsx,Diseño,41,"DUCON3 | T3DUCON | 2 | A | A2 | 72 | 40 | Tablas1 | Tipo de contrato o relación laboral de carácter temporal
+Asalariados con contrato temporal"
+dr_EPA_2026.xlsx,Diseño,42,"TCONTM | T_CONTM | 2 | A | A2 | 74 | 41 | Tablas4 | Duración en meses del contrato o relación laboral temporal  (si ha trabajado un mes o más)
+Asalariados con contrato temporal cuya duración mínima de contrato es un mes
+Valores: 00-96"
+dr_EPA_2026.xlsx,Diseño,43,"TCONTD | T_CONTD | 2 | A | A2 | 76 | 42 | Tablas4 | Duración en días del contrato o relación laboral temporal (si ha trabajado menos de un mes)
+Asalariados con contrato temporal cuya duración máxima de contrato es menos de un mes
+Valores: 00-30; 99"
+dr_EPA_2026.xlsx,Diseño,44,"DREN | 3 | N | I3 | 78 | 43 | Tiempo en meses desde la renovación del contrato
+Asalariados
+Valores: 0-720"
+dr_EPA_2026.xlsx,Diseño,45,"DCOM | 3 | N | I3 | 81 | 44 | Tiempo en meses en la empresa
+Ocupados
+Valores: 0-720"
+dr_EPA_2026.xlsx,Diseño,46,"PROEST | TPROV | 2 | A | A2 | 84 | 45 | Tablas2 | Provincia donde está ubicado
+Todas las personas que trabajaron o tenían empleo la semana de referencia"
+dr_EPA_2026.xlsx,Diseño,47,"REGEST | TREGEST | 3 | A | A3 | 86 | 46 | Tablas3 | Región o País donde está ubicado
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2026.xlsx,Diseño,48,"PARCO1 | T1PARCO | 1 | A | A1 | 89 | 47 | Tablas1 | Tipo de jornada, completa o parcial
+Todas las personas que trabajaron o tenían empleo la semana de referencia"
+dr_EPA_2026.xlsx,Diseño,49,"PARCO2 | T2PARCO | 2 | A | A2 | 90 | 48 | Tablas1 | Motivo de tener jornada parcial
+Ocupados a tiempo parcial"
+dr_EPA_2026.xlsx,Diseño,50,"HORASP | THORAS | 4 | A | A4 | 92 | 49 | Tablas4 | Horas pactadas en contrato o acuerdo de trabajo (hhmm)
+Todos los asalariados
+Valores: hhmm
+01:00-98:00    Horario conocido; valores válidos hh:mm
+99:99             No sabe (incluye ""No tiene horas pactadas por contratro"")
+ | *Se han actualizado las descripciones, hasta T2 de 2024 eran:
+01:00-98:00  Horario conocido; valores válidos hh:mm
+99:00        Las horas varían de una semana a otra / no puede dar una estimación
+99:99        No sabe horas:minutos"
+dr_EPA_2026.xlsx,Diseño,51,"HORASH | T2HORAS | 4 | A | A4 | 96 | 50 | Tablas4 | Número de horas semanales que dedica a este trabajo habitualmente (hhmm)
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+Valores: hhmm
+01:00-98:00     Horario conocido; valores válidos hh:mm
+99:00              Las horas varían de una semana a otra / no puede dar una estimación
+99:99              No sabe horas:minutos | *Se ha añadido nuevo diccionario, las descripciones ahora son diferentes a las de HORASP"
+dr_EPA_2026.xlsx,Diseño,52,"HORASE | THORASE | 4 | A | A4 | 100 | 51 | Tablas4 | Número de horas efectivas que dedicó a este trab. la semana pasada (hhmm)
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+Valores: hhmm
+00:00-98:00    Horario conocido; valores válidos hh:mm
+99:99             No sabe horas:minutos
+98:59             Mas de 98:00 horas en la semana de referencia (código específico pandemia COVID19)
+Las horas de aquellos que estuvieron recibiendo formación relacionada con el empleo fuera del establecimiento en la semana de referencia se consideran horas efectivas trabajadas"
+dr_EPA_2026.xlsx,Diseño,53,"EXTRA | TSINO | 1 | A | A1 | 104 | 52 | Tablas1 | Realizó horas extraordinarias en la semana de referencia
+Asalariados"
+dr_EPA_2026.xlsx,Diseño,54,"EXTPAG | TEXTRAO | 4 | A | A4 | 105 | 53 | Tablas4 | Número de horas extraordinarias pagadas realizadas en la semana de referencia (hhmm)
+Asalariados (y asimilados) que han realizado horas extraValores: hhmm
+00:00-98:00     00= No hizo horas extra pagadas durante la semana de referencia
+9999               99= No puede precisar / no sabe
+"
+dr_EPA_2026.xlsx,Diseño,55,"EXTNPG | TEXTRAO | 4 | A | A4 | 109 | 54 | Tablas4 | Número de horas extraordinarias NO pagadas realizadas en la semana de referencia (hhmm)
+Asalariados (y asimilados) que han realizado horas extraValores: hhmm
+00:00-98:00     00= No hizo horas extra pagadas durante la semana de referencia
+9999               99= No puede precisar / no sabe"
+dr_EPA_2026.xlsx,Diseño,56,RELLB3 | 2 | A | A2 | 113 | 55 | Relleno apartado caracteristicas empleo
+dr_EPA_2026.xlsx,Diseño,57,"TRAPLU | TSINO | 1 | A | A1 | 115 | 56 | Tablas1 | Si tiene otro u otros empleos
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia | Segundo empleo"
+dr_EPA_2026.xlsx,Diseño,58,"OCUPLU1 | TOCUP | 1 | A | A1 | 116 | 57 | Tablas1 | ¿Cuál es la ocupación u oficio en el segundo empleo?
+Todas las personas de 16 y más años que trabajaron o tenían segundo empleo la semana de referencia"
+dr_EPA_2026.xlsx,Diseño,59,"ACTPLU1 | TACTIV | 1 | A | A1 | 117 | 58 | Tablas1 | Actividad del establecimiento donde tiene el segundo empleo
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+A partir T1-2026, categorías generadas con códigos según CNAE 2025. De T1-2008 hasta T4-2025 los códigos obtenidos siguen la CNAE 2009. Hasta T4-2007 se obtuvieron con la clasificación de actividades CNAE-93 rev-1."
+dr_EPA_2026.xlsx,Diseño,60,"SITPLU | TSITUAC | 2 | A | A2 | 118 | 59 | Tablas1 | Situación profesional en el segundo empleo
+Todas las personas de 16 y más años que tenían segundo empleo la semana de referencia"
+dr_EPA_2026.xlsx,Diseño,61,"HOREPLU | THORASE | 4 | A | A4 | 120 | 60 | Tablas4 | Nº de horas efectivas trabaj. la semana pasada en el segundo empleo (hhmm)
+Todas las personas de 16 y más años que tenían segundo empleo la semana de referencia
+Valores: hhmm
+'00:00-98:00    Horario conocido; valores válidos hh:mm
+99:99              No sabe horas:minutos
+ | * Desde el T3 de 2023 se cambia el nombre de la variable HORPLU por HOREPLU para que esté acorde con la denominación dada en el resto de ficheros de la EPA, a raíz de los cambios de 2021"
+dr_EPA_2026.xlsx,Diseño,62,"MASHOR | TMASHOR | 1 | A | A1 | 124 | 61 | Tablas1 | Si desearía trabajar más o menos horas
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia | Deseo de trabajar mas horas"
+dr_EPA_2026.xlsx,Diseño,63,"DISMAS | TSINO | 1 | A | A1 | 125 | 62 | Tablas1 | Estaría disponible para trabajar más horas antes de 15 días desde la semana de referencia
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia y desean trabajar más horas"
+dr_EPA_2026.xlsx,Diseño,64,"RZNDISH | TRZNDSH | 2 | A | A2 | 126 | 63 | Tablas1 | Razones por las que no podría trabajar más horas
+Personas de 16 y más años que trabajaron o tenían empleo la semana de referencia, que desean trabajar más horas pero no están disponibles para hacerlo antes de 15 días"
+dr_EPA_2026.xlsx,Diseño,65,"HORDES | T_2HORA | 2 | A | A2 | 128 | 64 | Tablas4 | Número de horas que desearía trabajar habitualmente
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia y desean trabajar más o menos horas
+Valores: hh
+hh=01-98    De 1 a 98 horas
+hh=99         No puede precisar / no sabe
+"
+dr_EPA_2026.xlsx,Diseño,66,"BUSOTR | TSINO | 1 | A | A1 | 130 | 65 | Tablas1 | Busca otro empleo o está haciendo gestiones para establecerse por su cuenta
+Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia"
+dr_EPA_2026.xlsx,Diseño,67,"BUSCA | TSINO | 1 | A | A1 | 131 | 66 | Tablas1 | Ha buscado empleo en las últimas cuatro semanas
+Personas de 16 a 74 años sin empleo que no han trabajado en la semana de referencia | Búsqueda de empleo"
+dr_EPA_2026.xlsx,Diseño,68,"DESEA | TSINO | 1 | A | A1 | 132 | 67 | Tablas1 | Desearía tener un empleo
+Personas de 16 a 74 años sin empleo que no han trabajado en la semana de referencia, no han encontrado empleo y no han buscado empleo en las últimas 4 semanas"
+dr_EPA_2026.xlsx,Diseño,69,"FOBACT | TFOBACT | 1 | A | A1 | 133 | 68 | Tablas1 | Búsqueda de empleo activa. 
+Métodos activos de encontrar empleo"
+dr_EPA_2026.xlsx,Diseño,70,"NBUSCA | TNBUSCA | 2 | A | A2 | 134 | 69 | Tablas1 | Razones por las que no busca empleo
+Personas sin empleo que no buscan empleo (ni han encontrado uno al que aún no se han incorporado)ni desean tener uno"
+dr_EPA_2026.xlsx,Diseño,71,"RZULT | TRZULT | 2 | A | A2 | 136 | 70 | Tablas1 | Razón principal por la que dejó el último empleo
+Personas de 16 a 89 años que no tienen empleo ni trabajaron la semana de referencia, pero trabajaron antes y que dejaron su empleo hace 8 años o menos"
+dr_EPA_2026.xlsx,Diseño,72,"ITBU | TITBU | 2 | A | A2 | 138 | 71 | Tablas1 | Tiempo que lleva buscando empleo / estuvo buscando empleo
+Personas que buscan empleo o que han encontrado un empleo al que se van a incorporar"
+dr_EPA_2026.xlsx,Diseño,73,"DISP | TSINO | 1 | A | A1 | 140 | 72 | Tablas1 | Disponible para trabajar en un plazo de 15 días
+Todas las personas de 16 a 74 años sin empleo que lo buscan o no lo buscan pero lo han encontrado (incluye quienes han empezado a trabajar con posterioridad a la semana de referencia y antes de la entrevista)"
+dr_EPA_2026.xlsx,Diseño,74,"RZNDIS | TRZNDIS | 1 | A | A1 | 141 | 73 | Tablas1 | Razones para no poder empezar a trabajar en un plazo de 15 días
+Todas las personas de 16 a 74 años sin empleo que lo buscan o que no lo buscan pero lo han encontrado y que no estarían disponibles para incorporarse en dicho plazo"
+dr_EPA_2026.xlsx,Diseño,75,"EMPANT | TSINO | 1 | A | A1 | 142 | 74 | Tablas1 | Si ha realizado antes algún trabajo
+Todas las personas de 16 a 89 años que no trabajaron la semana de referencia y no tienen empleo | Experiencia profesional"
+dr_EPA_2026.xlsx,Diseño,76,"DTANT | 3 | N | I3 | 143 | 75 | Número de meses transcurridos desde que dejó su último empleo
+No ocupados de 16 a 89 años que trabajaron antes
+Valores: 0-924"
+dr_EPA_2026.xlsx,Diseño,77,"OCUPA | TOCUP | 1 | A | A1 | 146 | 76 | Tablas1 | Ocupación u oficio que desempeñaba en su último empleo, si hace menos de un año que lo dejó (*)Personas de 16 a 89 años que no tienen empleo ni trabajaron la semana de referencia, pero trabajaron antes y que dejaron su empleo hace 1 año o menos
+Si dejaron su empleo hace más de un año es una variable anual"
+dr_EPA_2026.xlsx,Diseño,78,"ACTA | TACTIV | 1 | A | A1 | 147 | 77 | Tablas1 | Actividad del establecimiento  donde trabajaba, si hace menos de un año que lo dejó (*)
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+A partir T1-2026, categorías generadas con códigos según CNAE 2025. De T1-2008 hasta T4-2025 los códigos obtenidos siguen la CNAE 2009. Hasta T4-2007 se obtuvieron con la clasificación de actividades CNAE-93 rev-1."
+dr_EPA_2026.xlsx,Diseño,79,"SITUA | TSITUAC | 2 | A | A2 | 148 | 78 | Tablas1 | Situación profesional que tenía en su anterior trabajo, si hace menos de un año que lo dejó (*)Personas de 16 a 89 años que no tienen empleo ni trabajaron la semana de referencia, pero trabajaron antes y que dejaron su empleo hace 1 año o menosSi dejaron su empleo hace más de un año es una variable anual"
+dr_EPA_2026.xlsx,Diseño,80,"OFEMP | TOFEMP | 1 | A | A1 | 150 | 79 | Tablas1 | Situación el domingo pasado, en relación con las of. Empleo de la admon.
+Todas las personas de 16 a 74 años | Inscripción en la oficina de empleo pública"
+dr_EPA_2026.xlsx,Diseño,81,"SIDI1 | TSID | 2 | A | A2 | 151 | 80 | Tablas1 | Situación inactividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años | Situaciones diversas"
+dr_EPA_2026.xlsx,Diseño,82,"SIDI2 | TSID | 2 | A | A2 | 153 | 81 | Tablas1 | Situación inactividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años"
+dr_EPA_2026.xlsx,Diseño,83,"SIDI3 | TSID | 2 | A | A2 | 155 | 82 | Tablas1 | Situación inactividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años"
+dr_EPA_2026.xlsx,Diseño,84,"SIDAC1 | TSIDAC | 1 | A | A1 | 157 | 83 | Tablas1 | Situación de actividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años"
+dr_EPA_2026.xlsx,Diseño,85,"SIDAC2 | TSIDAC | 1 | A | A1 | 158 | 84 | Tablas1 | Situación de actividad autopercibida en la que estaba la semana pasada
+Todas las personas de 16 y más años"
+dr_EPA_2026.xlsx,Diseño,86,"DAUSVAC | N_2DIAS | 2 | N | F2.1 | 1 | 159 | 85 | Tablas4 | Dias de ausencia por vacaciones, días festivos, horario flexible o similar 
+Todas las personas de 16 y más años con empleo que informan de ausencia por vacaciones, días festivos, horario flexible o similar
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia | Días de ausencia"
+dr_EPA_2026.xlsx,Diseño,87,"DAUSENF | N_2DIAS | 2 | N | F2.1 | 1 | 161 | 86 | Tablas4 | Días de ausencia por enfermedad
+Todas las personas de 16 y más años con empleo que informan de ausencia por enfermedad
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia"
+dr_EPA_2026.xlsx,Diseño,88,"DAUSOTR | N_2DIAS | 2 | N | F2.1 | 1 | 163 | 87 | Tablas4 | Días de ausencia por otras razones
+Todas las personas de 16 y más años con empleo que informan de ausencia por otras razones distintas de vacaciones, festivos, horario flexible o similar o enfermedad
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia"
+dr_EPA_2026.xlsx,Diseño,89,"TRAANT | TSINONS | 1 | A | A1 | 165 | 88 | Tablas1 | Si trabajó en algún momento el año pasado
+Todas las personas de 16 y más años, sólo en el primer trimestre 
+ | Si trabajó el año pasado"
+dr_EPA_2026.xlsx,Diseño,90,"AOI | TAOI | 2 | A | A2 | 166 | 89 | Tablas1 | Clasificación de los entrevistados por relación con la actividad económica según criterios OIT
+Todas las personas de 16 y más años | Variables derivadas"
+dr_EPA_2026.xlsx,Diseño,91,RELLB4 | 2 | A | A2 | 168 | 90 | Relleno variables derivadas
+dr_EPA_2026.xlsx,Diseño,92,"FACTOREL | 7 | N | F7.2 | 2 | 170 | 91 | Factor de elevación 
+Todos los registrosValores: XXXXX.XX                                                                                            Para reproducir los datos publicados en INEbase (presentados en miles de personas) hay que dividir por mil"
+dr_EPA_2026.xlsx,Diseño,93,"ACT09 | T09ACTI | 1 | A | A1 | 177 | 92 | Tablas1 | Actividad principal
+Todas las personas que trabajaron o tenían empleo la semana de referencia
+Disponible los cuatro trimestres de  2026, códigos según CNAE 2009. | Variables actividad según CNAE 2009"
+dr_EPA_2026.xlsx,Diseño,94,"ACTPLU09 | T09ACTI | 1 | A | A1 | 178 | 93 | Tablas1 | Actividad del establecimiento donde tiene el segundo empleo
+Todas las personas de 16 y más años que tenían segundo empleo la semana de referenciaDisponible los cuatro trimestres de  2026, códigos según CNAE 2009."
+dr_EPA_2026.xlsx,Diseño,95,"ACTA09 | T09ACTI | 1 | A | A1 | 179 | 94 | Tablas1 | Actividad del establecimiento  donde trabajaba, si hace menos de un año que lo dejó (*)Personas de 16 a 89 años que no tienen empleo ni trabajaron la semana de referencia, pero trabajaron antes y que dejaron su empleo hace 1 año o menos
+Si dejaron su empleo hace más de un año es una variable anual.
+Disponible los cuatro trimestres de  2026, códigos según CNAE 2009."
+dr_EPA_2026.xlsx,Diseño,96,*** TOTAL *** | 179
+dr_EPA_2026.xlsx,Diseño,97,
+dr_EPA_2026.xlsx,Diseño,98,
+dr_EPA_2026.xlsx,Diseño,99,"* Las variables OCUPA, ACTA, SITUA, ACTA09 se ofrecen sólo si hace a lo sumo un año que dejaron el empleo."
+dr_EPA_2026.xlsx,Diseño,100,"(1) A partir del primer trimestre de 2014, en las posiciones habituales de las variables de estudios las categorías se han obtenido con la nueva clasificación de estudios CNED 2014. Se ha tratado de buscar la continuidad de las agrupaciones con la antigua CNED 2000, utilizada hasta el T4-2012 pero la correspondencia de ambas clasificaciones no es perfecta. Para más información sobre las diferencias véase Anexo Códigos CNED 2014 y 2000)"
+dr_EPA_2026.xlsx,Diseño,101,(2) Nuevo código 38 en NFORMA y NCURSR. El de estudios en curso (NCURSR) se añade como válido a partir del segundo trimestre de 2015 y el de formación alcanzado (NFORMA) a partir del segundo trimestre de 2016
+dr_EPA_2026.xlsx,DiseñoN2,1,Variable | Diccionario de la variable | Longitud | Tipo | FormatoR | Decimales | Posición | Orden | Diccionario ubicado en la hoja… | Descripción | Observaciones
+dr_EPA_2026.xlsx,DiseñoN2,2,"CICLO | T_CICLO | 3 | A | A3 | 1 | 1 | Tablas5 | Período de referencia
+Todas las personas / viviendas
+Valores: 194 (T1-2021), 195 (T2-2021) ...   203 (T2-2023)….
+                 
+ | Datos de control"
+dr_EPA_2026.xlsx,DiseñoN2,3,"CCAA | TCCAA | 2 | A | A2 | 4 | 2 | Tablas2 | Comunidad autónoma
+Todas las personas / viviendas"
+dr_EPA_2026.xlsx,DiseñoN2,4,"PROV | TPROV | 2 | A | A2 | 6 | 3 | Tablas2 | Provincia donde se ubica la vivienda
+Todas las personas"
+dr_EPA_2026.xlsx,DiseñoN2,5,"NVIVI | 5 | A | A5 | 8 | 4 | Número de orden del hogar
+"
+dr_EPA_2026.xlsx,DiseñoN2,6,"NIVEL | TNIVEL | 1 | A | A1 | 13 | 5 | Tablas1 | Variable que indica el nivel del registro en el fichero
+Tipo de registro: Persona menor de 16 añosTodas las personas"
+dr_EPA_2026.xlsx,DiseñoN2,7,"NPERS | 2 | A | A2 | 14 | 6 | Número de orden de la persona en el hogar
+Todas las personas
+01-19"
+dr_EPA_2026.xlsx,DiseñoN2,8,"EDAD2 | T5EDAD | 2 | A | A2 | 16 | 7 | Tablas1 | Edad, grupos quinquenales de años cumplidos
+Todas las personas | Datos demográficos"
+dr_EPA_2026.xlsx,DiseñoN2,9,"RELPP2 | TRELPP | 1 | A | A1 | 18 | 8 | Tablas1 | Relación con la persona de referencia
+Todas las personas"
+dr_EPA_2026.xlsx,DiseñoN2,10,"SEXO2 | TSEXO | 1 | A | A1 | 19 | 9 | Tablas1 | Sexo
+Todas las personas"
+dr_EPA_2026.xlsx,DiseñoN2,11,"NCONY | T_ORDEN | 2 | A | A2 | 20 | 10 | Tablas4 | Número de orden del cónyuge o pareja en el hogar
+Personas de 12 a 15 años que han sido seleccionadas como cónyuges de una persona de 16 y más años.
+01-1900 No tiene o no reside en la vivienda"
+dr_EPA_2026.xlsx,DiseñoN2,12,"NPADRE | T_ORDEN | 2 | A | A2 | 22 | 11 | Tablas4 | Número de orden del padre en el hogar
+Todas las personas
+01-1900 No tiene o no reside en la vivienda"
+dr_EPA_2026.xlsx,DiseñoN2,13,"NMADRE | T_ORDEN | 2 | A | A2 | 24 | 12 | Tablas4 | Número de orden de la madre en el hogar
+Todas las personas
+01-19
+00 No tiene o no reside en la vivienda"
+dr_EPA_2026.xlsx,DiseñoN2,14,RELLB1 | 2 | A | A2 | 26 | 13 | Relleno (blancos)
+dr_EPA_2026.xlsx,DiseñoN2,15,"PRONA2 | TPROV | 2 | A | A2 | 28 | 14 | Tablas2 | Si es en España, indicar provincia
+Personas nacidas en España"
+dr_EPA_2026.xlsx,DiseñoN2,16,"REGNA2 | TREGNA | 3 | A | A3 | 30 | 15 | Tablas3 | Región del país extranjero de nacimiento
+Personas nacidas en el extranjero
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2026.xlsx,DiseñoN2,17,"NAC2 | TNACIO | 1 | A | A1 | 33 | 16 | Tablas1 | Nacionalidad
+Todas las personas"
+dr_EPA_2026.xlsx,DiseñoN2,18,"EXREGNA2 | TREGNAP | 3 | A | A3 | 34 | 17 | Tablas3 | Región del país de la nacionalidad extranjera
+Todas las personas con nacionalidad extranjera o doble nacionalidad
+ | Ver hoja AuxTabla3 (incluyendo las notas a pie de tablas) para información sobre la variación en la composición de los agregados geográficos"
+dr_EPA_2026.xlsx,DiseñoN2,19,"ANORE2 | N_ANORE | 2 | A | A2 | 37 | 18 | Tablas4 | Años de residencia en España
+Extranjeros o nacidos en España que han residido fuera del país por un período superior o igual a 1 año  (0-99)
+0 para menos de un año en España"
+dr_EPA_2026.xlsx,DiseñoN2,20,RELLB2 | 126 | A | A126 | 39 | 19 | Relleno (blancos)
+dr_EPA_2026.xlsx,DiseñoN2,21,RELLB3 | 1 | A | A1 | 165 | 20 | Relleno (blanco)
+dr_EPA_2026.xlsx,DiseñoN2,22,RELL_DER | 4 | A | A4 | 166 | 21 | Relleno variables derivadas
+dr_EPA_2026.xlsx,DiseñoN2,23,"FACTOREL | 7 | N | F7.2 | 2 | 170 | 22 | Factor de elevación 
+Todos los registrosValores: XXXXX.XX                                                                                            Para reproducir los datos publicados en INEbase (presentados en miles de personas) hay que dividir por mil | Variable derivada"
+dr_EPA_2026.xlsx,DiseñoN2,24,RELL-ACT | 3 | A | A1 | 177 | 23 | Relleno variables actividad
+dr_EPA_2026.xlsx,DiseñoN2,25,TOTAL | 179
+dr_EPA_2026.xlsx,Tablas1,1,TNIVEL | NIVEL
+dr_EPA_2026.xlsx,Tablas1,2,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,3,1 | Persona de 16 o más años
+dr_EPA_2026.xlsx,Tablas1,4,2 | Menor de 16 años
+dr_EPA_2026.xlsx,Tablas1,5,
+dr_EPA_2026.xlsx,Tablas1,6,T5EDAD | EDAD1
+dr_EPA_2026.xlsx,Tablas1,7,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,8,00 | 0 a 4 años
+dr_EPA_2026.xlsx,Tablas1,9,05 | 5 a 9 años
+dr_EPA_2026.xlsx,Tablas1,10,10 | 10 a 15 años
+dr_EPA_2026.xlsx,Tablas1,11,16 | 16 a 19 años
+dr_EPA_2026.xlsx,Tablas1,12,20 | 20 a 24 años
+dr_EPA_2026.xlsx,Tablas1,13,25 | 25 a 29 años
+dr_EPA_2026.xlsx,Tablas1,14,30 | 30 a 34 años
+dr_EPA_2026.xlsx,Tablas1,15,35 | 35 a 39 años
+dr_EPA_2026.xlsx,Tablas1,16,40 | 40 a 44 años
+dr_EPA_2026.xlsx,Tablas1,17,45 | 45 a 49 años
+dr_EPA_2026.xlsx,Tablas1,18,50 | 50 a 54 años
+dr_EPA_2026.xlsx,Tablas1,19,55 | 55 a 59 años
+dr_EPA_2026.xlsx,Tablas1,20,60 | 60 a 64 años
+dr_EPA_2026.xlsx,Tablas1,21,65 | 65 o más años
+dr_EPA_2026.xlsx,Tablas1,22,
+dr_EPA_2026.xlsx,Tablas1,23,TRELPP | RELPP1
+dr_EPA_2026.xlsx,Tablas1,24,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,25,1 | Persona de referencia (p.r.)
+dr_EPA_2026.xlsx,Tablas1,26,2 | Cónyuge o pareja de la p.r.
+dr_EPA_2026.xlsx,Tablas1,27,"3 | Hijo/a, hijastro/a (de la p.r o pareja del mismo)"
+dr_EPA_2026.xlsx,Tablas1,28,"4 | Yerno , nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a)"
+dr_EPA_2026.xlsx,Tablas1,29,"5 | Nieto/a, nieto/a de la p.r. o de su pareja (incluye nietastros/as e ambos)"
+dr_EPA_2026.xlsx,Tablas1,30,"6 | Padre, madre, suegro/a de la p.r o pareja de los mismos (padrastro, madrastra)"
+dr_EPA_2026.xlsx,Tablas1,31,7 | Otro pariente de la p.r (o pareja del mismo)
+dr_EPA_2026.xlsx,Tablas1,32,8 | Persona del servicio doméstico
+dr_EPA_2026.xlsx,Tablas1,33,9 | Sin parentesco con la p.r.
+dr_EPA_2026.xlsx,Tablas1,34,
+dr_EPA_2026.xlsx,Tablas1,35,TSEXO | SEXO1
+dr_EPA_2026.xlsx,Tablas1,36,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,37,1 | Hombre
+dr_EPA_2026.xlsx,Tablas1,38,6 | Mujer
+dr_EPA_2026.xlsx,Tablas1,39,
+dr_EPA_2026.xlsx,Tablas1,40,TECIV | ECIV1
+dr_EPA_2026.xlsx,Tablas1,41,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,42,1 | Soltero
+dr_EPA_2026.xlsx,Tablas1,43,2 | Casado
+dr_EPA_2026.xlsx,Tablas1,44,3 | Viudo
+dr_EPA_2026.xlsx,Tablas1,45,4 | Separado o divorciado
+dr_EPA_2026.xlsx,Tablas1,46,
+dr_EPA_2026.xlsx,Tablas1,47,TNACIO | NAC1
+dr_EPA_2026.xlsx,Tablas1,48,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,49,1 | Española
+dr_EPA_2026.xlsx,Tablas1,50,2 | Española y doble nacionalidad
+dr_EPA_2026.xlsx,Tablas1,51,3 | Extranjera
+dr_EPA_2026.xlsx,Tablas1,52,
+dr_EPA_2026.xlsx,Tablas1,53,TNFORMA | NFORMA
+dr_EPA_2026.xlsx,Tablas1,54,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,55,"AN | Analfabetos (código 01 en CNED-2014), (código 80 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,56,"P1 | Educación primaria incompleta (código 02 en CNED-2014), (código 11 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,57,"P2 | Educación primaria (código 10 en CNED-2014), (código 12 en CNED 2000)"
+dr_EPA_2026.xlsx,Tablas1,58,"S1 | Primera etapa de educación secundaria (códigos 21-24 en CNED-2014), (códigos 21-23, 31, 36* en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,59,"SG | Segunda etapa de educación secundaria. Orientación general (código 32 en CNED-2014), (código 32 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,60,"SP | Segunda etapa de educación secundaria. Orientación profesional (incluye educación postsecundaria no superior) (códigos 33-35, 38**, 41 en CNED-2014), (códigos 33, 34, 41 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,61,"SU | Educación superior (códigos 51, 52, 61-63, 71-75, 81 en CNED-2014), (códigos 50-56, 59, 61 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,62,
+dr_EPA_2026.xlsx,Tablas1,63,TCURSR | CURSR *** (1 veces más)
+dr_EPA_2026.xlsx,Tablas1,64,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,65,1 | Sí
+dr_EPA_2026.xlsx,Tablas1,66,2 | Estudiante en vacaciones
+dr_EPA_2026.xlsx,Tablas1,67,3 | No
+dr_EPA_2026.xlsx,Tablas1,68,
+dr_EPA_2026.xlsx,Tablas1,69,TNCURSR | NCURSR
+dr_EPA_2026.xlsx,Tablas1,70,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,71,"PR | Educación primaria (códigos 11-13 en CNED-2014), (códigos 11-13 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,72,"S1 | Primera etapa de educación secundaria (códigos 21-23 en CNED-2014), (códigos 22, 23, 36** en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,73,"SG | Segunda etapa de educación secundaria. Orientación general (códigos 31, 32 en CNED-2014), (código 32 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,74,"SP | Segunda etapa de educación secundaria. Orientación profesional (incluye educación postsecundaria no superior (códigos 33-35*, 36-37, 38***, 41 en CNED-2014), (códigos 33, 34 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,75,"SU | Educación superior (códigos 51, 52, 61-63, 71-75, 81 en CNED-2014), (códigos 50-52, 54-56, 59, 61 en CNED-2000)"
+dr_EPA_2026.xlsx,Tablas1,76,
+dr_EPA_2026.xlsx,Tablas1,77,TOBJNR | OBJFORM
+dr_EPA_2026.xlsx,Tablas1,78,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,79,1 | Proporcionar formación relacionada con la ocupación actual
+dr_EPA_2026.xlsx,Tablas1,80,2 | Proporcionar formación relacionada con un posible empleo futuro
+dr_EPA_2026.xlsx,Tablas1,81,3 | Proporcionar formación no relacionada con el trabajo (interés personal u otros motivos)
+dr_EPA_2026.xlsx,Tablas1,82,
+dr_EPA_2026.xlsx,Tablas1,83,TSINO | TRAREM *** (10 veces más)
+dr_EPA_2026.xlsx,Tablas1,84,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,85,1 | Sí
+dr_EPA_2026.xlsx,Tablas1,86,6 | No
+dr_EPA_2026.xlsx,Tablas1,87,
+dr_EPA_2026.xlsx,Tablas1,88,TSINONS | TRAANT
+dr_EPA_2026.xlsx,Tablas1,89,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,90,1 | Sí
+dr_EPA_2026.xlsx,Tablas1,91,6 | No
+dr_EPA_2026.xlsx,Tablas1,92,0 | No sabe
+dr_EPA_2026.xlsx,Tablas1,93,
+dr_EPA_2026.xlsx,Tablas1,94,TRZNOTB | RZNOTB
+dr_EPA_2026.xlsx,Tablas1,95,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,96,01 | Vacaciones o dias de permiso
+dr_EPA_2026.xlsx,Tablas1,97,02 | Permiso por nacimiento de un hijo
+dr_EPA_2026.xlsx,Tablas1,98,03 | Excedencia por nacimiento de un hijo
+dr_EPA_2026.xlsx,Tablas1,99,"04 | Enfermedad, accidente o incapacidad temporal del encuestado"
+dr_EPA_2026.xlsx,Tablas1,100,"05 | Jornada de verano, horario variable, flexible o similar"
+dr_EPA_2026.xlsx,Tablas1,101,06 | Actividades de representación sindical
+dr_EPA_2026.xlsx,Tablas1,102,07 | Nuevo empleo en el que aún no había empezado a trabajar
+dr_EPA_2026.xlsx,Tablas1,103,08 | Fijo discontinuo o trabajador estacional en la época de menor actividad
+dr_EPA_2026.xlsx,Tablas1,104,09 | Mal tiempo
+dr_EPA_2026.xlsx,Tablas1,105,10 | Paro parcial por razones técnicas o económicas
+dr_EPA_2026.xlsx,Tablas1,106,11 | Se encuentra en expediente de regulación de empleo
+dr_EPA_2026.xlsx,Tablas1,107,12 | Huelga o conflicto laboral
+dr_EPA_2026.xlsx,Tablas1,108,13 | Haber recibido enseñanza o formación relacionada con el trabajo
+dr_EPA_2026.xlsx,Tablas1,109,14 | Razones personales o responsabilidades familiares
+dr_EPA_2026.xlsx,Tablas1,110,15 | Otras razones
+dr_EPA_2026.xlsx,Tablas1,111,00 | No sabe
+dr_EPA_2026.xlsx,Tablas1,112,
+dr_EPA_2026.xlsx,Tablas1,113,TVINCUL | VINCUL
+dr_EPA_2026.xlsx,Tablas1,114,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,115,"01 | Vacaciones o día de permiso;  Permiso por nacimiento de un hijo;  Enfermedad, accidente o incapacidad temporal del encuestado; Jornada de verano, horario variable, flexible o similar; Haber recibido enseñanza o formación relacionada con el trabajo"
+dr_EPA_2026.xlsx,Tablas1,116,02 | Excedencia por cuidado de hijos con vinculación fuerte con el empleo.
+dr_EPA_2026.xlsx,Tablas1,117,"04 | Fijo discontinuo o trabajador estacional en la época de menor actividad, que realiza regularmente alguna tarea relacionada con el empleo estacional"
+dr_EPA_2026.xlsx,Tablas1,118,"05 | Actividades de representación sindical; Mal tiempo; Expediente de regulación de empleo; Paro parcial por razones técnicas; Encontrarse en expediente de regulación de empleo; Huelga o conflicto laboral; Razones personales o responsabilidades familiares, Otras razones; No sabe. En todos los casos, siempre que mantengan un vínculo fuerte con el empleo."
+dr_EPA_2026.xlsx,Tablas1,119,"07 | Excedencia por cuidado de hijos, con vinculación débil con el empleo"
+dr_EPA_2026.xlsx,Tablas1,120,"08 | Fijo discontinuo o trabajador estacional en la época de menor actividad, que ya no realiza regularmente ninguna tarea relacionada con el empleo estacional"
+dr_EPA_2026.xlsx,Tablas1,121,"09 | Actividades de representación sindical; Mal tiempo; Expediente de regulación de empleo; Paro parcial por razones técnicas; Encontrarse en expediente de regulación de empleo; Huelga o conflicto laboral; Razones personales o responsabilidades familiares, Otras razones; No sabe. En todos los casos, siempre que su vinculación con el empleo sea débil."
+dr_EPA_2026.xlsx,Tablas1,122,11 | Nuevo empleo en el que aún no había empezado a trabajar
+dr_EPA_2026.xlsx,Tablas1,123,
+dr_EPA_2026.xlsx,Tablas1,124,TNUEVEM | NUEVEM
+dr_EPA_2026.xlsx,Tablas1,125,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,126,"1 | Sí, se incorporará en un plazo inferior o igual a  tres meses"
+dr_EPA_2026.xlsx,Tablas1,127,"2 | Sí, se incorporará en un plazo superior a tres meses"
+dr_EPA_2026.xlsx,Tablas1,128,3 | No
+dr_EPA_2026.xlsx,Tablas1,129,
+dr_EPA_2026.xlsx,Tablas1,130,TOCUP | OCUP1 *** (2 veces más)
+dr_EPA_2026.xlsx,Tablas1,131,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,132,0 | Ocupaciones militares (códigos CNO-2011). Fuerzas armadas (códigos CNO-1994)
+dr_EPA_2026.xlsx,Tablas1,133,1 | Directores y gerentes (códigos CNO-2011). Dirección de las empresas y de las  Administraciones Públicas (códigos CNO-1994)
+dr_EPA_2026.xlsx,Tablas1,134,2 | Técnicos y Profesionales científicos e intelectuales (códigos CNO-2011)
+dr_EPA_2026.xlsx,Tablas1,135,3 | Técnicos y Profesionales de apoyo (códigos CNO-2011)
+dr_EPA_2026.xlsx,Tablas1,136,"4 | Empleados contables, administrativos y otros empleados de oficina (códigos CNO-2011). Empleados de tipo administrativo (códigos CNO-1994)"
+dr_EPA_2026.xlsx,Tablas1,137,"5 | Trabajadores de servicios de restauración, personales, protección y vendedores de comercio (códigos CNO-2011)"
+dr_EPA_2026.xlsx,Tablas1,138,"6 | Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero (códigos CNO-2011).Trabajadores cualificados en la agricultura y en la pesca (códigos CNO-1994)"
+dr_EPA_2026.xlsx,Tablas1,139,"7 | Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria (códigos CNO-2011). Artesanos y trabajadores cualificados de las industrias manufactureras, la construcción, y la minería, excepto operadores de instalaciones y maquinaria (códigos CNO-1994)"
+dr_EPA_2026.xlsx,Tablas1,140,"8 | Operadores de instalaciones y maquinaria, y montadores (códigos CNO-2011)"
+dr_EPA_2026.xlsx,Tablas1,141,9 | Ocupaciones elementales (códigos CNO-2011). Trabajadores no cualificados (códigos CNO-1994)
+dr_EPA_2026.xlsx,Tablas1,142,
+dr_EPA_2026.xlsx,Tablas1,143,TACTIV | ACT1 *** (2 veces más)
+dr_EPA_2026.xlsx,Tablas1,144,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,145,"0 | Agricultura, ganadería, silvicultura y pesca (códigos CNAE-25: 01,02 y 03)"
+dr_EPA_2026.xlsx,Tablas1,146,"1 | Industria de la alimentación, textil, cuero, madera y papel (códigos CNAE-25: del 10 al 18)"
+dr_EPA_2026.xlsx,Tablas1,147,"2 | Industrias extractivas, refino de petróleo, industria química, farmaceutica, industria del caucho y materias plásticas, suministro energía eléctrica, gas, vapor y aire acondicionado, suministro de agua, gestión de residuos. Metalurgia (códigos CNAE-25: del 05 al 09, del 19 al 25, 35 y del 36 al 39)"
+dr_EPA_2026.xlsx,Tablas1,148,"3 | Construcción de maquinaria, equipo eléctrico y material de transporte. Instalación y reparación industrial   (códigos CNAE-25 del 26 al 33)"
+dr_EPA_2026.xlsx,Tablas1,149,4 | Construcción  (códigos CNAE-25: del 41 al 43)
+dr_EPA_2026.xlsx,Tablas1,150,"5 | Comercio al por mayor y al por menor y sus instalaciones y reparaciones. Hostelería (*)(códigos CNAE-25: 46,47, 55 y 56)"
+dr_EPA_2026.xlsx,Tablas1,151,6 | Transporte y almacenamiento. Información y comunicaciones (códigos CNAE-25 del 49 al 53 y del 58 al 63)
+dr_EPA_2026.xlsx,Tablas1,152,"7 | Intermediación financiera, seguros, actividades inmobiliarias, servicios profesionales, científicos, administrativos y otros (códigos CNAE-25: del 64 al 66, 68, del 69 al 75 y del 77 al 82)"
+dr_EPA_2026.xlsx,Tablas1,153,"8 | Administración Pública, educación y actividades sanitarias (códigos CNAE-25: 84, 85 y del 86 al 88)"
+dr_EPA_2026.xlsx,Tablas1,154,9 | Otros servicios(*) (códigos CNAE-25: del 90 al 99)
+dr_EPA_2026.xlsx,Tablas1,155,
+dr_EPA_2026.xlsx,Tablas1,156,(*) Reparación automóviles formaba parte del código 5 en CNAE 2009 y en CNAE 2025 se incluye en el 9
+dr_EPA_2026.xlsx,Tablas1,157,
+dr_EPA_2026.xlsx,Tablas1,158,TSITUAC | SITU *** (2 veces más)
+dr_EPA_2026.xlsx,Tablas1,159,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,160,01 | Empresario con asalariados
+dr_EPA_2026.xlsx,Tablas1,161,03 | Trabajador independiente o empresario sin asalariados
+dr_EPA_2026.xlsx,Tablas1,162,05 | Miembro de una cooperativa
+dr_EPA_2026.xlsx,Tablas1,163,06 | Ayuda en la empresa o negocio familiar
+dr_EPA_2026.xlsx,Tablas1,164,07 | Asalariado sector público
+dr_EPA_2026.xlsx,Tablas1,165,08 | Asalariado sector privado
+dr_EPA_2026.xlsx,Tablas1,166,09 | Otra situación
+dr_EPA_2026.xlsx,Tablas1,167,
+dr_EPA_2026.xlsx,Tablas1,168,TADMTB | SP
+dr_EPA_2026.xlsx,Tablas1,169,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,170,1 | Administración central
+dr_EPA_2026.xlsx,Tablas1,171,2 | Administración de la Seguridad Social
+dr_EPA_2026.xlsx,Tablas1,172,3 | Administración de Comunidad Autónoma
+dr_EPA_2026.xlsx,Tablas1,173,4 | Administración local
+dr_EPA_2026.xlsx,Tablas1,174,5 | Empresas públicas e Instituciones financieras públicas
+dr_EPA_2026.xlsx,Tablas1,175,6 | Otro tipo
+dr_EPA_2026.xlsx,Tablas1,176,0 | No sabe
+dr_EPA_2026.xlsx,Tablas1,177,
+dr_EPA_2026.xlsx,Tablas1,178,T1DUCON | DUCON1
+dr_EPA_2026.xlsx,Tablas1,179,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,180,1 | Indefinido
+dr_EPA_2026.xlsx,Tablas1,181,6 | Temporal
+dr_EPA_2026.xlsx,Tablas1,182,
+dr_EPA_2026.xlsx,Tablas1,183,T2DUCON | DUCON2
+dr_EPA_2026.xlsx,Tablas1,184,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,185,1 | Permanente
+dr_EPA_2026.xlsx,Tablas1,186,6 | Discontinuo
+dr_EPA_2026.xlsx,Tablas1,187,
+dr_EPA_2026.xlsx,Tablas1,188,T3DUCON | DUCON3
+dr_EPA_2026.xlsx,Tablas1,189,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,190,01 | Eventual por circunstancias de la producción
+dr_EPA_2026.xlsx,Tablas1,191,02 | De formación o aprendizaje
+dr_EPA_2026.xlsx,Tablas1,192,03 | Estacional o de temporada
+dr_EPA_2026.xlsx,Tablas1,193,04 | Cubre un período de prueba
+dr_EPA_2026.xlsx,Tablas1,194,05 | Cubre la ausencia total o parcial de otro trabajador
+dr_EPA_2026.xlsx,Tablas1,195,06 | Para obra o servicio determinado
+dr_EPA_2026.xlsx,Tablas1,196,07 | Verbal no incluido en las opciones anteriores
+dr_EPA_2026.xlsx,Tablas1,197,08 | Otro tipo
+dr_EPA_2026.xlsx,Tablas1,198,"09 | De prácticas (becarios, períodos de prácticas, asistentes de investigación, etc.)"
+dr_EPA_2026.xlsx,Tablas1,199,00 | No sabe
+dr_EPA_2026.xlsx,Tablas1,200,
+dr_EPA_2026.xlsx,Tablas1,201,T1PARCO | PARCO1
+dr_EPA_2026.xlsx,Tablas1,202,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,203,1 | Completa
+dr_EPA_2026.xlsx,Tablas1,204,6 | Parcial
+dr_EPA_2026.xlsx,Tablas1,205,
+dr_EPA_2026.xlsx,Tablas1,206,T2PARCO | PARCO2
+dr_EPA_2026.xlsx,Tablas1,207,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,208,01 | Seguir cursos de enseñanza o formación
+dr_EPA_2026.xlsx,Tablas1,209,02 | Enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,210,03 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2026.xlsx,Tablas1,211,04 | Otras razones familiares o personales
+dr_EPA_2026.xlsx,Tablas1,212,05 | No haber podido encontrar un trabajo de jornada completa
+dr_EPA_2026.xlsx,Tablas1,213,06 | No querer un trabajo de jornada completa
+dr_EPA_2026.xlsx,Tablas1,214,07 | Otras razones
+dr_EPA_2026.xlsx,Tablas1,215,00 | Desconoce el motivo
+dr_EPA_2026.xlsx,Tablas1,216,
+dr_EPA_2026.xlsx,Tablas1,217,TMASHOR | MASHOR
+dr_EPA_2026.xlsx,Tablas1,218,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,219,1 | Sí
+dr_EPA_2026.xlsx,Tablas1,220,"2 | No, desearía trabajar menos horas con reducción proporcional de salario"
+dr_EPA_2026.xlsx,Tablas1,221,3 | No
+dr_EPA_2026.xlsx,Tablas1,222,
+dr_EPA_2026.xlsx,Tablas1,223,TRZNDIS | RZNDIS
+dr_EPA_2026.xlsx,Tablas1,224,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,225,1 | Tener que completar estudios o formación
+dr_EPA_2026.xlsx,Tablas1,226,2 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2026.xlsx,Tablas1,227,3 | Por enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,228,4 | Por otras razones
+dr_EPA_2026.xlsx,Tablas1,229,
+dr_EPA_2026.xlsx,Tablas1,230,TRZNDSH | RZNDISH
+dr_EPA_2026.xlsx,Tablas1,231,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,232,01 | Tener que completar estudios o formación
+dr_EPA_2026.xlsx,Tablas1,233,02 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2026.xlsx,Tablas1,234,03 | Enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,235,04 | Otras razones
+dr_EPA_2026.xlsx,Tablas1,236,05 | Por no poder dejar su empleo actual debido al periodo de preaviso
+dr_EPA_2026.xlsx,Tablas1,237,
+dr_EPA_2026.xlsx,Tablas1,238,TFOBACT | FOBACT
+dr_EPA_2026.xlsx,Tablas1,239,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,240,1 | Métodos activos de búsqueda de empleo
+dr_EPA_2026.xlsx,Tablas1,241,6 | Métodos no activos de búsqueda de empleo
+dr_EPA_2026.xlsx,Tablas1,242,
+dr_EPA_2026.xlsx,Tablas1,243,TNBUSCA | NBUSCA
+dr_EPA_2026.xlsx,Tablas1,244,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,245,01 | No hay empleo adecuado disponible
+dr_EPA_2026.xlsx,Tablas1,246,02 | Está afectado por una regulación de empleo
+dr_EPA_2026.xlsx,Tablas1,247,03 | Por enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,248,04 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2026.xlsx,Tablas1,249,05 | Tiene otras responsabilidades familiares o personales
+dr_EPA_2026.xlsx,Tablas1,250,06 | Está cursando estudios o recibiendo formación
+dr_EPA_2026.xlsx,Tablas1,251,07 | Está jubilado
+dr_EPA_2026.xlsx,Tablas1,252,08 | Otras razones
+dr_EPA_2026.xlsx,Tablas1,253,00 | No sabe
+dr_EPA_2026.xlsx,Tablas1,254,
+dr_EPA_2026.xlsx,Tablas1,255,TRZULT | RZULT
+dr_EPA_2026.xlsx,Tablas1,256,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,257,01 | Despido o supresión del puesto (incluye regulación de empleo)
+dr_EPA_2026.xlsx,Tablas1,258,02 | Fin del contrato (incluye los fijos-discontinuos y los trabajos estacionales) s
+dr_EPA_2026.xlsx,Tablas1,259,03 | Enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,260,04 | Realizar estudios o recibir formación
+dr_EPA_2026.xlsx,Tablas1,261,05 | Responsabilidades de cuidado de hijos u otros familiares
+dr_EPA_2026.xlsx,Tablas1,262,06 | Otras razones familiares o personales
+dr_EPA_2026.xlsx,Tablas1,263,07 | Jubilación anticipada
+dr_EPA_2026.xlsx,Tablas1,264,08 | Jubilación normal
+dr_EPA_2026.xlsx,Tablas1,265,09 | Otras razones (incluye el cese en una actividad propia y por voluntad propia)
+dr_EPA_2026.xlsx,Tablas1,266,00 | No sabe
+dr_EPA_2026.xlsx,Tablas1,267,
+dr_EPA_2026.xlsx,Tablas1,268,TITBU | ITBU
+dr_EPA_2026.xlsx,Tablas1,269,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,270,01 | Menos de 1 mes
+dr_EPA_2026.xlsx,Tablas1,271,02 | De 1 a < 3 meses
+dr_EPA_2026.xlsx,Tablas1,272,03 | De 3 a < 6 meses
+dr_EPA_2026.xlsx,Tablas1,273,04 | De  6 meses a < 1 año
+dr_EPA_2026.xlsx,Tablas1,274,05 | De 1 año a < 1 año y medio
+dr_EPA_2026.xlsx,Tablas1,275,06 | De 1 año y medio a < 2 años
+dr_EPA_2026.xlsx,Tablas1,276,07 | De 2 a < 4 años
+dr_EPA_2026.xlsx,Tablas1,277,08 | 4 años o más
+dr_EPA_2026.xlsx,Tablas1,278,
+dr_EPA_2026.xlsx,Tablas1,279,TOFEMP | OFEMP
+dr_EPA_2026.xlsx,Tablas1,280,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,281,1 | Estaba inscrito como demandante y recibía algún tipo de prestación
+dr_EPA_2026.xlsx,Tablas1,282,2 | Estaba inscrito como demandante sin recibir subsidio o prestación por desempleo
+dr_EPA_2026.xlsx,Tablas1,283,3 | No estaba inscrito como demandante
+dr_EPA_2026.xlsx,Tablas1,284,4 | No contesta / No sabe
+dr_EPA_2026.xlsx,Tablas1,285,
+dr_EPA_2026.xlsx,Tablas1,286,TSID | SIDI1 *** (2 veces más)
+dr_EPA_2026.xlsx,Tablas1,287,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,288,01 | Estudiante (aunque esté de vacaciones)
+dr_EPA_2026.xlsx,Tablas1,289,02 | Percibía una pensión de jubilación o unos ingresos de prejubilación
+dr_EPA_2026.xlsx,Tablas1,290,03 | Dedicado a las labores del hogar
+dr_EPA_2026.xlsx,Tablas1,291,04 | Incapacitado permanente
+dr_EPA_2026.xlsx,Tablas1,292,05 | Percibiendo una pensión distinta a la de jubilación (o prejubilación)
+dr_EPA_2026.xlsx,Tablas1,293,"06 | Realizando sin remuneración trabajos sociales, actividades benéficas…"
+dr_EPA_2026.xlsx,Tablas1,294,07 | Otras situaciones
+dr_EPA_2026.xlsx,Tablas1,295,00 | No sabe / No refiere estado de inactividad
+dr_EPA_2026.xlsx,Tablas1,296,
+dr_EPA_2026.xlsx,Tablas1,297,TSIDAC | SIDAC1 *** (1 veces más)
+dr_EPA_2026.xlsx,Tablas1,298,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,299,1 | Trabajando
+dr_EPA_2026.xlsx,Tablas1,300,2 | Buscando empleo
+dr_EPA_2026.xlsx,Tablas1,301,
+dr_EPA_2026.xlsx,Tablas1,302,TAOI | AOI
+dr_EPA_2026.xlsx,Tablas1,303,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,304,03 | Ocupados subempleados por insuficiencia de horas
+dr_EPA_2026.xlsx,Tablas1,305,04 | Resto de ocupados
+dr_EPA_2026.xlsx,Tablas1,306,05 | Parados que buscan primer empleo
+dr_EPA_2026.xlsx,Tablas1,307,06 | Parados que han trabajado antes
+dr_EPA_2026.xlsx,Tablas1,308,07 | Inactivos 1 (desanimados)
+dr_EPA_2026.xlsx,Tablas1,309,08 | Inactivos 2 (junto con los desanimados forman los activos potenciales)
+dr_EPA_2026.xlsx,Tablas1,310,09 | Inactivos 3 (resto de inactivos)
+dr_EPA_2026.xlsx,Tablas1,311,
+dr_EPA_2026.xlsx,Tablas1,312,T09ACTI | ACT09***(2 veces más)
+dr_EPA_2026.xlsx,Tablas1,313,Código | Descripción
+dr_EPA_2026.xlsx,Tablas1,314,"0 | Agricultura, ganadería, silvicultura y pesca (códigos CNAE-09: 01, 02 y 03), (códigos CNAE-93: 01, 02 y 05)"
+dr_EPA_2026.xlsx,Tablas1,315,"1 | Industria de la alimentación, textil, cuero, madera y papel (códigos CNAE-09: del 10 al 18), (códigos CNAE-93 del 15 al 22)"
+dr_EPA_2026.xlsx,Tablas1,316,"2 | Industrias extractivas, refino de petróleo, industria química, farmaceutica, industria del caucho y materias plásticas, suministro energía eléctrica, gas, vapor y aire acondicionado, suministro de agua, gestión de residuos. Metalurgia (códigos CNAE-09: del 05 al 09, del 19 al 25, 35 y del 36 al 39), (códigos CNAE-93: del 10 al 14, del 23 al 28, 40 y 41)"
+dr_EPA_2026.xlsx,Tablas1,317,"3 | Construcción de maquinaria, equipo eléctrico y material de transporte. Instalación y reparación industrial  (códigos CNAE-09 del 26 al 33), (códigos CNAE-93 del 29 al 37)"
+dr_EPA_2026.xlsx,Tablas1,318,"4 | Construcción (códigos CNAE-09: del 41 al 43), (código CNAE-93: 45)"
+dr_EPA_2026.xlsx,Tablas1,319,"5 | Comercio al por mayor y al por menor y sus instalaciones y reparaciones. Reparación de automóviles(*), hostelería (códigos CNAE-09: del 45 al 47, 55 y 56), (códigos CNAE-93: 50, 51, 52 y 55)"
+dr_EPA_2026.xlsx,Tablas1,320,"6 | Transporte y almacenamiento. Información y comunicaciones (códigos CNAE-09 del 49 al 53 y del 58 al 63), (códigos CNAE-93 del 60 al 64)"
+dr_EPA_2026.xlsx,Tablas1,321,"7 | Intermediación financiera, seguros, actividades inmobiliarias, servicios profesionales, científicos, administrativos y otros (códigos CNAE-09: del 64 al 66, 68, del 69 al 75 y del 77 al 82), (códigos CNAE-93 del 65 al 67 y del 70 al 74)"
+dr_EPA_2026.xlsx,Tablas1,322,"8 | Administración Pública, educación y actividades sanitarias (códigos CNAE-09: 84, 85 y del 86 al 88), (códigos CNAE-93: 75, 80 y 85)"
+dr_EPA_2026.xlsx,Tablas1,323,"9 | Otros servicios (códigos CNAE-09: del 90 al 99), (códigos CNAE-93: del 90 al 93, 95 y 99)"
+dr_EPA_2026.xlsx,Tablas1,324,
+dr_EPA_2026.xlsx,Tablas1,325,(*) Reparación automóviles formaba parte del código 5 en CNAE 2009 y en CNAE 2025 se incluye en el 9
+dr_EPA_2026.xlsx,Tablas2,1,TCCAA | CCAA
+dr_EPA_2026.xlsx,Tablas2,2,Código | Descripción
+dr_EPA_2026.xlsx,Tablas2,3,01 | Andalucía
+dr_EPA_2026.xlsx,Tablas2,4,02 | Aragón
+dr_EPA_2026.xlsx,Tablas2,5,"03 | Asturias, Principado de"
+dr_EPA_2026.xlsx,Tablas2,6,"04 | Balears, Illes"
+dr_EPA_2026.xlsx,Tablas2,7,05 | Canarias
+dr_EPA_2026.xlsx,Tablas2,8,06 | Cantabria
+dr_EPA_2026.xlsx,Tablas2,9,07 | Castilla y León
+dr_EPA_2026.xlsx,Tablas2,10,08 | Castilla-La Mancha
+dr_EPA_2026.xlsx,Tablas2,11,09 | Cataluña
+dr_EPA_2026.xlsx,Tablas2,12,10 | Comunitat Valenciana
+dr_EPA_2026.xlsx,Tablas2,13,11 | Extremadura
+dr_EPA_2026.xlsx,Tablas2,14,12 | Galicia
+dr_EPA_2026.xlsx,Tablas2,15,"13 | Madrid, Comunidad de"
+dr_EPA_2026.xlsx,Tablas2,16,"14 | Murcia, Región de"
+dr_EPA_2026.xlsx,Tablas2,17,"15 | Navarra, Comunidad Foral de"
+dr_EPA_2026.xlsx,Tablas2,18,16 | País Vasco
+dr_EPA_2026.xlsx,Tablas2,19,"17 | Rioja, La"
+dr_EPA_2026.xlsx,Tablas2,20,51 | Ceuta
+dr_EPA_2026.xlsx,Tablas2,21,52 | Melilla
+dr_EPA_2026.xlsx,Tablas2,22,
+dr_EPA_2026.xlsx,Tablas2,23,TPROV | PROV *** (2 veces más)
+dr_EPA_2026.xlsx,Tablas2,24,Código | Descripción
+dr_EPA_2026.xlsx,Tablas2,25,01 | Araba/Álava
+dr_EPA_2026.xlsx,Tablas2,26,02 | Albacete
+dr_EPA_2026.xlsx,Tablas2,27,03 | Alicante/Alacant
+dr_EPA_2026.xlsx,Tablas2,28,04 | Almería
+dr_EPA_2026.xlsx,Tablas2,29,05 | Ávila
+dr_EPA_2026.xlsx,Tablas2,30,06 | Badajoz
+dr_EPA_2026.xlsx,Tablas2,31,"07 | Balears, Illes"
+dr_EPA_2026.xlsx,Tablas2,32,08 | Barcelona
+dr_EPA_2026.xlsx,Tablas2,33,09 | Burgos
+dr_EPA_2026.xlsx,Tablas2,34,10 | Cáceres
+dr_EPA_2026.xlsx,Tablas2,35,11 | Cádiz
+dr_EPA_2026.xlsx,Tablas2,36,12 | Castellón /Castelló
+dr_EPA_2026.xlsx,Tablas2,37,13 | Ciudad Real
+dr_EPA_2026.xlsx,Tablas2,38,14 | Córdoba
+dr_EPA_2026.xlsx,Tablas2,39,"15 | Coruña, A"
+dr_EPA_2026.xlsx,Tablas2,40,16 | Cuenca
+dr_EPA_2026.xlsx,Tablas2,41,17 | Girona
+dr_EPA_2026.xlsx,Tablas2,42,18 | Granada
+dr_EPA_2026.xlsx,Tablas2,43,19 | Guadalajara
+dr_EPA_2026.xlsx,Tablas2,44,20 | Gipuzkoa
+dr_EPA_2026.xlsx,Tablas2,45,21 | Huelva
+dr_EPA_2026.xlsx,Tablas2,46,22 | Huesca
+dr_EPA_2026.xlsx,Tablas2,47,23 | Jaén
+dr_EPA_2026.xlsx,Tablas2,48,24 | León
+dr_EPA_2026.xlsx,Tablas2,49,25 | Lleida
+dr_EPA_2026.xlsx,Tablas2,50,"26 | Rioja, La"
+dr_EPA_2026.xlsx,Tablas2,51,27 | Lugo
+dr_EPA_2026.xlsx,Tablas2,52,28 | Madrid
+dr_EPA_2026.xlsx,Tablas2,53,29 | Málaga
+dr_EPA_2026.xlsx,Tablas2,54,30 | Murcia
+dr_EPA_2026.xlsx,Tablas2,55,31 | Navarra
+dr_EPA_2026.xlsx,Tablas2,56,32 | Ourense
+dr_EPA_2026.xlsx,Tablas2,57,33 | Asturias
+dr_EPA_2026.xlsx,Tablas2,58,34 | Palencia
+dr_EPA_2026.xlsx,Tablas2,59,"35 | Palmas, Las"
+dr_EPA_2026.xlsx,Tablas2,60,36 | Pontevedra
+dr_EPA_2026.xlsx,Tablas2,61,37 | Salamanca
+dr_EPA_2026.xlsx,Tablas2,62,38 | Santa Cruz de Tenerife
+dr_EPA_2026.xlsx,Tablas2,63,39 | Cantabria
+dr_EPA_2026.xlsx,Tablas2,64,40 | Segovia
+dr_EPA_2026.xlsx,Tablas2,65,41 | Sevilla
+dr_EPA_2026.xlsx,Tablas2,66,42 | Soria
+dr_EPA_2026.xlsx,Tablas2,67,43 | Tarragona
+dr_EPA_2026.xlsx,Tablas2,68,44 | Teruel
+dr_EPA_2026.xlsx,Tablas2,69,45 | Toledo
+dr_EPA_2026.xlsx,Tablas2,70,46 | Valencia/València
+dr_EPA_2026.xlsx,Tablas2,71,47 | Valladolid
+dr_EPA_2026.xlsx,Tablas2,72,48 | Bizkaia
+dr_EPA_2026.xlsx,Tablas2,73,49 | Zamora
+dr_EPA_2026.xlsx,Tablas2,74,50 | Zaragoza
+dr_EPA_2026.xlsx,Tablas2,75,51 | Ceuta
+dr_EPA_2026.xlsx,Tablas2,76,52 | Melilla
+dr_EPA_2026.xlsx,Tablas3,1,TREGNAP | EXREGNA1
+dr_EPA_2026.xlsx,Tablas3,2,Código | Descripción
+dr_EPA_2026.xlsx,Tablas3,3,115 | UE- 15
+dr_EPA_2026.xlsx,Tablas3,4,125 | UE- 25 (no UE-15)
+dr_EPA_2026.xlsx,Tablas3,5,128 | UE- 28 (no UE-27)
+dr_EPA_2026.xlsx,Tablas3,6,100 | Resto de Europa
+dr_EPA_2026.xlsx,Tablas3,7,200 | África
+dr_EPA_2026.xlsx,Tablas3,8,300 | América del Norte
+dr_EPA_2026.xlsx,Tablas3,9,310 | Centroamérica y Caribe
+dr_EPA_2026.xlsx,Tablas3,10,350 | Sudamérica
+dr_EPA_2026.xlsx,Tablas3,11,400 | Asia Oriental (Lejano Oriente)
+dr_EPA_2026.xlsx,Tablas3,12,410 | Asia Occidental (Oriente Próximo)
+dr_EPA_2026.xlsx,Tablas3,13,420 | Asia del Sur y Sudoeste
+dr_EPA_2026.xlsx,Tablas3,14,500 | Oceanía
+dr_EPA_2026.xlsx,Tablas3,15,999 | Apátridas
+dr_EPA_2026.xlsx,Tablas3,16,
+dr_EPA_2026.xlsx,Tablas3,17,TREGNA | REGNA1
+dr_EPA_2026.xlsx,Tablas3,18,Código | Descripción
+dr_EPA_2026.xlsx,Tablas3,19,115 | UE- 15
+dr_EPA_2026.xlsx,Tablas3,20,125 | UE- 25 (no UE-15)
+dr_EPA_2026.xlsx,Tablas3,21,128 | UE- 28 (no UE-27)
+dr_EPA_2026.xlsx,Tablas3,22,100 | Resto de Europa
+dr_EPA_2026.xlsx,Tablas3,23,200 | África
+dr_EPA_2026.xlsx,Tablas3,24,300 | América del Norte
+dr_EPA_2026.xlsx,Tablas3,25,310 | Centroamérica y Caribe
+dr_EPA_2026.xlsx,Tablas3,26,350 | Sudamérica
+dr_EPA_2026.xlsx,Tablas3,27,400 | Asia Oriental (Lejano Oriente)
+dr_EPA_2026.xlsx,Tablas3,28,410 | Asia Occidental (Oriente Próximo)
+dr_EPA_2026.xlsx,Tablas3,29,420 | Asia del Sur y Sudoeste
+dr_EPA_2026.xlsx,Tablas3,30,500 | Oceanía
+dr_EPA_2026.xlsx,Tablas3,31,
+dr_EPA_2026.xlsx,Tablas3,32,TREGEST | REGEST
+dr_EPA_2026.xlsx,Tablas3,33,Código | Descripción
+dr_EPA_2026.xlsx,Tablas3,34,115 | UE- 15 (Excepto Francia y Portugal)
+dr_EPA_2026.xlsx,Tablas3,35,125 | UE- 25 (no UE-15)
+dr_EPA_2026.xlsx,Tablas3,36,128 | UE- 28 (no UE-27)
+dr_EPA_2026.xlsx,Tablas3,37,100 | Resto de Europa (Excepto Andorra)
+dr_EPA_2026.xlsx,Tablas3,38,200 | África (Excepto Marruecos)
+dr_EPA_2026.xlsx,Tablas3,39,300 | América del Norte
+dr_EPA_2026.xlsx,Tablas3,40,310 | Centroamérica y Caribe
+dr_EPA_2026.xlsx,Tablas3,41,350 | Sudamérica
+dr_EPA_2026.xlsx,Tablas3,42,400 | Asia Oriental (Lejano Oriente)
+dr_EPA_2026.xlsx,Tablas3,43,410 | Asia Occidental (Oriente Próximo)
+dr_EPA_2026.xlsx,Tablas3,44,420 | Asia del Sur y Sudoeste
+dr_EPA_2026.xlsx,Tablas3,45,500 | Oceanía
+dr_EPA_2026.xlsx,Tablas3,46,600 | Portugal
+dr_EPA_2026.xlsx,Tablas3,47,610 | Francia
+dr_EPA_2026.xlsx,Tablas3,48,620 | Andorra
+dr_EPA_2026.xlsx,Tablas3,49,630 | Marruecos
+dr_EPA_2026.xlsx,Tablas4,1,N_EDEST | EDADEST
+dr_EPA_2026.xlsx,Tablas4,2,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,3,00 | No sabe la fecha en la que alcanzó el máximo nivel de estudios
+dr_EPA_2026.xlsx,Tablas4,4,
+dr_EPA_2026.xlsx,Tablas4,5,T_ORDEN | NCONY *** (2 veces más)
+dr_EPA_2026.xlsx,Tablas4,6,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,7,00 | No tiene o no reside en la vivienda
+dr_EPA_2026.xlsx,Tablas4,8,
+dr_EPA_2026.xlsx,Tablas4,9,N_ANORE | ANORE1
+dr_EPA_2026.xlsx,Tablas4,10,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,11,00 | Menos de un año en España
+dr_EPA_2026.xlsx,Tablas4,12,
+dr_EPA_2026.xlsx,Tablas4,13,T_2HORA | HORDES
+dr_EPA_2026.xlsx,Tablas4,14,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,15,99 | No puede precisar /no sabe
+dr_EPA_2026.xlsx,Tablas4,16,
+dr_EPA_2026.xlsx,Tablas4,17,T_CONTM | TCONTM
+dr_EPA_2026.xlsx,Tablas4,18,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,19,96 | 96 meses o más
+dr_EPA_2026.xlsx,Tablas4,20,00 | Desconoce la respuesta pero es al menos un mes
+dr_EPA_2026.xlsx,Tablas4,21,
+dr_EPA_2026.xlsx,Tablas4,22,T_CONTD | TCONTD
+dr_EPA_2026.xlsx,Tablas4,23,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,24,99 | No sabe
+dr_EPA_2026.xlsx,Tablas4,25,00 | Desconoce la respuesta pero es menos de un mes
+dr_EPA_2026.xlsx,Tablas4,26,
+dr_EPA_2026.xlsx,Tablas4,27,THORAS | HORASP
+dr_EPA_2026.xlsx,Tablas4,28,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,29,"9999 | No sabe (incluye ""No tiene horas pactadas por contrato"")"
+dr_EPA_2026.xlsx,Tablas4,30,
+dr_EPA_2026.xlsx,Tablas4,31,T2HORAS | HORASH
+dr_EPA_2026.xlsx,Tablas4,32,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,33,9999 | No sabe horas:minutos
+dr_EPA_2026.xlsx,Tablas4,34,9900 | Las horas varían de una semana a otra/no puede dar una estimación
+dr_EPA_2026.xlsx,Tablas4,35,
+dr_EPA_2026.xlsx,Tablas4,36,THORASE | HORASE *** (1 veces más)
+dr_EPA_2026.xlsx,Tablas4,37,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,38,9999 | No sabe horas:minutos
+dr_EPA_2026.xlsx,Tablas4,39,9859 | Más de 98:00 horas en la semana de referencia (código específico pandemia COVID19)
+dr_EPA_2026.xlsx,Tablas4,40,0000 | No trabajó durante la semana de referencia
+dr_EPA_2026.xlsx,Tablas4,41,
+dr_EPA_2026.xlsx,Tablas4,42,TEXTRAO | EXTPAG *** (1 veces más)
+dr_EPA_2026.xlsx,Tablas4,43,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,44,9999 | No puede precisar /No sabe
+dr_EPA_2026.xlsx,Tablas4,45,0000 | No hizo horas extra durante la semana de referencia
+dr_EPA_2026.xlsx,Tablas4,46,
+dr_EPA_2026.xlsx,Tablas4,47,N_2DIAS | DAUSVAC *** (2 veces más)
+dr_EPA_2026.xlsx,Tablas4,48,Código | Descripción
+dr_EPA_2026.xlsx,Tablas4,49,99 | No sabe días de ausencia
+dr_EPA_2026.xlsx,Tablas5,1,T_CICLO | CICLO
+dr_EPA_2026.xlsx,Tablas5,2,Código | Descripción
+dr_EPA_2026.xlsx,Tablas5,3,194 | 2021T1
+dr_EPA_2026.xlsx,Tablas5,4,195 | 2021T2
+dr_EPA_2026.xlsx,Tablas5,5,196 | 2021T3
+dr_EPA_2026.xlsx,Tablas5,6,197 | 2021T4
+dr_EPA_2026.xlsx,Tablas5,7,198 | 2022T1
+dr_EPA_2026.xlsx,Tablas5,8,199 | 2022T2
+dr_EPA_2026.xlsx,Tablas5,9,200 | 2022T3
+dr_EPA_2026.xlsx,Tablas5,10,201 | 2022T4
+dr_EPA_2026.xlsx,Tablas5,11,202 | 2023T1
+dr_EPA_2026.xlsx,Tablas5,12,203 | 2023T2
+dr_EPA_2026.xlsx,Tablas5,13,204 | 2023T3
+dr_EPA_2026.xlsx,Tablas5,14,205 | 2023T4
+dr_EPA_2026.xlsx,Tablas5,15,206 | 2024T1
+dr_EPA_2026.xlsx,Tablas5,16,207 | 2024T2
+dr_EPA_2026.xlsx,Tablas5,17,208 | 2024T3
+dr_EPA_2026.xlsx,Tablas5,18,209 | 2024T4
+dr_EPA_2026.xlsx,Tablas5,19,210 | 2025T1
+dr_EPA_2026.xlsx,Tablas5,20,211 | 2025T2
+dr_EPA_2026.xlsx,Tablas5,21,212 | 2025T3
+dr_EPA_2026.xlsx,Tablas5,22,213 | 2025T4
+dr_EPA_2026.xlsx,Tablas5,23,214 | 2026T1
+dr_EPA_2026.xlsx,Tablas5,24,215 | 2026T2
+dr_EPA_2026.xlsx,Tablas5,25,216 | 2026T3
+dr_EPA_2026.xlsx,Tablas5,26,217 | 2026T4
+dr_EPA_2026.xlsx,Tablas5,27,218 | 2027T1
+dr_EPA_2026.xlsx,Tablas5,28,219 | 2027T2
+dr_EPA_2026.xlsx,Tablas5,29,220 | 2027T3
+dr_EPA_2026.xlsx,Tablas5,30,221 | 2027T4
+dr_EPA_2026.xlsx,Tablas5,31,222 | 2028T1
+dr_EPA_2026.xlsx,Tablas5,32,223 | 2028T2
+dr_EPA_2026.xlsx,Tablas5,33,224 | 2028T3
+dr_EPA_2026.xlsx,Tablas5,34,225 | 2028T4
+dr_EPA_2026.xlsx,Tablas5,35,226 | 2029T1
+dr_EPA_2026.xlsx,Tablas5,36,227 | 2029T2
+dr_EPA_2026.xlsx,Tablas5,37,228 | 2029T3
+dr_EPA_2026.xlsx,Tablas5,38,229 | 2029T4
+dr_EPA_2026.xlsx,Tablas5,39,230 | 2030T1
+dr_EPA_2026.xlsx,Tablas5,40,231 | 2030T2
+dr_EPA_2026.xlsx,Tablas5,41,232 | 2030T3
+dr_EPA_2026.xlsx,Tablas5,42,233 | 2030T4
+dr_EPA_2026.xlsx,Tablas5,43,234 | 2031T1
+dr_EPA_2026.xlsx,Tablas5,44,235 | 2031T2
+dr_EPA_2026.xlsx,Tablas5,45,236 | 2031T3
+dr_EPA_2026.xlsx,Tablas5,46,237 | 2031T4
+dr_EPA_2026.xlsx,Tablas5,47,238 | 2032T1
+dr_EPA_2026.xlsx,Tablas5,48,239 | 2032T2
+dr_EPA_2026.xlsx,Tablas5,49,240 | 2032T3
+dr_EPA_2026.xlsx,Tablas5,50,241 | 2032T4
+dr_EPA_2026.xlsx,Tablas5,51,242 | 2033T1
+dr_EPA_2026.xlsx,Tablas5,52,243 | 2033T2
+dr_EPA_2026.xlsx,Tablas5,53,244 | 2033T3
+dr_EPA_2026.xlsx,Tablas5,54,245 | 2033T4
+dr_EPA_2026.xlsx,Tablas5,55,246 | 2034T1
+dr_EPA_2026.xlsx,Tablas5,56,247 | 2034T2
+dr_EPA_2026.xlsx,Tablas5,57,248 | 2034T3
+dr_EPA_2026.xlsx,Tablas5,58,249 | 2034T4
+dr_EPA_2026.xlsx,Tablas5,59,250 | 2035T1
+dr_EPA_2026.xlsx,Tablas5,60,251 | 2035T2
+dr_EPA_2026.xlsx,Tablas5,61,252 | 2035T3
+dr_EPA_2026.xlsx,Tablas5,62,253 | 2035T4
+dr_EPA_2026.xlsx,Tablas5,63,254 | 2036T1
+dr_EPA_2026.xlsx,Tablas5,64,255 | 2036T2
+dr_EPA_2026.xlsx,Tablas5,65,256 | 2036T3
+dr_EPA_2026.xlsx,Tablas5,66,257 | 2036T4
+dr_EPA_2026.xlsx,Tablas5,67,258 | 2037T1
+dr_EPA_2026.xlsx,Tablas5,68,259 | 2037T2
+dr_EPA_2026.xlsx,Tablas5,69,260 | 2037T3
+dr_EPA_2026.xlsx,Tablas5,70,261 | 2037T4
+dr_EPA_2026.xlsx,Tablas5,71,262 | 2038T1
+dr_EPA_2026.xlsx,Tablas5,72,263 | 2038T2
+dr_EPA_2026.xlsx,Tablas5,73,264 | 2038T3
+dr_EPA_2026.xlsx,Tablas5,74,265 | 2038T4
+dr_EPA_2026.xlsx,Tablas5,75,266 | 2039T1
+dr_EPA_2026.xlsx,Tablas5,76,267 | 2039T2
+dr_EPA_2026.xlsx,Tablas5,77,268 | 2039T3
+dr_EPA_2026.xlsx,Tablas5,78,269 | 2039T4
+dr_EPA_2026.xlsx,Tablas5,79,270 | 2040T1
+dr_EPA_2026.xlsx,Tablas5,80,271 | 2040T2
+dr_EPA_2026.xlsx,Tablas5,81,272 | 2040T3
+dr_EPA_2026.xlsx,Tablas5,82,273 | 2040T4
+dr_EPA_2026.xlsx,Tablas5,83,274 | 2041T1
+dr_EPA_2026.xlsx,Tablas5,84,275 | 2041T2
+dr_EPA_2026.xlsx,Tablas5,85,276 | 2041T3
+dr_EPA_2026.xlsx,Tablas5,86,277 | 2041T4
+dr_EPA_2026.xlsx,Tablas5,87,278 | 2042T1
+dr_EPA_2026.xlsx,Tablas5,88,279 | 2042T2
+dr_EPA_2026.xlsx,Tablas5,89,280 | 2042T3
+dr_EPA_2026.xlsx,Tablas5,90,281 | 2042T4
+dr_EPA_2026.xlsx,Tablas5,91,282 | 2043T1
+dr_EPA_2026.xlsx,Tablas5,92,283 | 2043T2
+dr_EPA_2026.xlsx,Tablas5,93,284 | 2043T3
+dr_EPA_2026.xlsx,Tablas5,94,285 | 2043T4
+dr_EPA_2026.xlsx,Tablas5,95,286 | 2044T1
+dr_EPA_2026.xlsx,Tablas5,96,287 | 2044T2
+dr_EPA_2026.xlsx,Tablas5,97,288 | 2044T3
+dr_EPA_2026.xlsx,Tablas5,98,289 | 2044T4
+dr_EPA_2026.xlsx,Tablas5,99,290 | 2045T1
+dr_EPA_2026.xlsx,Tablas5,100,291 | 2045T2
+dr_EPA_2026.xlsx,Tablas5,101,292 | 2045T3
+dr_EPA_2026.xlsx,Tablas5,102,293 | 2045T4
+dr_EPA_2026.xlsx,Tablas5,103,294 | 2046T1
+dr_EPA_2026.xlsx,Tablas5,104,295 | 2046T2
+dr_EPA_2026.xlsx,Tablas5,105,296 | 2046T3
+dr_EPA_2026.xlsx,Tablas5,106,297 | 2046T4
+dr_EPA_2026.xlsx,Tablas5,107,298 | 2047T1
+dr_EPA_2026.xlsx,Tablas5,108,299 | 2047T2
+dr_EPA_2026.xlsx,Tablas5,109,300 | 2047T3
+dr_EPA_2026.xlsx,Tablas5,110,301 | 2047T4
+dr_EPA_2026.xlsx,Tablas5,111,302 | 2048T1
+dr_EPA_2026.xlsx,Tablas5,112,303 | 2048T2
+dr_EPA_2026.xlsx,Tablas5,113,304 | 2048T3
+dr_EPA_2026.xlsx,Tablas5,114,305 | 2048T4
+dr_EPA_2026.xlsx,Tablas5,115,306 | 2049T1
+dr_EPA_2026.xlsx,Tablas5,116,307 | 2049T2
+dr_EPA_2026.xlsx,Tablas5,117,308 | 2049T3
+dr_EPA_2026.xlsx,Tablas5,118,309 | 2049T4
+dr_EPA_2026.xlsx,Tablas5,119,310 | 2050T1
+dr_EPA_2026.xlsx,Tablas5,120,311 | 2050T2
+dr_EPA_2026.xlsx,Tablas5,121,312 | 2050T3
+dr_EPA_2026.xlsx,Tablas5,122,313 | 2050T4
+dr_EPA_2026.xlsx,AuxTabla3,1,Personas nacidas en el extranjero | Todas las personas de 16 y más años que trabajaron o tenían empleo la semana de referencia
+dr_EPA_2026.xlsx,AuxTabla3,2,
+dr_EPA_2026.xlsx,AuxTabla3,3,
+dr_EPA_2026.xlsx,AuxTabla3,4,115 = UE- 15 | 115 = UE- 15 (Excepto Francia y Portugal)
+dr_EPA_2026.xlsx,AuxTabla3,5,Alemania | Alemania
+dr_EPA_2026.xlsx,AuxTabla3,6,Austria | Austria
+dr_EPA_2026.xlsx,AuxTabla3,7,Bélgica | Bélgica
+dr_EPA_2026.xlsx,AuxTabla3,8,Dinamarca | Dinamarca
+dr_EPA_2026.xlsx,AuxTabla3,9,Finlandia | Finlandia
+dr_EPA_2026.xlsx,AuxTabla3,10,Francia | Grecia
+dr_EPA_2026.xlsx,AuxTabla3,11,Grecia | Irlanda
+dr_EPA_2026.xlsx,AuxTabla3,12,Irlanda | Italia
+dr_EPA_2026.xlsx,AuxTabla3,13,Italia | Luxemburgo
+dr_EPA_2026.xlsx,AuxTabla3,14,Luxemburgo | Países Bajos
+dr_EPA_2026.xlsx,AuxTabla3,15,Países Bajos | Suecia
+dr_EPA_2026.xlsx,AuxTabla3,16,Portugal
+dr_EPA_2026.xlsx,AuxTabla3,17,Suecia
+dr_EPA_2026.xlsx,AuxTabla3,18,
+dr_EPA_2026.xlsx,AuxTabla3,19,125 = UE- 25 (no UE-15) | 125 = UE- 25 (no UE-15)
+dr_EPA_2026.xlsx,AuxTabla3,20,Chipre | Chipre
+dr_EPA_2026.xlsx,AuxTabla3,21,Eslovenia | Eslovenia
+dr_EPA_2026.xlsx,AuxTabla3,22,Estonia | Estonia
+dr_EPA_2026.xlsx,AuxTabla3,23,Hungría | Hungría
+dr_EPA_2026.xlsx,AuxTabla3,24,Letonia | Letonia
+dr_EPA_2026.xlsx,AuxTabla3,25,Lituania | Lituania
+dr_EPA_2026.xlsx,AuxTabla3,26,Malta | Malta
+dr_EPA_2026.xlsx,AuxTabla3,27,Polonia | Polonia
+dr_EPA_2026.xlsx,AuxTabla3,28,República Checa o Chequia | República Checa o Chequia
+dr_EPA_2026.xlsx,AuxTabla3,29,República Eslovaca o Eslovaquia | República Eslovaca o Eslovaquia
+dr_EPA_2026.xlsx,AuxTabla3,30,
+dr_EPA_2026.xlsx,AuxTabla3,31,128*** = UE- 28 (no UE-27) | 128*** = UE- 28 (no UE-27)
+dr_EPA_2026.xlsx,AuxTabla3,32,Bulgaria | Bulgaria
+dr_EPA_2026.xlsx,AuxTabla3,33,Rumanía | Rumanía
+dr_EPA_2026.xlsx,AuxTabla3,34,Croacia | Croacia
+dr_EPA_2026.xlsx,AuxTabla3,35,
+dr_EPA_2026.xlsx,AuxTabla3,36,100 = Resto de Europa | 100 = Resto de Europa
+dr_EPA_2026.xlsx,AuxTabla3,37,Albania | Albania
+dr_EPA_2026.xlsx,AuxTabla3,38,Andorra | Andorra
+dr_EPA_2026.xlsx,AuxTabla3,39,Armenia | Armenia
+dr_EPA_2026.xlsx,AuxTabla3,40,Azerbaiyan | Azerbaiyan
+dr_EPA_2026.xlsx,AuxTabla3,41,Bielorrusia | Bielorrusia
+dr_EPA_2026.xlsx,AuxTabla3,42,Bosnia-herzegovina | Bosnia-herzegovina
+dr_EPA_2026.xlsx,AuxTabla3,43,Georgia | Georgia
+dr_EPA_2026.xlsx,AuxTabla3,44,Islandia | Islandia
+dr_EPA_2026.xlsx,AuxTabla3,45,Liechtenstein | Liechtenstein
+dr_EPA_2026.xlsx,AuxTabla3,46,Macedonia | Macedonia
+dr_EPA_2026.xlsx,AuxTabla3,47,Moldavia | Moldavia
+dr_EPA_2026.xlsx,AuxTabla3,48,Mónaco | Mónaco
+dr_EPA_2026.xlsx,AuxTabla3,49,Noruega | Noruega
+dr_EPA_2026.xlsx,AuxTabla3,50,Rusia | Rusia
+dr_EPA_2026.xlsx,AuxTabla3,51,San Marino | San Marino
+dr_EPA_2026.xlsx,AuxTabla3,52,Santa Sede | Santa Sede
+dr_EPA_2026.xlsx,AuxTabla3,53,Suiza | Suiza
+dr_EPA_2026.xlsx,AuxTabla3,54,Turquía | Turquía
+dr_EPA_2026.xlsx,AuxTabla3,55,Ucrania | Ucrania
+dr_EPA_2026.xlsx,AuxTabla3,56,Kosovo1 | Kosovo1
+dr_EPA_2026.xlsx,AuxTabla3,57,Montenegro1 | Montenegro1
+dr_EPA_2026.xlsx,AuxTabla3,58,Serbia1 | Serbia1
+dr_EPA_2026.xlsx,AuxTabla3,59,Islas Feroe 2 | Islas Feroe 2
+dr_EPA_2026.xlsx,AuxTabla3,60,Isla de Man 2 | Isla de Man 2
+dr_EPA_2026.xlsx,AuxTabla3,61,Guernsey 2 | Guernsey 2
+dr_EPA_2026.xlsx,AuxTabla3,62,Jersey 2 | Jersey 2
+dr_EPA_2026.xlsx,AuxTabla3,63,Gibraltar | Gibraltar
+dr_EPA_2026.xlsx,AuxTabla3,64,Reino unido 3 | Reino unido 3
+dr_EPA_2026.xlsx,AuxTabla3,65,
+dr_EPA_2026.xlsx,AuxTabla3,66,200 = África | 200 = África
+dr_EPA_2026.xlsx,AuxTabla3,67,Argelia | Argelia
+dr_EPA_2026.xlsx,AuxTabla3,68,Cabo Verde | Cabo Verde
+dr_EPA_2026.xlsx,AuxTabla3,69,Egipto | Egipto
+dr_EPA_2026.xlsx,AuxTabla3,70,Gambia | Gambia
+dr_EPA_2026.xlsx,AuxTabla3,71,Guinea Ecuatorial | Guinea Ecuatorial
+dr_EPA_2026.xlsx,AuxTabla3,72,Libia | Libia
+dr_EPA_2026.xlsx,AuxTabla3,73,Marruecos | Marruecos
+dr_EPA_2026.xlsx,AuxTabla3,74,Senegal | Senegal
+dr_EPA_2026.xlsx,AuxTabla3,75,Sudáfrica | Sudáfrica
+dr_EPA_2026.xlsx,AuxTabla3,76,Sudán | Sudán
+dr_EPA_2026.xlsx,AuxTabla3,77,Sahara Occidental | Sahara Occidental
+dr_EPA_2026.xlsx,AuxTabla3,78,Túnez | Túnez
+dr_EPA_2026.xlsx,AuxTabla3,79,Etiopía* | Etiopía*
+dr_EPA_2026.xlsx,AuxTabla3,80,Angola1 | Angola1
+dr_EPA_2026.xlsx,AuxTabla3,81,República Democrática del Congo1 | República Democrática del Congo1
+dr_EPA_2026.xlsx,AuxTabla3,82,Camerún1 | Camerún1
+dr_EPA_2026.xlsx,AuxTabla3,83,Ghana1 | Ghana1
+dr_EPA_2026.xlsx,AuxTabla3,84,Guinea1 | Guinea1
+dr_EPA_2026.xlsx,AuxTabla3,85,Guinea-Bissau1 | Guinea-Bissau1
+dr_EPA_2026.xlsx,AuxTabla3,86,Mali1 | Mali1
+dr_EPA_2026.xlsx,AuxTabla3,87,Mauritania1 | Mauritania1
+dr_EPA_2026.xlsx,AuxTabla3,88,Nigeria1 | Nigeria1
+dr_EPA_2026.xlsx,AuxTabla3,89,Otros Países de África1 | Otros Países de África1
+dr_EPA_2026.xlsx,AuxTabla3,90,
+dr_EPA_2026.xlsx,AuxTabla3,91,300 = América del Norte | 300 = América del Norte
+dr_EPA_2026.xlsx,AuxTabla3,92,Canadá | Canadá
+dr_EPA_2026.xlsx,AuxTabla3,93,Estados Unidos de Norteamérica | Estados Unidos de Norteamérica
+dr_EPA_2026.xlsx,AuxTabla3,94,"Territ. Dep. en América del Norte (Bermuda, | Territ. Dep. en América del Norte (Bermuda,"
+dr_EPA_2026.xlsx,AuxTabla3,95,"Groenlandia, Saint Pierre, Miquelon) | Groenlandia, Saint Pierre, Miquelon)"
+dr_EPA_2026.xlsx,AuxTabla3,96,
+dr_EPA_2026.xlsx,AuxTabla3,97,310 = Centroamérica y Caribe
+dr_EPA_2026.xlsx,AuxTabla3,98,Costa Rica | (*) Estos países se identifican a partir de 2004
+dr_EPA_2026.xlsx,AuxTabla3,99,Cuba | (1) Estos países se identifican a partir de 2006
+dr_EPA_2026.xlsx,AuxTabla3,100,"El Salvador | (**) A partir del T1-2009 se añade el código 127-'Países UE-27 no UE-25' que incluye Bulgaria (110) y Rumania (139), ya que se ha terminado el periodo transitorio por el que los trabajadores de Bulgaria y Rumania, pertenecientes a la UE, tenían restricciones en el mercado de trabajo"
+dr_EPA_2026.xlsx,AuxTabla3,101,Guatemala | (2) Estos países se identifican a partir de 2011
+dr_EPA_2026.xlsx,AuxTabla3,102,"Haití | (***) A partir del T1-2014 se elimina el código 127-'Países UE-27 no UE-25' que incluía Bulgaria (110) y Rumanía (139) y se sustituye por el código 128-'Países UE-28 no UE-27' que incluye Bulgaria, Rumanía y Croacia (112) que hasta el T1-2014 estaba incluida en el código 100= Resto de Europa"
+dr_EPA_2026.xlsx,AuxTabla3,103,"Honduras | (3) Reino Unido se codifica con un código 100='Resto de Europa"" pues desde el primer trimestre de 2020, ya no forma parte de la Unión Europea tras su salida de la misma, el 31 de enero de 2020."
+dr_EPA_2026.xlsx,AuxTabla3,104,México
+dr_EPA_2026.xlsx,AuxTabla3,105,Nicaragua
+dr_EPA_2026.xlsx,AuxTabla3,106,Panamá
+dr_EPA_2026.xlsx,AuxTabla3,107,Puerto Rico
+dr_EPA_2026.xlsx,AuxTabla3,108,República Dominicana
+dr_EPA_2026.xlsx,AuxTabla3,109,Otr. Países y Territ. dep. América Central y Caribe
+dr_EPA_2026.xlsx,AuxTabla3,110,350 = Sudamérica
+dr_EPA_2026.xlsx,AuxTabla3,111,Argentina
+dr_EPA_2026.xlsx,AuxTabla3,112,Bolivia
+dr_EPA_2026.xlsx,AuxTabla3,113,Brasil
+dr_EPA_2026.xlsx,AuxTabla3,114,Chile
+dr_EPA_2026.xlsx,AuxTabla3,115,Colombia
+dr_EPA_2026.xlsx,AuxTabla3,116,Ecuador
+dr_EPA_2026.xlsx,AuxTabla3,117,Paraguay
+dr_EPA_2026.xlsx,AuxTabla3,118,Perú
+dr_EPA_2026.xlsx,AuxTabla3,119,Uruguay
+dr_EPA_2026.xlsx,AuxTabla3,120,Venezuela
+dr_EPA_2026.xlsx,AuxTabla3,121,Otros Países y Territorios dep. en Sudamérica
+dr_EPA_2026.xlsx,AuxTabla3,122,400 = Asia Oriental (Lejano Oriente)
+dr_EPA_2026.xlsx,AuxTabla3,123,"China, incluyendo Hong-kong y Macao"
+dr_EPA_2026.xlsx,AuxTabla3,124,Corea del Norte
+dr_EPA_2026.xlsx,AuxTabla3,125,Corea del Sur
+dr_EPA_2026.xlsx,AuxTabla3,126,Japón
+dr_EPA_2026.xlsx,AuxTabla3,127,Mongolia
+dr_EPA_2026.xlsx,AuxTabla3,128,Taiwan
+dr_EPA_2026.xlsx,AuxTabla3,129,410 = Asia Occidental (Oriente Próximo)
+dr_EPA_2026.xlsx,AuxTabla3,130,Arabia Saudí
+dr_EPA_2026.xlsx,AuxTabla3,131,Irak
+dr_EPA_2026.xlsx,AuxTabla3,132,Israel
+dr_EPA_2026.xlsx,AuxTabla3,133,Jordania
+dr_EPA_2026.xlsx,AuxTabla3,134,Líbano
+dr_EPA_2026.xlsx,AuxTabla3,135,Siria
+dr_EPA_2026.xlsx,AuxTabla3,136,Palestina*
+dr_EPA_2026.xlsx,AuxTabla3,137,Otr. Países y Territ. dep. en el Oriente Próximo
+dr_EPA_2026.xlsx,AuxTabla3,138,420 = Asia del Sur y Sudoeste
+dr_EPA_2026.xlsx,AuxTabla3,139,Bangladesh
+dr_EPA_2026.xlsx,AuxTabla3,140,Camboya
+dr_EPA_2026.xlsx,AuxTabla3,141,Filipinas
+dr_EPA_2026.xlsx,AuxTabla3,142,India
+dr_EPA_2026.xlsx,AuxTabla3,143,Indonesia
+dr_EPA_2026.xlsx,AuxTabla3,144,Irán
+dr_EPA_2026.xlsx,AuxTabla3,145,Laos
+dr_EPA_2026.xlsx,AuxTabla3,146,Pakistán
+dr_EPA_2026.xlsx,AuxTabla3,147,Sri Lanka
+dr_EPA_2026.xlsx,AuxTabla3,148,Tailandia
+dr_EPA_2026.xlsx,AuxTabla3,149,Vietnam
+dr_EPA_2026.xlsx,AuxTabla3,150,kazajstán*
+dr_EPA_2026.xlsx,AuxTabla3,151,kirguistán*
+dr_EPA_2026.xlsx,AuxTabla3,152,Tayikistán*
+dr_EPA_2026.xlsx,AuxTabla3,153,Turkmenistán*
+dr_EPA_2026.xlsx,AuxTabla3,154,Uzbekistán*
+dr_EPA_2026.xlsx,AuxTabla3,155,Otr. Países y Territ. dep. en Asia del Sur y Sudeste
+dr_EPA_2026.xlsx,AuxTabla3,156,500 = Oceanía
+dr_EPA_2026.xlsx,AuxTabla3,157,Australia
+dr_EPA_2026.xlsx,AuxTabla3,158,Nueva Zelanda
+dr_EPA_2026.xlsx,AuxTabla3,159,Otros Países y Territ. Dependientes en Oceanía
+dr_EPA_2026.xlsx,AuxTabla3,160,999 = Apátridas
+dr_EPA_2026.xlsx,AuxTabla3,161,
+dr_EPA_2026.xlsx,AuxTabla3,162,(*) Estos países se identifican a partir de 2004
+dr_EPA_2026.xlsx,AuxTabla3,163,(1) Estos países se identifican a partir de 2006
+dr_EPA_2026.xlsx,AuxTabla3,164,"(**) A partir del T1-2009 se añade el código 127-'Países UE-27 no UE-25' que incluye Bulgaria (110) y Rumania (139), ya que se ha terminado el periodo transitorio por el que los trabajadores de Bulgaria y Rumania, pertenecientes a la UE, tenían restricciones en el mercado de trabajo"
+dr_EPA_2026.xlsx,AuxTabla3,165,(2) Estos países se identifican a partir de 2011
+dr_EPA_2026.xlsx,AuxTabla3,166,"(***) A partir del T1-2014 se elimina el código 127-'Países UE-27 no UE-25' que incluía Bulgaria (110) y Rumanía (139) y se sustituye por el código 128-'Países UE-28 no UE-27' que incluye Bulgaria, Rumanía y Croacia (112) que hasta el T1-2014 estaba incluida en el código 100= Resto de Europa"
+dr_EPA_2026.xlsx,AuxTabla3,167,"(3) Reino Unido se codifica con un código 100='Resto de Europa"" pues desde el primer trimestre de 2020, ya no forma parte de la Unión Europea tras su salida de la misma, el 31 de enero de 2020."

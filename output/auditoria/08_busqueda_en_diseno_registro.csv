@@ -1,0 +1,95 @@
+archivo,hoja,fila,texto
+dr_EPA_2021.xlsx,Diseño,5,"NVIVI | 5 | A | A5 | 8 | 4 | Número de orden del hogar
+"
+dr_EPA_2021.xlsx,Diseño,8,"EDAD1 | T5EDAD | 2 | A | A2 | 16 | 7 | Tablas1 | Edad, grupos quinquenales de años cumplidos
+Todas las personas | Datos demográficos"
+dr_EPA_2021.xlsx,Diseño,10,"SEXO1 | TSEXO | 1 | A | A1 | 19 | 9 | Tablas1 | Sexo
+Todas las personas"
+dr_EPA_2021.xlsx,Diseño,21,"NFORMA | TNFORMA | 2 | A | A2 | 39 | 20 | Tablas1 | Nivel de estudios2 *Todas las personas de 16 y más años
+CNED 2014 (01-81) CNED 2000 (11-80) | Formación y nivel de estudios"
+dr_EPA_2021.xlsx,Diseño,23,"EDADEST | N_EDEST | 3 | N | I3 | 43 | 22 | Tablas4 | Edad en la que alcanzó el máximo nivel de estudios
+Todas las personas de 16 y más años no analfabetas (7-110)
+0 - No sabe fecha en la que alcanzó el máximo nivel de estudios
+"
+dr_EPA_2021.xlsx,Diseño,41,"DUCON3 | T3DUCON | 2 | A | A2 | 72 | 40 | Tablas1 | Tipo de contrato o relación laboral de carácter temporal
+Asalariados con contrato temporal"
+dr_EPA_2021.xlsx,Diseño,48,"PARCO1 | T1PARCO | 1 | A | A1 | 89 | 47 | Tablas1 | Tipo de jornada, completa o parcial
+Todas las personas que trabajaron o tenían empleo la semana de referencia"
+dr_EPA_2021.xlsx,Diseño,49,"PARCO2 | T2PARCO | 2 | A | A2 | 90 | 48 | Tablas1 | Motivo de tener jornada parcial
+Ocupados a tiempo parcial"
+dr_EPA_2021.xlsx,Diseño,87,"DAUSENF | N_2DIAS | 2 | N | F2.1 | 1 | 161 | 86 | Tablas4 | Días de ausencia por enfermedad
+Todas las personas de 16 y más años con empleo que informan de ausencia por enfermedad
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia"
+dr_EPA_2021.xlsx,Diseño,88,"DAUSOTR | N_2DIAS | 2 | N | F2.1 | 1 | 163 | 87 | Tablas4 | Días de ausencia por otras razones
+Todas las personas de 16 y más años con empleo que informan de ausencia por otras razones distintas de vacaciones, festivos, horario flexible o similar o enfermedad
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia"
+dr_EPA_2021.xlsx,Diseño,92,"FACTOREL | 7 | N | F7.2 | 2 | 170 | 91 | Factor de elevación 
+Todos los registrosValores: XXXXX.XX                                                                                            Para reproducir los datos publicados en INEbase (presentados en miles de personas) hay que dividir por mil"
+dr_EPA_2021.xlsx,DiseñoN2,5,"NVIVI | 5 | A | A5 | 8 | 4 | Número de orden del hogar
+"
+dr_EPA_2021.xlsx,DiseñoN2,8,"EDAD2 | T5EDAD | 2 | A | A2 | 16 | 7 | Tablas1 | Edad, grupos quinquenales de años cumplidos
+Todas las personas | Datos demográficos"
+dr_EPA_2021.xlsx,DiseñoN2,10,"SEXO2 | TSEXO | 1 | A | A1 | 19 | 9 | Tablas1 | Sexo
+Todas las personas"
+dr_EPA_2021.xlsx,DiseñoN2,23,"FACTOREL | 7 | N | F7.2 | 2 | 170 | 22 | Factor de elevación 
+Todos los registrosValores: XXXXX.XX                                                                                            Para reproducir los datos publicados en INEbase (presentados en miles de personas) hay que dividir por mil | Variable derivada"
+dr_EPA_2021.xlsx,Tablas1,6,T5EDAD | EDAD1
+dr_EPA_2021.xlsx,Tablas1,35,TSEXO | SEXO1
+dr_EPA_2021.xlsx,Tablas1,99,"04 | Enfermedad, accidente o incapacidad temporal del encuestado"
+dr_EPA_2021.xlsx,Tablas1,115,"01 | Vacaciones o día de permiso;  Permiso por nacimiento de un hijo;  Enfermedad, accidente o incapacidad temporal del encuestado; Jornada de verano, horario variable, flexible o similar; Haber recibido enseñanza o formación relacionada con el trabajo"
+dr_EPA_2021.xlsx,Tablas1,207,02 | Enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,225,3 | Por enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,232,03 | Enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,245,03 | Por enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas1,257,03 | Enfermedad o incapacidad propia
+dr_EPA_2021.xlsx,Tablas4,1,N_EDEST | EDADEST
+dr_EPA_2021.xlsx,Tablas4,3,00 | No sabe la fecha en la que alcanzó el máximo nivel de estudios
+dr_EPA_2026.xlsx,Diseño,5,"NVIVI | 5 | A | A5 | 8 | 4 | Número de orden del hogar
+"
+dr_EPA_2026.xlsx,Diseño,8,"EDAD1 | T5EDAD | 2 | A | A2 | 16 | 7 | Tablas1 | Edad, grupos quinquenales de años cumplidos
+Todas las personas | Datos demográficos"
+dr_EPA_2026.xlsx,Diseño,10,"SEXO1 | TSEXO | 1 | A | A1 | 19 | 9 | Tablas1 | Sexo
+Todas las personas"
+dr_EPA_2026.xlsx,Diseño,21,"NFORMA | TNFORMA | 2 | A | A2 | 39 | 20 | Tablas1 | Nivel de estudios(1)   (2)Todas las personas de 16 y más años
+CNED 2014 (01-81) CNED 2000 (11-80) | Formación y nivel de estudios"
+dr_EPA_2026.xlsx,Diseño,23,"EDADEST | N_EDEST | 3 | N | I3 | 43 | 22 | Tablas4 | Edad en la que alcanzó el máximo nivel de estudios
+Todas las personas de 16 y más años no analfabetas (7-110)
+0 - No sabe fecha en la que alcanzó el máximo nivel de estudios
+"
+dr_EPA_2026.xlsx,Diseño,41,"DUCON3 | T3DUCON | 2 | A | A2 | 72 | 40 | Tablas1 | Tipo de contrato o relación laboral de carácter temporal
+Asalariados con contrato temporal"
+dr_EPA_2026.xlsx,Diseño,48,"PARCO1 | T1PARCO | 1 | A | A1 | 89 | 47 | Tablas1 | Tipo de jornada, completa o parcial
+Todas las personas que trabajaron o tenían empleo la semana de referencia"
+dr_EPA_2026.xlsx,Diseño,49,"PARCO2 | T2PARCO | 2 | A | A2 | 90 | 48 | Tablas1 | Motivo de tener jornada parcial
+Ocupados a tiempo parcial"
+dr_EPA_2026.xlsx,Diseño,87,"DAUSENF | N_2DIAS | 2 | N | F2.1 | 1 | 161 | 86 | Tablas4 | Días de ausencia por enfermedad
+Todas las personas de 16 y más años con empleo que informan de ausencia por enfermedad
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia"
+dr_EPA_2026.xlsx,Diseño,88,"DAUSOTR | N_2DIAS | 2 | N | F2.1 | 1 | 163 | 87 | Tablas4 | Días de ausencia por otras razones
+Todas las personas de 16 y más años con empleo que informan de ausencia por otras razones distintas de vacaciones, festivos, horario flexible o similar o enfermedad
+0,5; 1,0;  1,5; 2,0; … 6,5; 7,0 Valores válidos enteros /medios días
+9,9 No sabe días de ausencia"
+dr_EPA_2026.xlsx,Diseño,92,"FACTOREL | 7 | N | F7.2 | 2 | 170 | 91 | Factor de elevación 
+Todos los registrosValores: XXXXX.XX                                                                                            Para reproducir los datos publicados en INEbase (presentados en miles de personas) hay que dividir por mil"
+dr_EPA_2026.xlsx,DiseñoN2,5,"NVIVI | 5 | A | A5 | 8 | 4 | Número de orden del hogar
+"
+dr_EPA_2026.xlsx,DiseñoN2,8,"EDAD2 | T5EDAD | 2 | A | A2 | 16 | 7 | Tablas1 | Edad, grupos quinquenales de años cumplidos
+Todas las personas | Datos demográficos"
+dr_EPA_2026.xlsx,DiseñoN2,10,"SEXO2 | TSEXO | 1 | A | A1 | 19 | 9 | Tablas1 | Sexo
+Todas las personas"
+dr_EPA_2026.xlsx,DiseñoN2,23,"FACTOREL | 7 | N | F7.2 | 2 | 170 | 22 | Factor de elevación 
+Todos los registrosValores: XXXXX.XX                                                                                            Para reproducir los datos publicados en INEbase (presentados en miles de personas) hay que dividir por mil | Variable derivada"
+dr_EPA_2026.xlsx,Tablas1,6,T5EDAD | EDAD1
+dr_EPA_2026.xlsx,Tablas1,35,TSEXO | SEXO1
+dr_EPA_2026.xlsx,Tablas1,99,"04 | Enfermedad, accidente o incapacidad temporal del encuestado"
+dr_EPA_2026.xlsx,Tablas1,115,"01 | Vacaciones o día de permiso;  Permiso por nacimiento de un hijo;  Enfermedad, accidente o incapacidad temporal del encuestado; Jornada de verano, horario variable, flexible o similar; Haber recibido enseñanza o formación relacionada con el trabajo"
+dr_EPA_2026.xlsx,Tablas1,209,02 | Enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,227,3 | Por enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,234,03 | Enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,247,03 | Por enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas1,259,03 | Enfermedad o incapacidad propia
+dr_EPA_2026.xlsx,Tablas4,1,N_EDEST | EDADEST
+dr_EPA_2026.xlsx,Tablas4,3,00 | No sabe la fecha en la que alcanzó el máximo nivel de estudios

@@ -1,0 +1,396 @@
+ruta,objeto,periodo,variable,etiqueta,clase,n_na,porcentaje_na,valores_distintos,ejemplos,dimension
+data-raw/factores_base_2021/R/EPAAnexo_2021T1.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2021T1.RData,Microdatos,NA,NVIVI,,character,0,0,57997,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2021T2.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2021T2.RData,Microdatos,NA,NVIVI,,character,0,0,56028,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2021T4.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2021T4.RData,Microdatos,NA,NVIVI,,character,0,0,54184,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2022T1.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2022T1.RData,Microdatos,NA,NVIVI,,character,0,0,53897,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2022T2.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2022T2.RData,Microdatos,NA,NVIVI,,character,0,0,53750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2022T3.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2022T3.RData,Microdatos,NA,NVIVI,,character,0,0,52948,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2022T4.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2022T4.RData,Microdatos,NA,NVIVI,,character,0,0,52935,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2023T1.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2023T1.RData,Microdatos,NA,NVIVI,,character,0,0,54232,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2023T2.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2023T2.RData,Microdatos,NA,NVIVI,,character,0,0,53289,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2023T3.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2023T3.RData,Microdatos,NA,NVIVI,,character,0,0,51531,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/R/EPAAnexo_2023T4.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/R/EPAAnexo_2023T4.RData,Microdatos,NA,NVIVI,,character,0,0,51192,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2021t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2021t1.sas7bdat,datos,NA,NVIVI,,character,0,0,57997,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2021t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2021t2.sas7bdat,datos,NA,NVIVI,,character,0,0,56028,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2021t4.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2021t4.sas7bdat,datos,NA,NVIVI,,character,0,0,54184,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2022t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2022t1.sas7bdat,datos,NA,NVIVI,,character,0,0,53897,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2022t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2022t2.sas7bdat,datos,NA,NVIVI,,character,0,0,53750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2022t3.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2022t3.sas7bdat,datos,NA,NVIVI,,character,0,0,52948,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2022t4.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2022t4.sas7bdat,datos,NA,NVIVI,,character,0,0,52935,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2023t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2023t1.sas7bdat,datos,NA,NVIVI,,character,0,0,54232,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2023t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2023t2.sas7bdat,datos,NA,NVIVI,,character,0,0,53289,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2023t3.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2023t3.sas7bdat,datos,NA,NVIVI,,character,0,0,51531,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/SAS/epaanexo_2023t4.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/SAS/epaanexo_2023t4.sas7bdat,datos,NA,NVIVI,,character,0,0,51192,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T1.dta,datos,NA,NVIVI,,character,0,0,57997,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T2.dta,datos,NA,NVIVI,,character,0,0,56028,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T4.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T4.dta,datos,NA,NVIVI,,character,0,0,54184,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T1.dta,datos,NA,NVIVI,,character,0,0,53897,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T2.dta,datos,NA,NVIVI,,character,0,0,53750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T3.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T3.dta,datos,NA,NVIVI,,character,0,0,52948,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T4.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T4.dta,datos,NA,NVIVI,,character,0,0,52935,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T1.dta,datos,NA,NVIVI,,character,0,0,54232,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T2.dta,datos,NA,NVIVI,,character,0,0,53289,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T3.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T3.dta,datos,NA,NVIVI,,character,0,0,51531,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T4.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T4.dta,datos,NA,NVIVI,,character,0,0,51192,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/CSV/EPA_2021T1.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,142850,194	16	01	00001	1	01	40	1	1	02	00	00	 	1	06	   	1	   	NA	SU	  	19	3	  	3	 	      	1	 	 	  	  	 	7	2	08	 	1	1	  	  	  	28	52	01	   	1	  	4000	4000	3200	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	  	  	  	1	1	2	NA	NA	1	04	  	193.9 | 194	16	01	00001	1	02	30	2	6	01	00	00	 	1	01	   	1	   	NA	SU	  	20	3	  	3	 	      	1	 	 	  	  	 	5	5	08	 	1	1	  	  	  	75	75	01	   	6	05	1000	1000	1000	6	    	    	  	6	 	 	  	    	1	1	  	40	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	2	  	07	  	1	1	NA	NA	NA	1	03	  	193.9 | 194	16	01	00002	1	01	35	1	6	02	00	00	 	2	01	   	1	   	NA	SU	  	22	3	  	3	 	      	1	 	 	  	  	 	3	8	08	 	1	1	  	  	  	119	119	01	   	6	03	4000	2500	2000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	1	NA	NA	1	04	  	252.32 | 194	16	01	00002	1	02	30	2	1	01	00	00	 	2	01	   	1	   	NA	SU	  	22	3	  	3	 	      	1	 	 	  	  	 	2	3	08	 	1	1	  	  	  	93	94	20	   	1	  	4000	4000	3200	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	1	NA	NA	1	04	  	252.32 | 194	16	01	00002	2	03	00	3	6	00	02	01	 	 	01	   	1	   	NA	  	  	NA	 	  	 	 	      	 	 	 	  	  	 	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	 	 	 	  	  	  	 	 	 	NA	 	 	  	 	  	  	  	 	 	NA	NA	NA	 	  	  	252.32 | 194	16	01	00003	1	01	65	1	1	02	00	00	 	2	20	   	1	   	NA	SU	  	19	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	07	08	  	 	 	1	8	4	8	7 	3	02	03	  	 	 	NA	NA	NA	1	09	  	246.58,Edad
+data-raw/microdatos/2021/CSV/EPA_2021T2.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,137626,195	16	01	00001	1	01	35	1	6	02	00	00	 	2	01	   	1	   	NA	SU	  	20	3	  	3	 	      	1	 	 	  	  	 	3	8	08	 	1	1	  	  	  	122	122	01	   	6	03	4000	2500	2130	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	1	NA	NA	 	04	  	282.61 | 195	16	01	00001	1	02	30	2	1	01	00	00	 	2	01	   	1	   	NA	SU	  	24	3	  	3	 	      	1	 	 	  	  	 	2	3	08	 	1	1	  	  	  	96	97	20	   	1	  	4000	4000	3200	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	1	NA	NA	 	04	  	282.61 | 195	16	01	00001	2	03	00	3	6	00	02	01	 	 	01	   	1	   	NA	  	  	NA	 	  	 	 	      	 	 	 	  	  	 	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	 	 	 	  	  	  	 	 	 	NA	 	 	  	 	  	  	  	 	 	NA	NA	NA	 	  	  	282.61 | 195	16	01	00002	1	01	65	1	1	02	00	00	 	2	20	   	1	   	NA	SU	  	19	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	07	08	  	 	 	1	11	4	8	7 	3	02	03	  	 	 	NA	NA	NA	 	09	  	251.36 | 195	16	01	00002	1	02	60	2	6	01	00	00	 	2	20	   	1	   	NA	SU	  	21	3	  	3	 	      	6	6	1	01	01	 	2	8	07	3	1	1	  	  	  	319	403	01	   	1	  	3500	3500	0000	6	    	    	  	6	 	 	  	    	2	 	  	20	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	5	NA	NA	 	04	  	251.36 | 195	16	01	00002	1	03	25	3	6	00	01	02	 	1	01	   	1	   	2	SU	  	22	1	SP	3	 	      	1	 	 	  	  	 	2	7	08	 	6	 	05	10	  	1	26	20	   	1	  	3500	3500	3500	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	01	03	  	1	1	NA	NA	NA	 	04	  	251.36,Edad
+data-raw/microdatos/2021/CSV/EPA_2021T3.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,131283,196	16	01	00001	1	01	65	1	6	00	00	00	 	3	27	   	1	   	NA	P2	  	14	3	  	3	 	      	6	6	6	  	  	 	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	 	 	 	  	  	  	 	 	1	127	 	 	  	 	02	03	05	 	 	NA	NA	NA	 	09	  	198.92 | 196	16	01	00002	1	01	35	1	6	02	00	00	 	2	01	   	1	   	NA	SU	  	22	3	  	3	 	      	1	 	 	  	  	 	3	8	08	 	1	1	  	  	  	125	125	01	   	1	  	4000	4000	2500	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	NA	NA	1.5	 	04	  	213.67 | 196	16	01	00002	1	02	30	2	1	01	00	00	 	2	01	   	1	   	NA	SU	  	21	3	  	3	 	      	1	 	 	  	  	 	2	3	08	 	1	1	  	  	  	99	100	20	   	1	  	4000	4000	4000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	NA	NA	NA	 	04	  	213.67 | 196	16	01	00002	2	03	00	3	6	00	02	01	 	 	01	   	1	   	NA	  	  	NA	 	  	 	 	      	 	 	 	  	  	 	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	 	 	 	  	  	  	 	 	 	NA	 	 	  	 	  	  	  	 	 	NA	NA	NA	 	  	  	213.67 | 196	16	01	00003	1	01	65	1	1	02	00	00	 	2	20	   	1	   	NA	SU	  	19	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	07	08	  	 	 	1	14	 	 	  	3	02	03	  	 	 	NA	NA	NA	 	09	  	269.93 | 196	16	01	00003	1	02	60	2	6	01	00	00	 	2	20	   	1	   	NA	SU	  	21	3	  	3	 	      	6	6	1	01	01	 	2	8	07	3	1	1	  	  	  	322	406	01	   	1	  	3500	3500	0000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	5	NA	NA	 	04	  	269.93,Edad
+data-raw/microdatos/2021/CSV/EPA_2021T4.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,132419,197	16	01	00001	1	01	65	1	6	00	00	00	 	3	27	   	1	   	NA	P2	  	14	3	  	3	 	      	6	6	6	  	  	 	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	 	 	 	  	  	  	 	 	1	192	 	 	  	 	02	03	05	 	 	NA	NA	NA	 	09	  	184.52 | 197	16	01	00002	1	01	35	1	6	02	00	00	 	2	01	   	1	   	NA	SU	  	22	3	  	3	 	      	1	 	 	  	  	 	3	8	08	 	1	1	  	  	  	128	128	01	   	6	03	2500	2500	2500	6	    	    	  	6	 	 	  	    	1	6	02	35	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	NA	NA	NA	 	04	  	171.5 | 197	16	01	00002	1	02	30	2	1	01	00	00	 	2	01	   	1	   	NA	SU	  	21	3	  	3	 	      	6	6	1	04	01	 	2	3	08	 	1	1	  	  	  	102	103	20	   	1	  	4000	4000	0000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	NA	5	NA	 	04	  	171.5 | 197	16	01	00002	2	03	05	3	6	00	02	01	 	 	01	   	1	   	NA	  	  	NA	 	  	 	 	      	 	 	 	  	  	 	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	 	 	 	  	  	  	 	 	 	NA	 	 	  	 	  	  	  	 	 	NA	NA	NA	 	  	  	171.5 | 197	16	01	00003	1	01	20	1	6	00	02	03	 	1	01	   	1	   	NA	SG	  	18	1	SU	1	2	      	1	 	 	  	  	 	5	5	08	 	6	 	01	00	  	0	0	01	   	6	01	2000	2000	2000	6	    	    	  	6	 	 	  	    	3	 	  	  	1	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	01	03	  	1	1	NA	NA	NA	 	04	  	249.09 | 197	16	01	00003	1	02	60	6	1	03	00	00	 	2	  	200	3	200	42	SG	  	18	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	1	 	08	01	  	1	 	1	0	7	5	8 	1	03	  	  	2	2	NA	NA	NA	 	08	  	249.09,Edad
+data-raw/microdatos/2021/SAS/epa_2021t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2021/SAS/epa_2021t1.sas7bdat,datos,NA,NVIVI,,character,0,0,57997,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/SAS/epa_2021t1.sas7bdat,datos,NA,EDAD1,,character,0,0,14,40 | 30 | 35 | 00 | 65 | 60,Edad
+data-raw/microdatos/2021/SAS/epa_2021t1.sas7bdat,datos,NA,EDADEST,,numeric,22296,15.61,75,19 | 20 | 22 | 21 | 33 | 18,Edad
+data-raw/microdatos/2021/SAS/epa_2021t1.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,26348,193.9 | 252.32 | 246.58 | 144.01 | 246.24 | 190.58,Factor de elevación
+data-raw/microdatos/2021/SAS/epa_2021t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2021/SAS/epa_2021t2.sas7bdat,datos,NA,NVIVI,,character,0,0,56028,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/SAS/epa_2021t2.sas7bdat,datos,NA,EDAD1,,character,0,0,14,35 | 30 | 00 | 65 | 60 | 25,Edad
+data-raw/microdatos/2021/SAS/epa_2021t2.sas7bdat,datos,NA,EDADEST,,numeric,21374,15.53,73,20 | 24 | 19 | 21 | 22 | 33,Edad
+data-raw/microdatos/2021/SAS/epa_2021t2.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,26577,282.61 | 251.36 | 154.44 | 218.72 | 222.81 | 294.05,Factor de elevación
+data-raw/microdatos/2021/SAS/epa_2021t3.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2021/SAS/epa_2021t3.sas7bdat,datos,NA,NVIVI,,character,0,0,53646,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/SAS/epa_2021t3.sas7bdat,datos,NA,EDAD1,,character,0,0,14,65 | 35 | 30 | 00 | 60 | 25,Edad
+data-raw/microdatos/2021/SAS/epa_2021t3.sas7bdat,datos,NA,EDADEST,,numeric,20237,15.41,69,14 | 22 | 21 | 19 | 24 | 17,Edad
+data-raw/microdatos/2021/SAS/epa_2021t3.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,26434,198.92 | 213.67 | 269.93 | 170 | 192.02 | 217.84,Factor de elevación
+data-raw/microdatos/2021/SAS/epa_2021t4.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2021/SAS/epa_2021t4.sas7bdat,datos,NA,NVIVI,,character,0,0,54184,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/SAS/epa_2021t4.sas7bdat,datos,NA,EDAD1,,character,0,0,14,65 | 35 | 30 | 05 | 20 | 60,Edad
+data-raw/microdatos/2021/SAS/epa_2021t4.sas7bdat,datos,NA,EDADEST,,numeric,20654,15.6,70,14 | 22 | 21 | 18 | 39 | 19,Edad
+data-raw/microdatos/2021/SAS/epa_2021t4.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,26792,184.52 | 171.5 | 249.09 | 176.46 | 202.46 | 161.35,Factor de elevación
+data-raw/microdatos/2021/STATA/EPA_2021T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2021/STATA/EPA_2021T1.dta,datos,NA,NVIVI,,character,0,0,57997,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/STATA/EPA_2021T1.dta,datos,NA,EDAD1,,character,0,0,14,40 | 30 | 35 | 00 | 65 | 60,Edad
+data-raw/microdatos/2021/STATA/EPA_2021T1.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,22296,15.61,75,19 | 20 | 22 | 21 | 33 | 18,Edad
+data-raw/microdatos/2021/STATA/EPA_2021T1.dta,datos,NA,FACTOREL,,numeric,0,0,26348,193.9 | 252.32 | 246.58 | 144.01 | 246.24 | 190.58,Factor de elevación
+data-raw/microdatos/2021/STATA/EPA_2021T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2021/STATA/EPA_2021T2.dta,datos,NA,NVIVI,,character,0,0,56028,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/STATA/EPA_2021T2.dta,datos,NA,EDAD1,,character,0,0,14,35 | 30 | 00 | 65 | 60 | 25,Edad
+data-raw/microdatos/2021/STATA/EPA_2021T2.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,21374,15.53,73,20 | 24 | 19 | 21 | 22 | 33,Edad
+data-raw/microdatos/2021/STATA/EPA_2021T2.dta,datos,NA,FACTOREL,,numeric,0,0,26577,282.61 | 251.36 | 154.44 | 218.72 | 222.81 | 294.05,Factor de elevación
+data-raw/microdatos/2021/STATA/EPA_2021T3.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2021/STATA/EPA_2021T3.dta,datos,NA,NVIVI,,character,0,0,53646,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/STATA/EPA_2021T3.dta,datos,NA,EDAD1,,character,0,0,14,65 | 35 | 30 | 00 | 60 | 25,Edad
+data-raw/microdatos/2021/STATA/EPA_2021T3.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20237,15.41,69,14 | 22 | 21 | 19 | 24 | 17,Edad
+data-raw/microdatos/2021/STATA/EPA_2021T3.dta,datos,NA,FACTOREL,,numeric,0,0,26434,198.92 | 213.67 | 269.93 | 170 | 192.02 | 217.84,Factor de elevación
+data-raw/microdatos/2021/STATA/EPA_2021T4.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2021/STATA/EPA_2021T4.dta,datos,NA,NVIVI,,character,0,0,54184,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2021/STATA/EPA_2021T4.dta,datos,NA,EDAD1,,character,0,0,14,65 | 35 | 30 | 05 | 20 | 60,Edad
+data-raw/microdatos/2021/STATA/EPA_2021T4.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20654,15.6,70,14 | 22 | 21 | 18 | 39 | 19,Edad
+data-raw/microdatos/2021/STATA/EPA_2021T4.dta,datos,NA,FACTOREL,,numeric,0,0,26792,184.52 | 171.5 | 249.09 | 176.46 | 202.46 | 161.35,Factor de elevación
+data-raw/microdatos/2022/CSV/EPA_2022T1.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,131808,198	16	01	00001	1	01	50	1	6	02	00	00	 	2	01	   	1	   	27	SU	  	21	3	  	3	 	      	1	 	 	  	  	 	4	3	08	 	1	1	  	  	  	319	331	01	   	1	  	4000	4000	2400	6	    	    	  	6	 	 	  	    	2	 	  	32	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	2	NA	NA	1	04	  	209.58 | 198	16	01	00001	1	02	50	2	1	01	00	00	 	2	09	   	1	   	NA	SU	  	20	3	  	3	 	      	1	 	 	  	  	 	3	3	08	 	1	1	  	  	  	321	321	01	   	1	  	4000	4000	2400	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	2	NA	NA	1	04	  	209.58 | 198	16	01	00001	1	03	16	3	6	00	02	01	 	1	01	   	1	   	NA	S1	  	16	1	SG	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	06	  	  	 	 	6	NA	 	 	  	3	01	03	  	 	 	NA	NA	NA	6	09	  	209.58 | 198	16	01	00001	2	04	10	3	1	00	02	01	 	 	01	   	1	   	NA	  	  	NA	 	  	 	 	      	 	 	 	  	  	 	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	 	 	 	  	  	  	 	 	 	NA	 	 	  	 	  	  	  	 	 	NA	NA	NA	 	  	  	209.58 | 198	16	01	00002	1	01	40	1	1	02	00	00	 	2	01	   	1	   	NA	SU	  	30	3	  	3	 	      	1	 	 	  	  	 	3	2	08	 	1	1	  	  	  	184	208	01	   	1	  	4000	4000	0800	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	4	NA	NA	1	04	  	113.69 | 198	16	01	00002	1	02	40	2	6	01	00	00	 	2	01	   	1	   	NA	SU	  	24	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	03	03	  	 	 	1	88	 	 	  	3	03	04	  	 	 	NA	NA	NA	6	09	  	113.69,Edad
+data-raw/microdatos/2022/CSV/EPA_2022T2.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,130921,199	16	01	00001	1	01	50	1	6	02	00	00	 	2	01	   	1	   	27	SU	  	21	3	  	1	1	      	1	 	 	  	  	 	4	3	08	 	1	1	  	  	  	322	334	01	   	1	  	4000	4000	4000	6	    	    	  	6	 	 	  	    	2	 	  	30	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	2	01	03	  	1	1	NA	NA	NA	 	04	  	208.29 | 199	16	01	00001	1	02	50	2	1	01	00	00	 	2	09	   	1	   	NA	SU	  	23	3	  	3	 	      	1	 	 	  	  	 	3	3	08	 	1	1	  	  	  	324	324	01	   	1	  	4000	4000	4000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	2	  	  	  	1	1	NA	NA	NA	 	04	  	208.29 | 199	16	01	00001	1	03	16	3	6	00	02	01	 	1	01	   	1	   	NA	S1	  	16	1	SG	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	06	  	  	 	 	6	NA	 	 	  	3	01	  	  	 	 	NA	NA	NA	 	09	  	208.29 | 199	16	01	00001	2	04	10	3	1	00	02	01	 	 	01	   	1	   	NA	  	  	NA	 	  	 	 	      	 	 	 	  	  	 	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	 	 	 	  	  	  	 	 	 	NA	 	 	  	 	  	  	  	 	 	NA	NA	NA	 	  	  	208.29 | 199	16	01	00002	1	01	40	1	1	02	00	00	 	2	01	   	1	   	NA	SU	  	30	3	  	3	 	      	1	 	 	  	  	 	3	2	08	 	1	1	  	  	  	187	211	01	   	6	03	1000	1000	4000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	NA	NA	NA	 	04	  	130.46 | 199	16	01	00002	1	02	40	2	6	01	00	00	 	2	01	   	1	   	NA	SU	  	26	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	03	  	  	 	 	1	103	 	 	  	3	04	05	  	 	 	NA	NA	NA	 	09	  	130.46,Edad
+data-raw/microdatos/2022/CSV/EPA_2022T3.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,128732,200	16	01	00001	1	01	50	1	6	02	00	00	 	2	01	   	1	   	28	SU	  	21	3	  	1	2	      	1	 	 	  	  	 	4	3	08	 	1	1	  	  	  	325	337	01	   	1	  	4000	4000	4000	6	    	    	  	6	 	 	  	    	2	 	  	30	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	01	03	  	1	1	NA	NA	NA	 	04	  	219.14 | 200	16	01	00001	1	02	50	2	1	01	00	00	 	2	09	   	1	   	NA	SU	  	23	3	  	3	 	      	1	 	 	  	  	 	3	3	08	 	1	1	  	  	  	327	327	01	   	1	  	4000	4000	4000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	NA	NA	NA	 	04	  	219.14 | 200	16	01	00001	1	03	16	3	6	00	02	01	 	1	01	   	1	   	NA	SG	  	18	2	SG	3	 	      	1	 	 	  	  	 	5	9	08	 	6	 	07	  	06	1	1	01	   	6	07	0200	0200	0200	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	01	03	  	1	1	NA	NA	NA	 	04	  	219.14 | 200	16	01	00001	1	04	16	3	1	00	02	01	 	1	01	   	1	   	NA	S1	  	16	2	SG	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	1	 	05	  	  	1	 	6	NA	 	 	  	3	01	03	  	 	 	NA	NA	NA	 	09	  	219.14 | 200	16	01	00002	1	01	40	1	1	02	00	00	 	2	01	   	1	   	NA	SU	  	30	3	  	3	 	      	6	6	1	01	01	 	3	2	08	 	1	1	  	  	  	190	214	01	   	6	03	1000	1000	0000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	05	  	  	1	1	5	NA	NA	 	04	  	132.28 | 200	16	01	00002	1	02	40	2	6	01	00	00	 	2	01	   	1	   	NA	SU	  	26	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	03	  	  	 	 	1	106	 	 	  	3	04	05	  	 	 	NA	NA	NA	 	09	  	132.28,Edad
+data-raw/microdatos/2022/CSV/EPA_2022T4.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,128192,201	16	01	00001	1	01	50	1	6	02	00	00	 	2	01	   	1	   	28	SU	  	21	3	  	3	 	      	1	 	 	  	  	 	4	3	08	 	1	1	  	  	  	328	340	01	   	1	  	4000	4000	4000	6	    	    	  	6	 	 	  	    	2	 	  	35	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	NA	NA	NA	 	04	  	142.48 | 201	16	01	00001	1	02	50	2	1	01	00	00	 	2	09	   	1	   	NA	SU	  	23	3	  	3	 	      	1	 	 	  	  	 	3	3	08	 	1	1	  	  	  	330	330	01	   	1	  	4000	4000	4000	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	NA	NA	NA	 	04	  	142.48 | 201	16	01	00001	1	03	16	3	6	00	02	01	 	1	01	   	1	   	NA	SG	  	18	1	SU	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	06	02	  	 	 	1	3	5	5	8 	3	01	  	  	 	 	NA	NA	NA	 	09	  	142.48 | 201	16	01	00001	1	04	16	3	1	00	02	01	 	1	01	   	1	   	NA	S1	  	16	1	SP	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	06	  	  	 	 	6	NA	 	 	  	3	01	03	  	 	 	NA	NA	NA	 	09	  	142.48 | 201	16	01	00002	1	01	40	1	1	02	00	00	 	2	01	   	1	   	NA	SU	  	30	3	  	3	 	      	1	 	 	  	  	 	3	2	08	 	1	1	  	  	  	193	217	01	   	6	03	4000	1000	4000	6	    	    	  	6	 	 	  	    	1	6	02	40	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	  	  	  	1	1	NA	NA	NA	 	04	  	141.5 | 201	16	01	00002	1	02	40	2	6	01	00	00	 	2	01	   	1	   	NA	SU	  	22	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	03	03	  	 	 	1	84	 	 	  	3	04	05	  	 	 	NA	NA	NA	 	09	  	141.5,Edad
+data-raw/microdatos/2022/SAS/epa_2022t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/SAS/epa_2022t1.sas7bdat,datos,NA,NVIVI,,character,0,0,53897,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/SAS/epa_2022t1.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 10 | 40 | 05 | 00,Edad
+data-raw/microdatos/2022/SAS/epa_2022t1.sas7bdat,datos,NA,EDADEST,,numeric,20721,15.72,71,21 | 20 | 16 | 30 | 24 | 18,Edad
+data-raw/microdatos/2022/SAS/epa_2022t1.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,27625,209.58 | 113.69 | 127.67 | 191 | 224.69 | 193.26,Factor de elevación
+data-raw/microdatos/2022/SAS/epa_2022t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/SAS/epa_2022t2.sas7bdat,datos,NA,NVIVI,,character,0,0,53750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/SAS/epa_2022t2.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 10 | 40 | 05 | 00,Edad
+data-raw/microdatos/2022/SAS/epa_2022t2.sas7bdat,datos,NA,EDADEST,,numeric,20963,16.01,72,21 | 23 | 16 | 30 | 26 | 18,Edad
+data-raw/microdatos/2022/SAS/epa_2022t2.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,27975,208.29 | 130.46 | 106.29 | 185 | 221.39 | 201.54,Factor de elevación
+data-raw/microdatos/2022/SAS/epa_2022t3.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/SAS/epa_2022t3.sas7bdat,datos,NA,NVIVI,,character,0,0,52948,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/SAS/epa_2022t3.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 55,Edad
+data-raw/microdatos/2022/SAS/epa_2022t3.sas7bdat,datos,NA,EDADEST,,numeric,20537,15.95,74,21 | 23 | 18 | 16 | 30 | 26,Edad
+data-raw/microdatos/2022/SAS/epa_2022t3.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,28074,219.14 | 132.28 | 129.02 | 173.04 | 174.59 | 217.43,Factor de elevación
+data-raw/microdatos/2022/SAS/epa_2022t4.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/SAS/epa_2022t4.sas7bdat,datos,NA,NVIVI,,character,0,0,52935,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/SAS/epa_2022t4.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2022/SAS/epa_2022t4.sas7bdat,datos,NA,EDADEST,,numeric,20427,15.93,71,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2022/SAS/epa_2022t4.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,27704,142.48 | 141.5 | 157.72 | 223.42 | 219.01 | 279.96,Factor de elevación
+data-raw/microdatos/2022/SPSS/EPA_2022T2.sav,datos,NA,CCAA,01,haven_labelled/vctrs_vctr/character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/SPSS/EPA_2022T2.sav,datos,NA,NVIVI,,character,0,0,53750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/SPSS/EPA_2022T2.sav,datos,NA,EDAD1,00,haven_labelled/vctrs_vctr/character,0,0,14,50 | 16 | 10 | 40 | 05 | 00,Edad
+data-raw/microdatos/2022/SPSS/EPA_2022T2.sav,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20963,16.01,72,21 | 23 | 16 | 30 | 26 | 18,Edad
+data-raw/microdatos/2022/SPSS/EPA_2022T2.sav,datos,NA,FACTOREL,,numeric,0,0,27975,208.29 | 130.46 | 106.29 | 185 | 221.39 | 201.54,Factor de elevación
+data-raw/microdatos/2022/STATA/EPA_2022T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/STATA/EPA_2022T1.dta,datos,NA,NVIVI,,character,0,0,53897,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/STATA/EPA_2022T1.dta,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 10 | 40 | 05 | 00,Edad
+data-raw/microdatos/2022/STATA/EPA_2022T1.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20721,15.72,71,21 | 20 | 16 | 30 | 24 | 18,Edad
+data-raw/microdatos/2022/STATA/EPA_2022T1.dta,datos,NA,FACTOREL,,numeric,0,0,27625,209.58 | 113.69 | 127.67 | 191 | 224.69 | 193.26,Factor de elevación
+data-raw/microdatos/2022/STATA/EPA_2022T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/STATA/EPA_2022T2.dta,datos,NA,NVIVI,,character,0,0,53750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/STATA/EPA_2022T2.dta,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 10 | 40 | 05 | 00,Edad
+data-raw/microdatos/2022/STATA/EPA_2022T2.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20963,16.01,72,21 | 23 | 16 | 30 | 26 | 18,Edad
+data-raw/microdatos/2022/STATA/EPA_2022T2.dta,datos,NA,FACTOREL,,numeric,0,0,27975,208.29 | 130.46 | 106.29 | 185 | 221.39 | 201.54,Factor de elevación
+data-raw/microdatos/2022/STATA/EPA_2022T3.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/STATA/EPA_2022T3.dta,datos,NA,NVIVI,,character,0,0,52948,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/STATA/EPA_2022T3.dta,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 55,Edad
+data-raw/microdatos/2022/STATA/EPA_2022T3.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20537,15.95,74,21 | 23 | 18 | 16 | 30 | 26,Edad
+data-raw/microdatos/2022/STATA/EPA_2022T3.dta,datos,NA,FACTOREL,,numeric,0,0,28074,219.14 | 132.28 | 129.02 | 173.04 | 174.59 | 217.43,Factor de elevación
+data-raw/microdatos/2022/STATA/EPA_2022T4.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2022/STATA/EPA_2022T4.dta,datos,NA,NVIVI,,character,0,0,52935,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2022/STATA/EPA_2022T4.dta,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2022/STATA/EPA_2022T4.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20427,15.93,71,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2022/STATA/EPA_2022T4.dta,datos,NA,FACTOREL,,numeric,0,0,27704,142.48 | 141.5 | 157.72 | 223.42 | 219.01 | 279.96,Factor de elevación
+data-raw/microdatos/2023/CSV/EPA_2023T1.csv,datos,NA,CICLO	CCAA	PROV	NVIVI	NIVEL	NPERS	EDAD1	RELPP1	SEXO1	NCONY	NPADRE	NMADRE	RELLMILI	ECIV1	PRONA1	REGNA1	NAC1	EXREGNA1	ANORE1	NFORMA	RELLB1	EDADEST	CURSR	NCURSR	CURSNR	OBJFORM	RELLB2	TRAREM	AYUDFA	AUSENT	RZNOTB	VINCUL	NUEVEM	OCUP1	ACT1	SITU	SP	DUCON1	DUCON2	DUCON3	TCONTM	TCONTD	DREN	DCOM	PROEST	REGEST	PARCO1	PARCO2	HORASP	HORASH	HORASE	EXTRA	EXTPAG	EXTNPG	RELLB3	TRAPLU	OCUPLU1	ACTPLU1	SITPLU	HORPLU	MASHOR	DISMAS	RZNDISH	HORDES	BUSOTR	BUSCA	DESEA	FOBACT	NBUSCA	RZULT	ITBU	DISP	RZNDIS	EMPANT	DTANT	OCUPA	ACTA	SITUA	OFEMP	SIDI1	SIDI2	SIDI3	SIDAC1	SIDAC2	DAUSVAC	DAUSENF	DAUSOTR	TRAANT	AOI	RELLB4	FACTOREL,,character,0,0,131202,202	16	01	00001	1	01	50	1	6	02	00	00	 	2	01	   	1	   	28	SU	  	21	3	  	3	 	      	6	6	1	01	01	 	4	3	08	 	1	1	  	  	  	331	343	01	   	1	  	4000	4000	0000	6	    	    	  	6	 	 	  	    	2	 	  	30	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	5	NA	NA	1	04	  	183.43 | 202	16	01	00001	1	02	50	2	1	01	00	00	 	2	09	   	1	   	NA	SU	  	23	3	  	3	 	      	1	 	 	  	  	 	3	3	08	 	1	1	  	  	  	333	333	01	   	1	  	4000	4000	3200	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	1	NA	NA	1	04	  	183.43 | 202	16	01	00001	1	03	16	3	6	00	02	01	 	1	01	   	1	   	NA	SG	  	18	1	SU	1	2	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	06	02	  	 	 	1	6	5	5	08	3	01	03	  	 	 	NA	NA	NA	1	09	  	183.43 | 202	16	01	00001	1	04	16	3	1	00	02	01	 	1	01	   	1	   	NA	S1	  	16	1	SP	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	06	  	  	 	 	6	NA	 	 	  	2	01	03	  	 	 	NA	NA	NA	6	09	  	183.43 | 202	16	01	00002	1	01	40	1	1	02	00	00	 	2	01	   	1	   	NA	SU	  	30	3	  	3	 	      	1	 	 	  	  	 	3	2	08	 	1	1	  	  	  	196	220	01	   	6	03	1000	1000	3200	6	    	    	  	6	 	 	  	    	3	 	  	  	6	 	 	 	  	  	  	 	 	 	NA	 	 	  	3	03	  	  	1	1	1	NA	NA	1	04	  	154.21 | 202	16	01	00002	1	02	40	2	6	01	00	00	 	2	01	   	1	   	NA	SU	  	22	3	  	3	 	      	6	6	6	  	  	3	 	 	  	 	 	 	  	  	  	NA	NA	  	   	 	  	    	    	    	 	    	    	  	 	 	 	  	    	 	 	  	  	 	6	6	 	03	03	  	 	 	1	96	 	 	  	3	04	05	  	 	 	NA	NA	NA	6	09	  	154.21,Edad
+data-raw/microdatos/2023/R/EPA_2023T1.RData,Microdatos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/R/EPA_2023T1.RData,Microdatos,NA,NVIVI,,character,0,0,54232,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/R/EPA_2023T1.RData,Microdatos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2023/R/EPA_2023T1.RData,Microdatos,NA,EDADEST,,integer,20827,15.87,73,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2023/R/EPA_2023T1.RData,Microdatos,NA,FACTOREL,,numeric,0,0,27550,183.43 | 154.21 | 154.32 | 157.54 | 218.32 | 218.17,Factor de elevación
+data-raw/microdatos/2023/R/EPA_2023T2.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/R/EPA_2023T2.RData,df_micro,NA,NVIVI,,character,0,0,53289,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/R/EPA_2023T2.RData,df_micro,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2023/R/EPA_2023T2.RData,df_micro,NA,EDADEST,,integer,20302,15.81,74,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2023/R/EPA_2023T2.RData,df_micro,NA,FACTOREL,,numeric,0,0,26244,130.45 | 145.43 | 166.42 | 144.47 | 248.5 | 173.51,Factor de elevación
+data-raw/microdatos/2023/R/EPA_2023T3.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/R/EPA_2023T3.RData,df_micro,NA,NVIVI,,character,0,0,51531,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/R/EPA_2023T3.RData,df_micro,NA,EDAD1,,character,0,0,14,45 | 60 | 25 | 55 | 50 | 20,Edad
+data-raw/microdatos/2023/R/EPA_2023T3.RData,df_micro,NA,EDADEST,,integer,19447,15.72,74,18 | 14 | 16 | 23 | 39 | 21,Edad
+data-raw/microdatos/2023/R/EPA_2023T3.RData,df_micro,NA,FACTOREL,,numeric,0,0,25189,180.65 | 177.97 | 175.96 | 204 | 103.96 | 281.73,Factor de elevación
+data-raw/microdatos/2023/R/EPA_2023T4.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/R/EPA_2023T4.RData,df_micro,NA,NVIVI,,character,0,0,51192,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/R/EPA_2023T4.RData,df_micro,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2023/R/EPA_2023T4.RData,df_micro,NA,EDADEST,,integer,19041,15.52,73,27 | 16 | 11 | 24 | 22 | 32,Edad
+data-raw/microdatos/2023/R/EPA_2023T4.RData,df_micro,NA,FACTOREL,,numeric,0,0,24184,608.78 | 355.73 | 361.28 | 201.63 | 209.32 | 98.32,Factor de elevación
+data-raw/microdatos/2023/SAS/epa_2023t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/SAS/epa_2023t1.sas7bdat,datos,NA,NVIVI,,character,0,0,54232,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/SAS/epa_2023t1.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2023/SAS/epa_2023t1.sas7bdat,datos,NA,EDADEST,,numeric,20827,15.87,73,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2023/SAS/epa_2023t1.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,27550,183.43 | 154.21 | 154.32 | 157.54 | 218.32 | 218.17,Factor de elevación
+data-raw/microdatos/2023/SAS/epa_2023t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/SAS/epa_2023t2.sas7bdat,datos,NA,NVIVI,,character,0,0,53289,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/SAS/epa_2023t2.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2023/SAS/epa_2023t2.sas7bdat,datos,NA,EDADEST,,numeric,20302,15.81,74,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2023/SAS/epa_2023t2.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,26244,130.45 | 145.43 | 166.42 | 144.47 | 248.5 | 173.51,Factor de elevación
+data-raw/microdatos/2023/SAS/epa_2023t3.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/SAS/epa_2023t3.sas7bdat,datos,NA,NVIVI,,character,0,0,51531,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/SAS/epa_2023t3.sas7bdat,datos,NA,EDAD1,,character,0,0,14,45 | 60 | 25 | 55 | 50 | 20,Edad
+data-raw/microdatos/2023/SAS/epa_2023t3.sas7bdat,datos,NA,EDADEST,,numeric,19447,15.72,74,18 | 14 | 16 | 23 | 39 | 21,Edad
+data-raw/microdatos/2023/SAS/epa_2023t3.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,25189,180.65 | 177.97 | 175.96 | 204 | 103.96 | 281.73,Factor de elevación
+data-raw/microdatos/2023/SAS/epa_2023t4.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/SAS/epa_2023t4.sas7bdat,datos,NA,NVIVI,,character,0,0,51192,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/SAS/epa_2023t4.sas7bdat,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2023/SAS/epa_2023t4.sas7bdat,datos,NA,EDADEST,,numeric,19041,15.52,73,27 | 16 | 11 | 24 | 22 | 32,Edad
+data-raw/microdatos/2023/SAS/epa_2023t4.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,24184,608.78 | 355.73 | 361.28 | 201.63 | 209.32 | 98.32,Factor de elevación
+data-raw/microdatos/2023/SPSS/EPA_2023T1.sav,datos,NA,CCAA,10,haven_labelled/vctrs_vctr/character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/SPSS/EPA_2023T1.sav,datos,NA,NVIVI,,character,0,0,54232,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/SPSS/EPA_2023T1.sav,datos,NA,EDAD1,00,haven_labelled/vctrs_vctr/character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2023/SPSS/EPA_2023T1.sav,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20827,15.87,73,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2023/SPSS/EPA_2023T1.sav,datos,NA,FACTOREL,,numeric,0,0,27550,183.43 | 154.21 | 154.32 | 157.54 | 218.32 | 218.17,Factor de elevación
+data-raw/microdatos/2023/SPSS/EPA_2023T4.sav,datos,NA,CCAA,10,haven_labelled/vctrs_vctr/character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/SPSS/EPA_2023T4.sav,datos,NA,NVIVI,,character,0,0,51192,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/SPSS/EPA_2023T4.sav,datos,NA,EDAD1,00,haven_labelled/vctrs_vctr/character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2023/SPSS/EPA_2023T4.sav,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,19041,15.52,73,27 | 16 | 11 | 24 | 22 | 32,Edad
+data-raw/microdatos/2023/SPSS/EPA_2023T4.sav,datos,NA,FACTOREL,,numeric,0,0,24184,608.78 | 355.73 | 361.28 | 201.63 | 209.32 | 98.32,Factor de elevación
+data-raw/microdatos/2023/STATA/EPA_2023T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/STATA/EPA_2023T1.dta,datos,NA,NVIVI,,character,0,0,54232,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/STATA/EPA_2023T1.dta,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2023/STATA/EPA_2023T1.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20827,15.87,73,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2023/STATA/EPA_2023T1.dta,datos,NA,FACTOREL,,numeric,0,0,27550,183.43 | 154.21 | 154.32 | 157.54 | 218.32 | 218.17,Factor de elevación
+data-raw/microdatos/2023/STATA/EPA_2023T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/STATA/EPA_2023T2.dta,datos,NA,NVIVI,,character,0,0,53289,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/STATA/EPA_2023T2.dta,datos,NA,EDAD1,,character,0,0,14,50 | 16 | 40 | 05 | 00 | 60,Edad
+data-raw/microdatos/2023/STATA/EPA_2023T2.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,20302,15.81,74,21 | 23 | 18 | 16 | 30 | 22,Edad
+data-raw/microdatos/2023/STATA/EPA_2023T2.dta,datos,NA,FACTOREL,,numeric,0,0,26244,130.45 | 145.43 | 166.42 | 144.47 | 248.5 | 173.51,Factor de elevación
+data-raw/microdatos/2023/STATA/EPA_2023T3.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/STATA/EPA_2023T3.dta,datos,NA,NVIVI,,character,0,0,51531,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/STATA/EPA_2023T3.dta,datos,NA,EDAD1,,character,0,0,14,45 | 60 | 25 | 55 | 50 | 20,Edad
+data-raw/microdatos/2023/STATA/EPA_2023T3.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,19447,15.72,74,18 | 14 | 16 | 23 | 39 | 21,Edad
+data-raw/microdatos/2023/STATA/EPA_2023T3.dta,datos,NA,FACTOREL,,numeric,0,0,25189,180.65 | 177.97 | 175.96 | 204 | 103.96 | 281.73,Factor de elevación
+data-raw/microdatos/2023/STATA/EPA_2023T4.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2023/STATA/EPA_2023T4.dta,datos,NA,NVIVI,,character,0,0,51192,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2023/STATA/EPA_2023T4.dta,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2023/STATA/EPA_2023T4.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,19041,15.52,73,27 | 16 | 11 | 24 | 22 | 32,Edad
+data-raw/microdatos/2023/STATA/EPA_2023T4.dta,datos,NA,FACTOREL,,numeric,0,0,24184,608.78 | 355.73 | 361.28 | 201.63 | 209.32 | 98.32,Factor de elevación
+data-raw/microdatos/2024/R/EPA_2024T1.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/R/EPA_2024T1.RData,df_micro,NA,NVIVI,,character,0,0,51750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/R/EPA_2024T1.RData,df_micro,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/R/EPA_2024T1.RData,df_micro,NA,EDADEST,,integer,19202,15.48,71,27 | 16 | 11 | 24 | 22 | 17,Edad
+data-raw/microdatos/2024/R/EPA_2024T1.RData,df_micro,NA,FACTOREL,,numeric,0,0,24377,418.2 | 293.83 | 382.41 | 152.22 | 157.45 | 52.46,Factor de elevación
+data-raw/microdatos/2024/R/EPA_2024T2.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/R/EPA_2024T2.RData,df_micro,NA,NVIVI,,character,0,0,51080,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/R/EPA_2024T2.RData,df_micro,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/R/EPA_2024T2.RData,df_micro,NA,EDADEST,,integer,18809,15.39,72,27 | 16 | 43 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/R/EPA_2024T2.RData,df_micro,NA,FACTOREL,,numeric,0,0,24336,408.81 | 279.92 | 440.16 | 189.09 | 150.05 | 67.5,Factor de elevación
+data-raw/microdatos/2024/R/EPA_2024T3.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/R/EPA_2024T3.RData,df_micro,NA,NVIVI,,character,0,0,50141,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/R/EPA_2024T3.RData,df_micro,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/R/EPA_2024T3.RData,df_micro,NA,EDADEST,,integer,18262,15.25,67,27 | 16 | 44 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/R/EPA_2024T3.RData,df_micro,NA,FACTOREL,,numeric,0,0,23933,330.79 | 138.27 | 627.58 | 169.52 | 115.9 | 88.82,Factor de elevación
+data-raw/microdatos/2024/R/EPA_2024T4.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/R/EPA_2024T4.RData,df_micro,NA,NVIVI,,character,0,0,49972,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/R/EPA_2024T4.RData,df_micro,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/R/EPA_2024T4.RData,df_micro,NA,EDADEST,,integer,18001,15.08,68,27 | 16 | 44 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/R/EPA_2024T4.RData,df_micro,NA,FACTOREL,,numeric,0,0,23934,439.61 | 180.25 | 326.32 | 197.35 | 149.45 | 125.61,Factor de elevación
+data-raw/microdatos/2024/SAS/epa_2024t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/SAS/epa_2024t1.sas7bdat,datos,NA,NVIVI,,character,0,0,51750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/SAS/epa_2024t1.sas7bdat,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/SAS/epa_2024t1.sas7bdat,datos,NA,EDADEST,,numeric,19202,15.48,71,27 | 16 | 11 | 24 | 22 | 17,Edad
+data-raw/microdatos/2024/SAS/epa_2024t1.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,24377,418.2 | 293.83 | 382.41 | 152.22 | 157.45 | 52.46,Factor de elevación
+data-raw/microdatos/2024/SAS/epa_2024t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/SAS/epa_2024t2.sas7bdat,datos,NA,NVIVI,,character,0,0,51080,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/SAS/epa_2024t2.sas7bdat,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/SAS/epa_2024t2.sas7bdat,datos,NA,EDADEST,,numeric,18809,15.39,72,27 | 16 | 43 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/SAS/epa_2024t2.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,24336,408.81 | 279.92 | 440.16 | 189.09 | 150.05 | 67.5,Factor de elevación
+data-raw/microdatos/2024/SAS/epa_2024t3.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/SAS/epa_2024t3.sas7bdat,datos,NA,NVIVI,,character,0,0,50141,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/SAS/epa_2024t3.sas7bdat,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/SAS/epa_2024t3.sas7bdat,datos,NA,EDADEST,,numeric,18262,15.25,67,27 | 16 | 44 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/SAS/epa_2024t3.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,23933,330.79 | 138.27 | 627.58 | 169.52 | 115.9 | 88.82,Factor de elevación
+data-raw/microdatos/2024/SAS/epa_2024t4.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/SAS/epa_2024t4.sas7bdat,datos,NA,NVIVI,,character,0,0,49972,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/SAS/epa_2024t4.sas7bdat,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/SAS/epa_2024t4.sas7bdat,datos,NA,EDADEST,,numeric,18001,15.08,68,27 | 16 | 44 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/SAS/epa_2024t4.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,23934,439.61 | 180.25 | 326.32 | 197.35 | 149.45 | 125.61,Factor de elevación
+data-raw/microdatos/2024/STATA/EPA_2024T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/STATA/EPA_2024T1.dta,datos,NA,NVIVI,,character,0,0,51750,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/STATA/EPA_2024T1.dta,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/STATA/EPA_2024T1.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,19202,15.48,71,27 | 16 | 11 | 24 | 22 | 17,Edad
+data-raw/microdatos/2024/STATA/EPA_2024T1.dta,datos,NA,FACTOREL,,numeric,0,0,24377,418.2 | 293.83 | 382.41 | 152.22 | 157.45 | 52.46,Factor de elevación
+data-raw/microdatos/2024/STATA/EPA_2024T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/STATA/EPA_2024T2.dta,datos,NA,NVIVI,,character,0,0,51080,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/STATA/EPA_2024T2.dta,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/STATA/EPA_2024T2.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,18809,15.39,72,27 | 16 | 43 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/STATA/EPA_2024T2.dta,datos,NA,FACTOREL,,numeric,0,0,24336,408.81 | 279.92 | 440.16 | 189.09 | 150.05 | 67.5,Factor de elevación
+data-raw/microdatos/2024/STATA/EPA_2024T3.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/STATA/EPA_2024T3.dta,datos,NA,NVIVI,,character,0,0,50141,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/STATA/EPA_2024T3.dta,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/STATA/EPA_2024T3.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,18262,15.25,67,27 | 16 | 44 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/STATA/EPA_2024T3.dta,datos,NA,FACTOREL,,numeric,0,0,23933,330.79 | 138.27 | 627.58 | 169.52 | 115.9 | 88.82,Factor de elevación
+data-raw/microdatos/2024/STATA/EPA_2024T4.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2024/STATA/EPA_2024T4.dta,datos,NA,NVIVI,,character,0,0,49972,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2024/STATA/EPA_2024T4.dta,datos,NA,EDAD1,,character,0,0,14,30 | 45 | 40 | 55 | 10 | 50,Edad
+data-raw/microdatos/2024/STATA/EPA_2024T4.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,18001,15.08,68,27 | 16 | 44 | 11 | 24 | 22,Edad
+data-raw/microdatos/2024/STATA/EPA_2024T4.dta,datos,NA,FACTOREL,,numeric,0,0,23934,439.61 | 180.25 | 326.32 | 197.35 | 149.45 | 125.61,Factor de elevación
+data-raw/microdatos/2025/R/EPA_2025T1.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/R/EPA_2025T1.RData,df_micro,NA,NVIVI,,character,0,0,50904,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/R/EPA_2025T1.RData,df_micro,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 45,Edad
+data-raw/microdatos/2025/R/EPA_2025T1.RData,df_micro,NA,EDADEST,,integer,18234,14.98,69,21 | 18 | 38 | 23 | 8 | 14,Edad
+data-raw/microdatos/2025/R/EPA_2025T1.RData,df_micro,NA,FACTOREL,,numeric,0,0,24175,241.34 | 303.08 | 263.7 | 460.99 | 234.63 | 293.24,Factor de elevación
+data-raw/microdatos/2025/R/EPA_2025T2.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/R/EPA_2025T2.RData,df_micro,NA,NVIVI,,character,0,0,50648,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/R/EPA_2025T2.RData,df_micro,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 45,Edad
+data-raw/microdatos/2025/R/EPA_2025T2.RData,df_micro,NA,EDADEST,,integer,17991,14.91,69,21 | 18 | 38 | 23 | 8 | 14,Edad
+data-raw/microdatos/2025/R/EPA_2025T2.RData,df_micro,NA,FACTOREL,,numeric,0,0,24048,263.63 | 286.25 | 253.92 | 450.69 | 274.49 | 220.54,Factor de elevación
+data-raw/microdatos/2025/R/EPA_2025T3.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/R/EPA_2025T3.RData,df_micro,NA,NVIVI,,character,0,0,46572,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/R/EPA_2025T3.RData,df_micro,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2025/R/EPA_2025T3.RData,df_micro,NA,EDADEST,,integer,16583,14.95,67,21 | 18 | 38 | 23 | 8 | 17,Edad
+data-raw/microdatos/2025/R/EPA_2025T3.RData,df_micro,NA,FACTOREL,,numeric,0,0,23186,255.07 | 225.06 | 283.7 | 401.57 | 240.26 | 166.26,Factor de elevación
+data-raw/microdatos/2025/R/EPA_2025T4.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/R/EPA_2025T4.RData,df_micro,NA,NVIVI,,character,0,0,45201,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/R/EPA_2025T4.RData,df_micro,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2025/R/EPA_2025T4.RData,df_micro,NA,EDADEST,,integer,15877,14.77,69,21 | 18 | 38 | 22 | 7 | 16,Edad
+data-raw/microdatos/2025/R/EPA_2025T4.RData,df_micro,NA,FACTOREL,,numeric,0,0,22771,282.35 | 238.02 | 291.66 | 350.79 | 176.39 | 253.76,Factor de elevación
+data-raw/microdatos/2025/SAS/epa_2025t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/SAS/epa_2025t1.sas7bdat,datos,NA,NVIVI,,character,0,0,50904,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/SAS/epa_2025t1.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 45,Edad
+data-raw/microdatos/2025/SAS/epa_2025t1.sas7bdat,datos,NA,EDADEST,,numeric,18234,14.98,69,21 | 18 | 38 | 23 | 8 | 14,Edad
+data-raw/microdatos/2025/SAS/epa_2025t1.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,24175,241.34 | 303.08 | 263.7 | 460.99 | 234.63 | 293.24,Factor de elevación
+data-raw/microdatos/2025/SAS/epa_2025t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/SAS/epa_2025t2.sas7bdat,datos,NA,NVIVI,,character,0,0,50648,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/SAS/epa_2025t2.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 45,Edad
+data-raw/microdatos/2025/SAS/epa_2025t2.sas7bdat,datos,NA,EDADEST,,numeric,17991,14.91,69,21 | 18 | 38 | 23 | 8 | 14,Edad
+data-raw/microdatos/2025/SAS/epa_2025t2.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,24048,263.63 | 286.25 | 253.92 | 450.69 | 274.49 | 220.54,Factor de elevación
+data-raw/microdatos/2025/SAS/epa_2025t3.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/SAS/epa_2025t3.sas7bdat,datos,NA,NVIVI,,character,0,0,46572,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/SAS/epa_2025t3.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2025/SAS/epa_2025t3.sas7bdat,datos,NA,EDADEST,,numeric,16583,14.95,67,21 | 18 | 38 | 23 | 8 | 17,Edad
+data-raw/microdatos/2025/SAS/epa_2025t3.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,23186,255.07 | 225.06 | 283.7 | 401.57 | 240.26 | 166.26,Factor de elevación
+data-raw/microdatos/2025/SAS/epa_2025t4.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/SAS/epa_2025t4.sas7bdat,datos,NA,NVIVI,,character,0,0,45201,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/SAS/epa_2025t4.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2025/SAS/epa_2025t4.sas7bdat,datos,NA,EDADEST,,numeric,15877,14.77,69,21 | 18 | 38 | 22 | 7 | 16,Edad
+data-raw/microdatos/2025/SAS/epa_2025t4.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,22771,282.35 | 238.02 | 291.66 | 350.79 | 176.39 | 253.76,Factor de elevación
+data-raw/microdatos/2025/STATA/EPA_2025T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/STATA/EPA_2025T1.dta,datos,NA,NVIVI,,character,0,0,50904,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/STATA/EPA_2025T1.dta,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 45,Edad
+data-raw/microdatos/2025/STATA/EPA_2025T1.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,18234,14.98,69,21 | 18 | 38 | 23 | 8 | 14,Edad
+data-raw/microdatos/2025/STATA/EPA_2025T1.dta,datos,NA,FACTOREL,,numeric,0,0,24175,241.34 | 303.08 | 263.7 | 460.99 | 234.63 | 293.24,Factor de elevación
+data-raw/microdatos/2025/STATA/EPA_2025T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/STATA/EPA_2025T2.dta,datos,NA,NVIVI,,character,0,0,50648,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/STATA/EPA_2025T2.dta,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 45,Edad
+data-raw/microdatos/2025/STATA/EPA_2025T2.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,17991,14.91,69,21 | 18 | 38 | 23 | 8 | 14,Edad
+data-raw/microdatos/2025/STATA/EPA_2025T2.dta,datos,NA,FACTOREL,,numeric,0,0,24048,263.63 | 286.25 | 253.92 | 450.69 | 274.49 | 220.54,Factor de elevación
+data-raw/microdatos/2025/STATA/EPA_2025T3.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/STATA/EPA_2025T3.dta,datos,NA,NVIVI,,character,0,0,46572,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/STATA/EPA_2025T3.dta,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2025/STATA/EPA_2025T3.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,16583,14.95,67,21 | 18 | 38 | 23 | 8 | 17,Edad
+data-raw/microdatos/2025/STATA/EPA_2025T3.dta,datos,NA,FACTOREL,,numeric,0,0,23186,255.07 | 225.06 | 283.7 | 401.57 | 240.26 | 166.26,Factor de elevación
+data-raw/microdatos/2025/STATA/EPA_2025T4.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2025/STATA/EPA_2025T4.dta,datos,NA,NVIVI,,character,0,0,45201,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2025/STATA/EPA_2025T4.dta,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2025/STATA/EPA_2025T4.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,15877,14.77,69,21 | 18 | 38 | 22 | 7 | 16,Edad
+data-raw/microdatos/2025/STATA/EPA_2025T4.dta,datos,NA,FACTOREL,,numeric,0,0,22771,282.35 | 238.02 | 291.66 | 350.79 | 176.39 | 253.76,Factor de elevación
+data-raw/microdatos/2026/R/EPA_2026T1.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/R/EPA_2026T1.RData,df_micro,NA,NVIVI,,character,0,0,46732,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/R/EPA_2026T1.RData,df_micro,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2026/R/EPA_2026T1.RData,df_micro,NA,EDADEST,,integer,16473,14.79,68,21 | 18 | 38 | 23 | 7 | 16,Edad
+data-raw/microdatos/2026/R/EPA_2026T1.RData,df_micro,NA,FACTOREL,,numeric,0,0,24730,259.4 | 298.14 | 270.66 | 274.56 | 177.17 | 399.87,Factor de elevación
+data-raw/microdatos/2026/R/EPA_2026T2.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/R/EPA_2026T2.RData,df_micro,NA,NVIVI,,character,0,0,47914,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/R/EPA_2026T2.RData,df_micro,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2026/R/EPA_2026T2.RData,df_micro,NA,EDADEST,,integer,16824,14.76,70,21 | 18 | 38 | 23 | 7 | 17,Edad
+data-raw/microdatos/2026/R/EPA_2026T2.RData,df_micro,NA,FACTOREL,,numeric,0,0,25622,289.5 | 285.65 | 266.05 | 155.42 | 272.49 | 433.28,Factor de elevación
+data-raw/microdatos/2026/R/EPA_2026T3.RData,df_micro,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/R/EPA_2026T3.RData,df_micro,NA,NVIVI,,character,0,0,49378,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/R/EPA_2026T3.RData,df_micro,NA,EDAD1,,character,0,0,14,50 | 55 | 16 | 10 | 45 | 40,Edad
+data-raw/microdatos/2026/R/EPA_2026T3.RData,df_micro,NA,EDADEST,,integer,17160,14.61,70,22 | 14 | 17 | 26 | 27 | 25,Edad
+data-raw/microdatos/2026/R/EPA_2026T3.RData,df_micro,NA,FACTOREL,,numeric,0,0,27243,104.58 | 177.22 | 463.76 | 105.01 | 297.39 | 442.6,Factor de elevación
+data-raw/microdatos/2026/SAS/epa_2026t1.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/SAS/epa_2026t1.sas7bdat,datos,NA,NVIVI,,character,0,0,46732,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/SAS/epa_2026t1.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2026/SAS/epa_2026t1.sas7bdat,datos,NA,EDADEST,,numeric,16473,14.79,68,21 | 18 | 38 | 23 | 7 | 16,Edad
+data-raw/microdatos/2026/SAS/epa_2026t1.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,24730,259.4 | 298.14 | 270.66 | 274.56 | 177.17 | 399.87,Factor de elevación
+data-raw/microdatos/2026/SAS/epa_2026t2.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/SAS/epa_2026t2.sas7bdat,datos,NA,NVIVI,,character,0,0,47914,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/SAS/epa_2026t2.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2026/SAS/epa_2026t2.sas7bdat,datos,NA,EDADEST,,numeric,16824,14.76,70,21 | 18 | 38 | 23 | 7 | 17,Edad
+data-raw/microdatos/2026/SAS/epa_2026t2.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,25622,289.5 | 285.65 | 266.05 | 155.42 | 272.49 | 433.28,Factor de elevación
+data-raw/microdatos/2026/SAS/epa_2026t3.sas7bdat,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/SAS/epa_2026t3.sas7bdat,datos,NA,NVIVI,,character,0,0,49378,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/SAS/epa_2026t3.sas7bdat,datos,NA,EDAD1,,character,0,0,14,50 | 55 | 16 | 10 | 45 | 40,Edad
+data-raw/microdatos/2026/SAS/epa_2026t3.sas7bdat,datos,NA,EDADEST,,numeric,17160,14.61,70,22 | 14 | 17 | 26 | 27 | 25,Edad
+data-raw/microdatos/2026/SAS/epa_2026t3.sas7bdat,datos,NA,FACTOREL,,numeric,0,0,27243,104.58 | 177.22 | 463.76 | 105.01 | 297.39 | 442.6,Factor de elevación
+data-raw/microdatos/2026/STATA/EPA_2026T1.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/STATA/EPA_2026T1.dta,datos,NA,NVIVI,,character,0,0,46732,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/STATA/EPA_2026T1.dta,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2026/STATA/EPA_2026T1.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,16473,14.79,68,21 | 18 | 38 | 23 | 7 | 16,Edad
+data-raw/microdatos/2026/STATA/EPA_2026T1.dta,datos,NA,FACTOREL,,numeric,0,0,24730,259.4 | 298.14 | 270.66 | 274.56 | 177.17 | 399.87,Factor de elevación
+data-raw/microdatos/2026/STATA/EPA_2026T2.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/STATA/EPA_2026T2.dta,datos,NA,NVIVI,,character,0,0,47914,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/STATA/EPA_2026T2.dta,datos,NA,EDAD1,,character,0,0,14,50 | 40 | 35 | 00 | 65 | 05,Edad
+data-raw/microdatos/2026/STATA/EPA_2026T2.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,16824,14.76,70,21 | 18 | 38 | 23 | 7 | 17,Edad
+data-raw/microdatos/2026/STATA/EPA_2026T2.dta,datos,NA,FACTOREL,,numeric,0,0,25622,289.5 | 285.65 | 266.05 | 155.42 | 272.49 | 433.28,Factor de elevación
+data-raw/microdatos/2026/STATA/EPA_2026T3.dta,datos,NA,CCAA,,character,0,0,19,16 | 08 | 10 | 01 | 07 | 11,Territorio
+data-raw/microdatos/2026/STATA/EPA_2026T3.dta,datos,NA,NVIVI,,character,0,0,49378,00001 | 00002 | 00003 | 00004 | 00005 | 00006,Identificador de vivienda
+data-raw/microdatos/2026/STATA/EPA_2026T3.dta,datos,NA,EDAD1,,character,0,0,14,50 | 55 | 16 | 10 | 45 | 40,Edad
+data-raw/microdatos/2026/STATA/EPA_2026T3.dta,datos,NA,EDADEST,0,haven_labelled/vctrs_vctr/double,17160,14.61,70,22 | 14 | 17 | 26 | 27 | 25,Edad
+data-raw/microdatos/2026/STATA/EPA_2026T3.dta,datos,NA,FACTOREL,,numeric,0,0,27243,104.58 | 177.22 | 463.76 | 105.01 | 297.39 | 442.6,Factor de elevación

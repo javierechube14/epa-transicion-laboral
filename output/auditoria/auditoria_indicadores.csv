@@ -1,0 +1,15 @@
+variable,n_validos,n_na,n_unos,n_ceros
+ocupado,226048,0,165742,60306
+parado_oit,193858,32190,28116,165742
+activo_oit,226048,0,193858,32190
+inactivo_oit,226048,0,32190,193858
+asalariado,165742,60306,150256,15486
+asalariado_publico,150256,75792,23749,126507
+asalariado_privado,150256,75792,126507,23749
+contrato_indefinido,150256,75792,107352,42904
+contrato_temporal,150256,75792,42904,107352
+fijo_discontinuo_entre_indefinidos,107352,118696,4862,102490
+fijo_discontinuo_entre_asalariados,150256,75792,4862,145394
+jornada_parcial,165742,60306,25295,140447
+jornada_completa,165742,60306,140447,25295
+parcialidad_involuntaria,25295,200753,14469,10826

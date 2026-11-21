@@ -1,0 +1,419 @@
+---
+title: "Educación y desigualdad laboral entre jóvenes adultos en España"
+subtitle: "Un análisis de la ocupación por nivel educativo, sexo y territorio (2021–2026)"
+author: "Javier Echube Bestué — Grado en Sociología (Universitat de València)"
+date: "2026-11-21"
+lang: es
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    embed-resources: true
+    fig-align: center
+    smooth-scroll: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(knitr)
+
+# Directorios de gráficos
+buscar_graficos <- function(directorios) {
+  archivos <- unlist(lapply(directorios, function(d) {
+    if (dir.exists(d)) {
+      list.files(
+        d,
+        pattern = "\\.(png|jpg|jpeg|webp)$",
+        full.names = TRUE,
+        ignore.case = TRUE,
+        recursive = TRUE
+      )
+    } else {
+      character(0)
+    }
+  }))
+
+  sort(unique(archivos))
+}
+
+graficos_descriptivos <- buscar_graficos(
+  c(
+    "output/graficos",
+    "output/fase_4b/graficos"
+  )
+)
+
+graficos_modelos <- buscar_graficos(
+  "output/fase_5/graficos"
+)
+```
+
+# Resumen {.unnumbered}
+
+Esta investigación analiza la asociación entre el nivel educativo y la situación laboral de la población de 25 a 34 años en España, prestando especial atención a las diferencias por sexo y territorio. El estudio utiliza microdatos trimestrales de la Encuesta de Población Activa (EPA) del Instituto Nacional de Estadística, correspondientes al periodo comprendido entre el primer trimestre de 2021 y el tercer trimestre de 2026.
+
+La estrategia metodológica combina análisis descriptivo y modelos de regresión con familia cuasibinomial y ponderaciones basadas en los factores de elevación de la encuesta. Se examina la evolución de la ocupación, el paro, la temporalidad y la parcialidad, así como sus diferencias según educación, sexo y comunidad autónoma.
+
+Los resultados descriptivos muestran una asociación positiva entre nivel educativo y ocupación. En el tercer trimestre de 2026, la tasa de ocupación alcanza el 84,0 % entre las personas con educación superior, frente al 41,7 % entre aquellas con educación primaria o inferior. Los modelos multivariables indican, además, que la asociación entre educación y ocupación presenta diferencias según el sexo. Las probabilidades predichas muestran una reducción progresiva de la brecha de ocupación entre hombres y mujeres a medida que aumenta el nivel educativo.
+
+Los resultados se interpretan como asociaciones estadísticas y no como relaciones causales. Asimismo, se reconocen las limitaciones derivadas de no reproducir íntegramente el diseño muestral complejo de la EPA.
+
+**Palabras clave:** educación, ocupación, desigualdad laboral, sexo, EPA, mercado de trabajo, España.
+
+# Introducción
+
+La educación constituye uno de los principales factores asociados a la posición de las personas en el mercado laboral. Sin embargo, su relación con las oportunidades de empleo no se distribuye necesariamente de forma homogénea entre los distintos grupos sociales. Las diferencias educativas pueden relacionarse con distintas posibilidades de acceso al empleo, pero también con desigualdades vinculadas al sexo, la edad y el territorio.
+
+Este trabajo analiza la relación entre el nivel educativo y la ocupación de la población de 25 a 34 años en España, prestando especial atención a las diferencias por sexo y comunidad autónoma. El objetivo es estudiar cómo se distribuyen las oportunidades laborales entre los distintos grupos educativos y hasta qué punto estas diferencias presentan patrones específicos según el sexo.
+
+La investigación utiliza los microdatos de la Encuesta de Población Activa (EPA) del Instituto Nacional de Estadística, correspondientes al periodo comprendido entre el primer trimestre de 2021 y el tercer trimestre de 2026.
+
+La elección de este grupo de edad permite estudiar una etapa relevante de consolidación de las trayectorias educativas y laborales. No obstante, el análisis no pretende reconstruir trayectorias individuales, sino comparar la situación laboral de esta población en distintos momentos del periodo.
+
+La pregunta central de investigación es:
+
+**¿En qué medida se asocia el nivel educativo con la ocupación de la población de 25 a 34 años y cómo varía esta relación según el sexo y el territorio?**
+
+# Objetivos e hipótesis
+
+## Objetivo general
+
+Analizar la relación entre el nivel educativo y la situación de ocupación de la población de 25 a 34 años en España, incorporando las diferencias por sexo, territorio y periodo temporal.
+
+## Objetivos específicos
+
+- Examinar la evolución de los principales indicadores laborales durante el periodo 2021–2026.
+- Identificar diferencias de ocupación y condiciones laborales entre niveles educativos.
+- Analizar las desigualdades laborales entre hombres y mujeres.
+- Comprobar si la asociación entre educación y ocupación varía según el sexo.
+- Examinar la distribución territorial de las diferencias laborales y su evolución temporal.
+
+## Hipótesis
+
+**H1. Gradiente educativo.** Los niveles educativos superiores se asocian con mayores probabilidades de ocupación.
+
+**H2. Desigualdad por sexo.** Existen diferencias en la situación laboral según el sexo, incluso al controlar el nivel educativo y otras características sociodemográficas, territoriales y temporales.
+
+**H3. Interacción entre educación y sexo.** La asociación entre educación y ocupación varía según el sexo, por lo que la brecha de género no es necesariamente constante entre niveles educativos.
+
+**H4. Heterogeneidad territorial y temporal.** Los indicadores laborales presentan diferencias entre comunidades autónomas y periodos de observación.
+
+# Datos y metodología
+
+## Fuente de datos y población de estudio
+
+La fuente principal es la Encuesta de Población Activa (EPA), elaborada por el Instituto Nacional de Estadística. Se utilizan los microdatos trimestrales comprendidos entre 2021T1 y 2026T3.
+
+La población de estudio comprende las personas de 25 a 34 años. Debido a la estructura de los microdatos, esta población se identifica mediante los grupos quinquenales de edad de 25–29 y 30–34 años.
+
+La base consolidada contiene 226.048 observaciones distribuidas en 23 periodos trimestrales.
+
+La EPA es una encuesta continua, por lo que el análisis utiliza cortes transversales repetidos. Aunque existe un componente rotatorio en la muestra, este trabajo no reconstruye trayectorias individuales ni sigue longitudinalmente a las mismas personas.
+
+## Construcción y depuración de la base
+
+Los microdatos originales se integraron en una base consolidada, armonizando las variables necesarias para garantizar la comparabilidad temporal.
+
+Se realizó una revisión de los códigos originales, la correspondencia entre ficheros trimestrales y los factores de elevación. También se comprobaron los valores ausentes, las categorías inesperadas y la coherencia entre los indicadores construidos.
+
+La operacionalización permitió obtener indicadores comparables de ocupación, desempleo, actividad, inactividad, tipo de contrato, jornada y parcialidad involuntaria.
+
+La construcción de la base se organizó en distintas fases reproducibles: integración de los ficheros trimestrales, armonización de variables, validación de la información, análisis descriptivo y estimación de modelos multivariables.
+
+## Operacionalización de las variables
+
+La variable dependiente principal de los modelos multivariables es la situación de ocupación, que distingue entre personas ocupadas y no ocupadas.
+
+La variable educativa se organiza en cuatro categorías:
+
+- **Bajo:** primaria o inferior.
+- **Medio-bajo:** primera etapa de educación secundaria.
+- **Medio-alto:** segunda etapa de educación secundaria general o profesional.
+- **Alto:** educación superior.
+
+Se incorporan además las siguientes variables:
+
+- **Sexo:** hombres y mujeres.
+- **Grupo de edad:** 25–29 y 30–34 años.
+- **Comunidad autónoma:** territorio de residencia.
+- **Periodo:** trimestre de observación.
+
+Los indicadores de temporalidad se calculan sobre la población asalariada y los de parcialidad sobre la población ocupada. La parcialidad involuntaria se identifica entre las personas ocupadas a tiempo parcial que declaran no haber podido encontrar un empleo a jornada completa.
+
+Es importante señalar que la categoría de personas no ocupadas incluye tanto a personas desempleadas como inactivas. Por tanto, la variable dependiente principal no representa exclusivamente la probabilidad de encontrar empleo entre quienes participan activamente en el mercado laboral.
+
+## Estrategia analítica
+
+El análisis combina dos estrategias complementarias.
+
+En primer lugar, se realiza un análisis descriptivo de la evolución de los indicadores laborales, así como de sus diferencias por educación, sexo y comunidad autónoma. Se incorporan comparaciones interanuales para reducir la influencia de las variaciones estacionales.
+
+En segundo lugar, se estiman modelos de regresión con familia cuasibinomial y ponderaciones basadas en los factores de elevación de la EPA. Esta especificación permite analizar la asociación entre las variables explicativas y la probabilidad de ocupación.
+
+Se construyen cuatro especificaciones progresivas:
+
+- **M1:** educación.
+- **M2:** educación, sexo y grupo de edad.
+- **M3:** educación, sexo, grupo de edad, comunidad autónoma y periodo.
+- **M4:** variables del M3 e interacción entre educación y sexo.
+
+El cuarto modelo permite examinar si la asociación entre nivel educativo y ocupación presenta diferencias según el sexo.
+
+Para facilitar la interpretación, se calculan probabilidades predichas estandarizadas sobre la distribución observada de las demás variables del modelo.
+
+Las estimaciones de incertidumbre y los contrastes estadísticos se interpretan con cautela, puesto que la ponderación aplicada no reproduce íntegramente todos los componentes del diseño muestral complejo de la EPA.
+
+# Resultados descriptivos
+
+## Evolución nacional de la situación laboral
+
+El análisis de la evolución nacional permite observar los cambios experimentados por la población de 25 a 34 años durante el periodo estudiado.
+
+Se consideran las tasas de ocupación, paro, temporalidad, parcialidad y parcialidad involuntaria. Estos indicadores permiten distinguir entre la situación de empleo y las condiciones en las que se desarrolla la actividad laboral.
+
+Entre 2021T1 y 2026T3, la tasa de ocupación pasó del 67,75 % al 77,66 %, mientras que la tasa de paro descendió del 20,37 % al 11,03 %. También se observa una reducción de la temporalidad, que pasó del 37,41 % al 20,72 %. La parcialidad descendió del 16,88 % al 13,55 %, mientras que la parcialidad involuntaria pasó del 61,13 % al 54,93 % entre las personas ocupadas a tiempo parcial.
+
+Estos cambios reflejan una mejora agregada de los indicadores laborales durante el periodo analizado. Sin embargo, la evolución general no implica que las desigualdades entre grupos hayan desaparecido.
+
+La reducción de la temporalidad es especialmente relevante, aunque debe interpretarse junto con el resto de indicadores. La estabilidad contractual, la jornada y la posibilidad de acceder a un empleo no son dimensiones equivalentes de la inserción laboral.
+
+## Diferencias según nivel educativo
+
+El nivel educativo constituye una dimensión central del análisis. La comparación permite examinar si las oportunidades de ocupación y las condiciones laborales presentan diferencias entre los distintos niveles formativos.
+
+En el tercer trimestre de 2026, la tasa de ocupación alcanzaba el 83,95 % entre las personas con educación superior, frente al 41,67 % entre aquellas con educación primaria o inferior. Los niveles intermedios presentaban valores del 69,72 % para el nivel medio-bajo y del 76,62 % para el medio-alto.
+
+La tasa de paro también mostraba diferencias: era del 7,95 % en el nivel educativo alto y del 24,52 % en el nivel bajo. Los niveles medio-bajo y medio-alto registraban tasas del 16,40 % y del 12,57 %, respectivamente.
+
+Estos resultados muestran un gradiente educativo claro en la ocupación y el paro. No obstante, las diferencias en las condiciones laborales no reproducen necesariamente el mismo patrón.
+
+La temporalidad, por ejemplo, alcanzaba el 24,49 % en el nivel educativo bajo y el 21,45 % en el nivel alto. La parcialidad era del 13,04 % en el nivel bajo y del 11,29 % en el alto. Por tanto, la relación entre educación y ocupación no debe confundirse con una mejora uniforme de todas las dimensiones del empleo.
+
+La parcialidad involuntaria también presenta variaciones entre categorías educativas, lo que aconseja evitar una interpretación simplificada de los resultados.
+
+## Evolución de las desigualdades educativas y laborales
+
+El análisis comparativo de la evolución temporal permite estudiar si las diferencias entre niveles educativos se mantienen, aumentan o disminuyen a lo largo del periodo.
+
+La comparación interanual permite observar los cambios respecto al mismo trimestre del año anterior, reduciendo la influencia de las variaciones estacionales.
+
+Los resultados muestran que la evolución no es idéntica entre categorías educativas. El nivel bajo presenta oscilaciones más pronunciadas, mientras que los niveles medio-alto y alto mantienen tasas de ocupación superiores durante los distintos periodos observados.
+
+En el tercer trimestre de 2026, por ejemplo, la ocupación del nivel bajo se situaba en el 41,67 %, frente al 76,62 % del nivel medio-alto y el 83,95 % del nivel alto. Estas diferencias indican que la mejora agregada del empleo no se distribuye de manera uniforme entre los grupos educativos.
+
+La comparación interanual también permite observar que las variaciones de un mismo grupo pueden cambiar de signo entre trimestres. Por ello, resulta más adecuado interpretar la evolución a partir de patrones sostenidos que extraer conclusiones de un único cambio anual.
+
+En conjunto, los resultados respaldan la existencia de diferencias educativas persistentes, aunque su evolución temporal presenta variaciones que deben considerarse al interpretar el gradiente observado.
+
+## Diferencias por sexo
+
+La comparación por sexo permite identificar desigualdades que podrían quedar ocultas al observar exclusivamente los indicadores nacionales.
+
+En el tercer trimestre de 2026, la tasa de ocupación era del 79,47 % entre los hombres y del 75,75 % entre las mujeres. La parcialidad también presentaba diferencias importantes: alcanzaba el 19,24 % entre las mujeres y el 8,40 % entre los hombres.
+
+La temporalidad era igualmente superior entre las mujeres, con un 24,29 %, frente al 17,39 % de los hombres.
+
+La tasa de paro era del 12,06 % entre los hombres y del 9,86 % entre las mujeres. Sin embargo, esta diferencia no debe interpretarse aisladamente como una ventaja laboral femenina. La tasa de inactividad era del 15,96 % entre las mujeres, frente al 9,63 % entre los hombres.
+
+La lectura conjunta de ocupación, paro e inactividad resulta fundamental, ya que las diferencias en las tasas de desempleo no reflejan por sí solas todas las desigualdades de participación laboral.
+
+Estos resultados muestran que las diferencias por sexo no se limitan a la probabilidad de estar ocupado, sino que también afectan a las condiciones de empleo y a la relación con el mercado laboral.
+
+## Diferencias territoriales
+
+La dimensión territorial permite estudiar hasta qué punto las oportunidades laborales de la población joven-adulta presentan diferencias entre comunidades autónomas.
+
+En el tercer trimestre de 2026, la tasa de ocupación presenta una variación considerable entre territorios. Entre los valores más elevados se encuentran Illes Balears, con un 86,61 %, y La Rioja, con un 82,46 %. En el extremo inferior aparecen Ceuta, con un 67,11 %, y Melilla, con un 63,41 %.
+
+También se observan diferencias en las tasas de paro y temporalidad. Estas variaciones pueden estar relacionadas con la composición sectorial, las estructuras productivas y las características demográficas de cada territorio.
+
+No obstante, las comparaciones territoriales deben interpretarse con cautela. Algunas comunidades autónomas y, especialmente, las ciudades autónomas presentan tamaños muestrales reducidos. En consecuencia, sus estimaciones pueden ser más sensibles a las variaciones de la muestra y no deben utilizarse para establecer clasificaciones definitivas de desempeño laboral.
+
+El análisis territorial permite identificar heterogeneidad entre los lugares de residencia, pero no determina por sí mismo las causas de esas diferencias.
+
+## Representación gráfica descriptiva
+
+Los gráficos generados durante las fases descriptiva y comparativa complementan el análisis y permiten visualizar la evolución temporal de los indicadores y las diferencias entre grupos educativos, sexos y territorios.
+
+```{r graficos-descriptivos, results='asis', out.width='90%', fig.align='center'}
+if (length(graficos_descriptivos) > 0) {
+  knitr::include_graphics(graficos_descriptivos)
+} else {
+  cat("No se han encontrado gráficos descriptivos en los directorios de resultados.")
+}
+```
+
+## Síntesis del análisis descriptivo
+
+En conjunto, los resultados descriptivos muestran una mejora de los principales indicadores laborales durante el periodo analizado, junto con diferencias persistentes según educación, sexo y territorio.
+
+La ocupación presenta un gradiente educativo especialmente claro. Las personas con niveles educativos superiores registran tasas de ocupación más elevadas y menores tasas de paro. Sin embargo, las diferencias en temporalidad, parcialidad y parcialidad involuntaria requieren una interpretación específica.
+
+Por otra parte, las desigualdades por sexo se manifiestan tanto en el acceso al empleo como en las condiciones laborales y la inactividad. La dimensión territorial añade una heterogeneidad adicional que debe analizarse considerando las características de cada mercado laboral y los tamaños muestrales disponibles.
+
+Esta diversidad de patrones justifica la utilización de modelos multivariables que permitan examinar conjuntamente las distintas dimensiones.
+
+# Resultados de los modelos multivariables
+
+## Comparación general de los modelos
+
+Los cuatro modelos permiten estudiar progresivamente la asociación entre educación y ocupación, incorporando controles sociodemográficos, territoriales y temporales.
+
+La devianza disminuye desde 246.660 en el primer modelo hasta 239.775 en el cuarto. Esta reducción indica una mejora del ajuste dentro de las especificaciones estimadas.
+
+El modelo M1 incorpora únicamente el nivel educativo. El M2 añade el sexo y el grupo de edad. El M3 incorpora además la comunidad autónoma y el periodo de observación. Finalmente, el M4 introduce la interacción entre educación y sexo.
+
+Los cuatro modelos utilizan las mismas 226.048 observaciones. La familia cuasibinomial no proporciona un AIC convencional comparable, por lo que no se utiliza este indicador para seleccionar el modelo.
+
+La comparación de las especificaciones permite observar cómo cambia la asociación estimada al incorporar sucesivamente otras dimensiones relevantes de la situación laboral.
+
+## Asociación entre educación y ocupación
+
+En el modelo aditivo M3, tomando como referencia el nivel educativo bajo, las *odds* de ocupación son mayores en los restantes niveles educativos.
+
+El nivel medio-bajo presenta un *odds ratio* de 2,57; el medio-alto, de 3,39; y el nivel alto, de 6,22.
+
+Estos resultados muestran una asociación positiva entre educación y ocupación incluso después de controlar el sexo, el grupo de edad, la comunidad autónoma y el trimestre de observación.
+
+En este modelo, la categoría de edad de 30–34 años presenta un *odds ratio* de 1,60 respecto a la categoría de 25–29 años. Por su parte, el *odds ratio* asociado a la categoría mujer es de 0,64 respecto a los hombres, manteniendo constantes las demás variables incluidas en el modelo.
+
+Los resultados son coherentes con la existencia de un gradiente educativo en la ocupación y con diferencias asociadas al sexo y a la edad.
+
+Al introducir la interacción en el modelo M4, los efectos principales de la educación pasan a representar la asociación correspondiente a los hombres, que constituyen la categoría de referencia. El efecto específico para las mujeres se obtiene combinando el término principal de educación con el término de interacción correspondiente.
+
+Cabe recordar que los *odds ratios* expresan cambios relativos en las razones de ventaja (*odds*), no incrementos directos en puntos porcentuales de probabilidad.
+
+## Interacción entre educación y sexo
+
+El modelo M4 incorpora una interacción entre educación y sexo. Los términos de interacción permiten examinar si la asociación entre educación y ocupación presenta una intensidad diferente entre hombres y mujeres.
+
+Los *odds ratios* de interacción son de 1,43 para el nivel medio-bajo, 2,06 para el medio-alto y 2,51 para el nivel alto, tomando como referencia el nivel educativo bajo y la categoría masculina.
+
+Los tres términos presentan valores superiores a uno. Esto indica que la asociación entre educación y ocupación es más intensa para las mujeres que para los hombres en comparación con el nivel educativo de referencia.
+
+Este resultado no significa que las mujeres presenten necesariamente mayores probabilidades de ocupación que los hombres. Significa que la diferencia asociada al nivel educativo es mayor entre las mujeres, lo que contribuye a reducir la desventaja inicial observada en los niveles educativos inferiores.
+
+La interacción permite, por tanto, identificar que el gradiente educativo no es uniforme entre ambos sexos. Esta conclusión debe interpretarse conjuntamente con las probabilidades predichas, que permiten expresar las diferencias en una escala más intuitiva.
+
+## Probabilidades predichas de ocupación
+
+Las probabilidades predichas permiten comparar la ocupación entre hombres y mujeres manteniendo la distribución observada de las demás variables del modelo.
+
+Los resultados muestran una asociación positiva entre nivel educativo y ocupación para ambos sexos. No obstante, la magnitud de esta asociación presenta diferencias relevantes.
+
+Entre los hombres, la probabilidad predicha de ocupación aumenta del 55,73 % en el nivel educativo bajo al 83,22 % en el nivel alto. En los niveles intermedios, las probabilidades son del 73,48 % para el nivel medio-bajo y del 75,53 % para el medio-alto.
+
+Entre las mujeres, la probabilidad predicha aumenta del 29,90 % en el nivel bajo al 80,47 % en el nivel alto. Los niveles medio-bajo y medio-alto presentan valores del 57,01 % y del 67,93 %, respectivamente.
+
+La diferencia entre ambos grupos es especialmente elevada en los niveles educativos inferiores y se reduce conforme aumenta el nivel educativo.
+
+Los intervalos de confianza presentados en los resultados gráficos son aproximaciones derivadas del modelo estimado y no incorporan una corrección completa por el diseño muestral de la EPA.
+
+## Brechas de ocupación según sexo
+
+La comparación de las probabilidades predichas permite observar con mayor claridad la evolución de la brecha de ocupación entre hombres y mujeres.
+
+En el nivel educativo bajo, la diferencia alcanza los 25,83 puntos porcentuales. En el nivel medio-bajo se reduce a 16,48 puntos y en el medio-alto a 7,60 puntos. Finalmente, en el nivel educativo alto la diferencia se sitúa en 2,75 puntos porcentuales.
+
+La diferencia entre la brecha observada en el nivel bajo y la del nivel alto es de 23,08 puntos porcentuales.
+
+Este patrón sugiere que la asociación entre educación y ocupación presenta una intensidad diferente según el sexo. La educación superior aparece asociada a una mayor convergencia entre hombres y mujeres en términos de ocupación, aunque las diferencias no desaparecen por completo.
+
+Es importante no interpretar esta convergencia como una eliminación general de las desigualdades laborales. Las probabilidades predichas se refieren exclusivamente a la situación de ocupación y no permiten concluir que las diferencias en salarios, estabilidad contractual, jornada o condiciones de trabajo hayan desaparecido.
+
+## Contraste de la interacción
+
+La comparación entre los modelos M3 y M4 permite comprobar si incorporar la interacción entre educación y sexo mejora el ajuste estadístico.
+
+La diferencia de devianza es de 795,11 puntos, con tres grados de libertad de diferencia. El estadístico F es 266,46 y el resultado presenta un valor p inferior a 0,001.
+
+La incorporación de la interacción mejora significativamente el ajuste del modelo dentro del marco de estimación utilizado. Este resultado respalda la inclusión de dicha interacción en la especificación principal y es coherente con las diferencias observadas en las probabilidades predichas.
+
+No obstante, este contraste debe interpretarse como un resultado del modelo estimado y no como una prueba corregida por todos los componentes del diseño muestral complejo de la EPA.
+
+## Representación gráfica de los modelos
+
+Los gráficos generados durante la fase de modelización permiten visualizar las diferencias entre hombres y mujeres, la evolución de las probabilidades predichas y la relación entre educación y ocupación.
+
+Estas representaciones complementan los resultados de los modelos y facilitan la interpretación de la interacción entre educación y sexo.
+
+```{r graficos-modelos, results='asis', out.width='90%', fig.align='center'}
+if (length(graficos_modelos) > 0) {
+  knitr::include_graphics(graficos_modelos)
+} else {
+  cat("No se han encontrado gráficos de la fase de modelización.")
+}
+```
+
+# Discusión
+
+Los resultados permiten identificar una relación positiva entre educación y ocupación en la población de 25 a 34 años. Esta asociación se mantiene al incorporar variables sociodemográficas, territoriales y temporales.
+
+Sin embargo, el análisis muestra que la educación no se relaciona de la misma manera con la ocupación para hombres y mujeres. La interacción estimada y las probabilidades predichas indican que las diferencias entre ambos grupos son especialmente amplias en los niveles educativos inferiores y se reducen progresivamente en los superiores.
+
+Desde una perspectiva sociológica, esta asimetría invita a considerar que la relación entre las credenciales educativas y la inserción laboral está condicionada por la estructura de género del mercado de trabajo. La educación no opera de manera aislada, sino dentro de un contexto de desigualdades en las oportunidades de acceso al empleo y en las condiciones de inserción laboral.
+
+Los resultados también muestran la importancia de distinguir entre el acceso al empleo y la calidad de la ocupación. La temporalidad, la parcialidad y la parcialidad involuntaria presentan patrones que no necesariamente reproducen el gradiente educativo observado en la ocupación.
+
+Por tanto, una mayor probabilidad de estar ocupado no implica automáticamente una inserción laboral más estable o de mayor calidad. Esta distinción resulta especialmente relevante para evitar interpretaciones exclusivamente individuales del capital humano y para situar la educación dentro de un contexto más amplio de relaciones sociales y oportunidades laborales.
+
+En conjunto, los resultados sugieren que la educación constituye un recurso asociado a mejores oportunidades de ocupación, pero su relación con el empleo está condicionada por otras dimensiones de la desigualdad social. La mejora agregada de los indicadores laborales durante el periodo 2021–2026 tampoco equivale a la desaparición de las desigualdades entre grupos.
+
+La dimensión territorial añade otra perspectiva relevante. Las diferencias observadas entre comunidades autónomas muestran que la situación laboral de la población joven-adulta no es homogénea en el conjunto del país. Sin embargo, los resultados territoriales son descriptivos y no permiten atribuir esas diferencias a una característica económica o institucional concreta.
+
+# Limitaciones metodológicas
+
+Los resultados deben interpretarse teniendo en cuenta varias limitaciones.
+
+En primer lugar, la EPA es una encuesta con un diseño muestral complejo. Aunque se han utilizado factores de elevación, los modelos estimados no reproducen íntegramente todos los componentes del diseño muestral. Por ello, los errores estándar, contrastes e intervalos de confianza deben interpretarse como aproximaciones del modelo y no como inferencia oficial corregida por el diseño completo.
+
+En segundo lugar, la variable dependiente distingue entre personas ocupadas y no ocupadas. Esta última categoría incluye tanto a personas desempleadas como inactivas. Por tanto, los modelos no estiman exclusivamente la probabilidad de encontrar empleo entre quienes participan en el mercado laboral.
+
+En tercer lugar, las categorías educativas armonizadas permiten comparar los distintos trimestres, pero agrupan titulaciones que pueden presentar diferencias internas.
+
+En cuarto lugar, la utilización de cortes transversales repetidos permite estudiar cambios agregados en la población, pero no reconstruir trayectorias laborales individuales ni identificar transiciones personales entre situaciones de empleo, desempleo e inactividad.
+
+En quinto lugar, las estimaciones territoriales de algunas comunidades autónomas y ciudades autónomas se basan en tamaños muestrales reducidos, por lo que deben interpretarse con cautela.
+
+Por último, aunque el análisis incorpora controles territoriales y temporales, no estima interacciones específicas entre educación y territorio ni entre educación y periodo. Por ello, la heterogeneidad territorial y temporal se examina principalmente mediante el análisis descriptivo y no mediante una contrastación multivariable específica de esas diferencias.
+
+El diseño utilizado permite estudiar asociaciones estadísticas, pero no establecer relaciones causales entre educación y ocupación. Tampoco permite atribuir los cambios observados a una política laboral concreta o a un único factor económico.
+
+# Conclusiones
+
+El análisis empírico muestra una asociación positiva entre el nivel educativo y la probabilidad de ocupación de la población de 25 a 34 años en España entre 2021 y 2026.
+
+En primer lugar, los resultados descriptivos reflejan una mejora agregada de los principales indicadores laborales durante el periodo estudiado. La ocupación aumenta, mientras que el paro y la temporalidad disminuyen. Sin embargo, esta evolución no elimina las diferencias asociadas al nivel educativo, el sexo y el territorio.
+
+En segundo lugar, la modelización multivariable muestra que la asociación entre educación y ocupación no es uniforme entre hombres y mujeres. La interacción estimada y las probabilidades predichas indican que la brecha de ocupación es considerablemente mayor en los niveles educativos inferiores y se reduce progresivamente en los superiores.
+
+En tercer lugar, la educación superior aparece asociada a una mayor convergencia entre hombres y mujeres en términos de ocupación. No obstante, esta convergencia no debe confundirse con la desaparición de las desigualdades laborales, ya que el acceso al empleo no recoge por sí solo las diferencias en estabilidad contractual, jornada o calidad de la ocupación.
+
+En cuarto lugar, el análisis territorial muestra que las oportunidades laborales presentan diferencias entre comunidades autónomas. Estas variaciones refuerzan la importancia de considerar el contexto territorial al estudiar la inserción laboral, aunque las estimaciones deben interpretarse teniendo en cuenta las diferencias en los tamaños muestrales.
+
+En conjunto, el trabajo pone de manifiesto la importancia de analizar conjuntamente educación, sexo y territorio para comprender la distribución de oportunidades laborales. La formación constituye una dimensión relevante de la inserción laboral, pero su relación con el empleo está condicionada por otras estructuras de desigualdad.
+
+Finalmente, futuras investigaciones podrían ampliar este análisis incorporando dimensiones como la sobrecualificación, la parcialidad involuntaria, las diferencias salariales y la segregación ocupacional. También sería pertinente estudiar de forma específica las diferencias entre sectores de actividad y las trayectorias laborales mediante diseños longitudinales.
+
+# Referencias y fuentes de datos {.unnumbered}
+
+Instituto Nacional de Estadística. *Encuesta de Población Activa (EPA): metodología, documentación y microdatos trimestrales (2021T1–2026T3).* INE.
+
+Instituto Nacional de Estadística. *Clasificación Nacional de Educación (CNED-2014) y diseño de registro de la Encuesta de Población Activa.* INE.
+
+R Core Team. *R: A Language and Environment for Statistical Computing.* R Foundation for Statistical Computing.
+
+# Anexo. Reproducibilidad y materiales de análisis {.unnumbered}
+
+El análisis se ha desarrollado mediante un flujo de trabajo reproducible en R. Los scripts permiten reconstruir la base de datos, realizar la operacionalización de las variables, generar los resultados descriptivos y estimar los modelos multivariables.
+
+Los resultados intermedios y finales se almacenan en directorios diferenciados, lo que permite mantener separados los datos originales, las bases analíticas, las tablas y las visualizaciones.
+
+La documentación del proyecto y los materiales de análisis permiten consultar los procedimientos de transformación, validación y estimación utilizados en la investigación.

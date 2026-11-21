@@ -1,0 +1,12 @@
+variable,codigos_observados,codigos_no_esperados,n_codigos_no_esperados
+EDAD1,"25, 30",,0
+SEXO1,"1, 6",,0
+CCAA,"01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 51, 52",,0
+NFORMA,"AN, P1, P2, S1, SG, SP, SU",,0
+AOI,"03, 04, 05, 06, 07, 08, 09",,0
+SITU,"01, 03, 05, 06, 07, 08, 09",,0
+DUCON1,"1, 6",,0
+DUCON2,"1, 6",,0
+DUCON3,"00, 01, 02, 03, 04, 05, 06, 07, 08, 09",,0
+PARCO1,"1, 6",,0
+PARCO2,"00, 01, 02, 03, 04, 05, 06, 07",,0

@@ -1,0 +1,269 @@
+ruta,archivo,extension,tipo
+data-raw/documentacion/dr_EPA_2021.xlsx,dr_EPA_2021.xlsx,xlsx,Documentación
+data-raw/documentacion/dr_EPA_2026.xlsx,dr_EPA_2026.xlsx,xlsx,Documentación
+data-raw/documentacion/epacues21.pdf,epacues21.pdf,pdf,Documentación
+data-raw/factores_base_2021/CSV/EPAAnexo_2021T1.tab,EPAAnexo_2021T1.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2021T2.tab,EPAAnexo_2021T2.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2021T4.tab,EPAAnexo_2021T4.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2022T1.tab,EPAAnexo_2022T1.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2022T2.tab,EPAAnexo_2022T2.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2022T3.tab,EPAAnexo_2022T3.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2022T4.tab,EPAAnexo_2022T4.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2023T1.tab,EPAAnexo_2023T1.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2023T2.tab,EPAAnexo_2023T2.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2023T3.tab,EPAAnexo_2023T3.tab,tab,Anexo de factores
+data-raw/factores_base_2021/CSV/EPAAnexo_2023T4.tab,EPAAnexo_2023T4.tab,tab,Anexo de factores
+data-raw/factores_base_2021/dr_EPAAnexo_2021a2023.xlsx,dr_EPAAnexo_2021a2023.xlsx,xlsx,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2021T1.txt,md_EPAAnexo_2021T1.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2021T2.txt,md_EPAAnexo_2021T2.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2021T4.txt,md_EPAAnexo_2021T4.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2022T1.txt,md_EPAAnexo_2022T1.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2022T2.txt,md_EPAAnexo_2022T2.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2022T3.txt,md_EPAAnexo_2022T3.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2022T4.txt,md_EPAAnexo_2022T4.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2023T1.txt,md_EPAAnexo_2023T1.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2023T2.txt,md_EPAAnexo_2023T2.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2023T3.txt,md_EPAAnexo_2023T3.txt,txt,Anexo de factores
+data-raw/factores_base_2021/md_EPAAnexo_2023T4.txt,md_EPAAnexo_2023T4.txt,txt,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2021T1.RData,EPAAnexo_2021T1.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2021T2.RData,EPAAnexo_2021T2.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2021T4.RData,EPAAnexo_2021T4.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2022T1.RData,EPAAnexo_2022T1.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2022T2.RData,EPAAnexo_2022T2.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2022T3.RData,EPAAnexo_2022T3.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2022T4.RData,EPAAnexo_2022T4.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2023T1.RData,EPAAnexo_2023T1.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2023T2.RData,EPAAnexo_2023T2.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2023T3.RData,EPAAnexo_2023T3.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/R/EPAAnexo_2023T4.RData,EPAAnexo_2023T4.RData,rdata,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2021t1.sas7bdat,epaanexo_2021t1.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2021T1_conFormato.sas,EPAAnexo_2021T1_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2021t2.sas7bdat,epaanexo_2021t2.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2021T2_conFormato.sas,EPAAnexo_2021T2_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2021t4.sas7bdat,epaanexo_2021t4.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2021T4_conFormato.sas,EPAAnexo_2021T4_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2022t1.sas7bdat,epaanexo_2022t1.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2022T1_conFormato.sas,EPAAnexo_2022T1_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2022t2.sas7bdat,epaanexo_2022t2.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2022T2_conFormato.sas,EPAAnexo_2022T2_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2022t3.sas7bdat,epaanexo_2022t3.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2022T3_conFormato.sas,EPAAnexo_2022T3_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2022t4.sas7bdat,epaanexo_2022t4.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2022T4_conFormato.sas,EPAAnexo_2022T4_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2023t1.sas7bdat,epaanexo_2023t1.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2023T1_conFormato.sas,EPAAnexo_2023T1_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2023t2.sas7bdat,epaanexo_2023t2.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2023T2_conFormato.sas,EPAAnexo_2023T2_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2023t3.sas7bdat,epaanexo_2023t3.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2023T3_conFormato.sas,EPAAnexo_2023T3_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SAS/epaanexo_2023t4.sas7bdat,epaanexo_2023t4.sas7bdat,sas7bdat,Anexo de factores
+data-raw/factores_base_2021/SAS/EPAAnexo_2023T4_conFormato.sas,EPAAnexo_2023T4_conFormato.sas,sas,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2021T1.sav,EPAAnexo_2021T1.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2021T2.sav,EPAAnexo_2021T2.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2021T4.sav,EPAAnexo_2021T4.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2022T1.sav,EPAAnexo_2022T1.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2022T2.sav,EPAAnexo_2022T2.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2022T3.sav,EPAAnexo_2022T3.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2022T4.sav,EPAAnexo_2022T4.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2023T1.sav,EPAAnexo_2023T1.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2023T2.sav,EPAAnexo_2023T2.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2023T3.sav,EPAAnexo_2023T3.sav,sav,Anexo de factores
+data-raw/factores_base_2021/SPSS/EPAAnexo_2023T4.sav,EPAAnexo_2023T4.sav,sav,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T1.dta,EPAAnexo_2021T1.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T2.dta,EPAAnexo_2021T2.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2021T4.dta,EPAAnexo_2021T4.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T1.dta,EPAAnexo_2022T1.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T2.dta,EPAAnexo_2022T2.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T3.dta,EPAAnexo_2022T3.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2022T4.dta,EPAAnexo_2022T4.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T1.dta,EPAAnexo_2023T1.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T2.dta,EPAAnexo_2023T2.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T3.dta,EPAAnexo_2023T3.dta,dta,Anexo de factores
+data-raw/factores_base_2021/STATA/EPAAnexo_2023T4.dta,EPAAnexo_2023T4.dta,dta,Anexo de factores
+data-raw/microdatos/2021/CSV/EPA_2021T1.csv,EPA_2021T1.csv,csv,Microdatos
+data-raw/microdatos/2021/CSV/EPA_2021T2.csv,EPA_2021T2.csv,csv,Microdatos
+data-raw/microdatos/2021/CSV/EPA_2021T3.csv,EPA_2021T3.csv,csv,Microdatos
+data-raw/microdatos/2021/CSV/EPA_2021T4.csv,EPA_2021T4.csv,csv,Microdatos
+data-raw/microdatos/2021/Leeme.txt,Leeme.txt,txt,Microdatos
+data-raw/microdatos/2021/md_EPA_2021T1.txt,md_EPA_2021T1.txt,txt,Microdatos
+data-raw/microdatos/2021/md_EPA_2021T2.txt,md_EPA_2021T2.txt,txt,Microdatos
+data-raw/microdatos/2021/md_EPA_2021T3.txt,md_EPA_2021T3.txt,txt,Microdatos
+data-raw/microdatos/2021/md_EPA_2021T4.txt,md_EPA_2021T4.txt,txt,Microdatos
+data-raw/microdatos/2021/R/LeemeR.txt,LeemeR.txt,txt,Microdatos
+data-raw/microdatos/2021/R/MD_EPA_2021T1.R,MD_EPA_2021T1.R,r,Microdatos
+data-raw/microdatos/2021/R/MD_EPA_2021T2.R,MD_EPA_2021T2.R,r,Microdatos
+data-raw/microdatos/2021/R/MD_EPA_2021T3.R,MD_EPA_2021T3.R,r,Microdatos
+data-raw/microdatos/2021/R/MD_EPA_2021T4.R,MD_EPA_2021T4.R,r,Microdatos
+data-raw/microdatos/2021/SAS/epa_2021t1.sas7bdat,epa_2021t1.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2021/SAS/EPA_2021T1_conFormato.sas,EPA_2021T1_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2021/SAS/epa_2021t2.sas7bdat,epa_2021t2.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2021/SAS/EPA_2021T2_conFormato.sas,EPA_2021T2_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2021/SAS/epa_2021t3.sas7bdat,epa_2021t3.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2021/SAS/EPA_2021T3_conFormato.sas,EPA_2021T3_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2021/SAS/epa_2021t4.sas7bdat,epa_2021t4.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2021/SAS/EPA_2021T4_conFormato.sas,EPA_2021T4_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2021/SPSS/EPA_2021T1.sav,EPA_2021T1.sav,sav,Microdatos
+data-raw/microdatos/2021/SPSS/EPA_2021T2.sav,EPA_2021T2.sav,sav,Microdatos
+data-raw/microdatos/2021/SPSS/EPA_2021T3.sav,EPA_2021T3.sav,sav,Microdatos
+data-raw/microdatos/2021/SPSS/EPA_2021T4.sav,EPA_2021T4.sav,sav,Microdatos
+data-raw/microdatos/2021/STATA/EPA_2021T1.dta,EPA_2021T1.dta,dta,Microdatos
+data-raw/microdatos/2021/STATA/EPA_2021T2.dta,EPA_2021T2.dta,dta,Microdatos
+data-raw/microdatos/2021/STATA/EPA_2021T3.dta,EPA_2021T3.dta,dta,Microdatos
+data-raw/microdatos/2021/STATA/EPA_2021T4.dta,EPA_2021T4.dta,dta,Microdatos
+data-raw/microdatos/2022/CSV/EPA_2022T1.csv,EPA_2022T1.csv,csv,Microdatos
+data-raw/microdatos/2022/CSV/EPA_2022T2.csv,EPA_2022T2.csv,csv,Microdatos
+data-raw/microdatos/2022/CSV/EPA_2022T3.csv,EPA_2022T3.csv,csv,Microdatos
+data-raw/microdatos/2022/CSV/EPA_2022T4.csv,EPA_2022T4.csv,csv,Microdatos
+data-raw/microdatos/2022/Leeme.txt,Leeme.txt,txt,Microdatos
+data-raw/microdatos/2022/md_EPA_2022T1.txt,md_EPA_2022T1.txt,txt,Microdatos
+data-raw/microdatos/2022/md_EPA_2022T2.txt,md_EPA_2022T2.txt,txt,Microdatos
+data-raw/microdatos/2022/md_EPA_2022T3.txt,md_EPA_2022T3.txt,txt,Microdatos
+data-raw/microdatos/2022/md_EPA_2022T4.txt,md_EPA_2022T4.txt,txt,Microdatos
+data-raw/microdatos/2022/R/LeemeR.txt,LeemeR.txt,txt,Microdatos
+data-raw/microdatos/2022/R/MD_EPA_2022T1.R,MD_EPA_2022T1.R,r,Microdatos
+data-raw/microdatos/2022/R/MD_EPA_2022T2.R,MD_EPA_2022T2.R,r,Microdatos
+data-raw/microdatos/2022/R/MD_EPA_2022T3.R,MD_EPA_2022T3.R,r,Microdatos
+data-raw/microdatos/2022/R/MD_EPA_2022T4.R,MD_EPA_2022T4.R,r,Microdatos
+data-raw/microdatos/2022/SAS/epa_2022t1.sas7bdat,epa_2022t1.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2022/SAS/EPA_2022T1_conFormato.sas,EPA_2022T1_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2022/SAS/epa_2022t2.sas7bdat,epa_2022t2.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2022/SAS/EPA_2022t2_conFormato.sas,EPA_2022t2_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2022/SAS/epa_2022t3.sas7bdat,epa_2022t3.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2022/SAS/EPA_2022T3_conFormato.sas,EPA_2022T3_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2022/SAS/epa_2022t4.sas7bdat,epa_2022t4.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2022/SAS/EPA_2022T4_conFormato.sas,EPA_2022T4_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2022/SPSS/EPA_2022T1.sav,EPA_2022T1.sav,sav,Microdatos
+data-raw/microdatos/2022/SPSS/EPA_2022T2.sav,EPA_2022T2.sav,sav,Microdatos
+data-raw/microdatos/2022/SPSS/EPA_2022T3.sav,EPA_2022T3.sav,sav,Microdatos
+data-raw/microdatos/2022/SPSS/EPA_2022T4.sav,EPA_2022T4.sav,sav,Microdatos
+data-raw/microdatos/2022/STATA/EPA_2022T1.dta,EPA_2022T1.dta,dta,Microdatos
+data-raw/microdatos/2022/STATA/EPA_2022T2.dta,EPA_2022T2.dta,dta,Microdatos
+data-raw/microdatos/2022/STATA/EPA_2022T3.dta,EPA_2022T3.dta,dta,Microdatos
+data-raw/microdatos/2022/STATA/EPA_2022T4.dta,EPA_2022T4.dta,dta,Microdatos
+data-raw/microdatos/2023/CSV/EPA_2023T1.csv,EPA_2023T1.csv,csv,Microdatos
+data-raw/microdatos/2023/CSV/EPA_2023T2.tab,EPA_2023T2.tab,tab,Microdatos
+data-raw/microdatos/2023/CSV/EPA_2023T3.tab,EPA_2023T3.tab,tab,Microdatos
+data-raw/microdatos/2023/CSV/EPA_2023T4.tab,EPA_2023T4.tab,tab,Microdatos
+data-raw/microdatos/2023/dr_EPA_2021.json,dr_EPA_2021.json,json,Microdatos
+data-raw/microdatos/2023/Leeme.txt,Leeme.txt,txt,Microdatos
+data-raw/microdatos/2023/md_EPA_2023T1.txt,md_EPA_2023T1.txt,txt,Microdatos
+data-raw/microdatos/2023/md_EPA_2023T2.parquet,md_EPA_2023T2.parquet,parquet,Microdatos
+data-raw/microdatos/2023/md_EPA_2023T2.txt,md_EPA_2023T2.txt,txt,Microdatos
+data-raw/microdatos/2023/md_EPA_2023T3.parquet,md_EPA_2023T3.parquet,parquet,Microdatos
+data-raw/microdatos/2023/md_EPA_2023T3.txt,md_EPA_2023T3.txt,txt,Microdatos
+data-raw/microdatos/2023/md_EPA_2023T4.parquet,md_EPA_2023T4.parquet,parquet,Microdatos
+data-raw/microdatos/2023/md_EPA_2023T4.txt,md_EPA_2023T4.txt,txt,Microdatos
+data-raw/microdatos/2023/R/EPA_2023T1.RData,EPA_2023T1.RData,rdata,Microdatos
+data-raw/microdatos/2023/R/EPA_2023T2.RData,EPA_2023T2.RData,rdata,Microdatos
+data-raw/microdatos/2023/R/EPA_2023T3.RData,EPA_2023T3.RData,rdata,Microdatos
+data-raw/microdatos/2023/R/EPA_2023T4.RData,EPA_2023T4.RData,rdata,Microdatos
+data-raw/microdatos/2023/SAS/epa_2023t1.sas7bdat,epa_2023t1.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2023/SAS/EPA_2023T1_conFormato.sas,EPA_2023T1_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2023/SAS/epa_2023t2.sas7bdat,epa_2023t2.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2023/SAS/EPA_2023T2_conFormato.sas,EPA_2023T2_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2023/SAS/epa_2023t3.sas7bdat,epa_2023t3.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2023/SAS/EPA_2023T3_conFormato.sas,EPA_2023T3_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2023/SAS/epa_2023t4.sas7bdat,epa_2023t4.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2023/SAS/EPA_2023T4_conFormato.sas,EPA_2023T4_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2023/SPSS/EPA_2023T1.sav,EPA_2023T1.sav,sav,Microdatos
+data-raw/microdatos/2023/SPSS/EPA_2023T2.sav,EPA_2023T2.sav,sav,Microdatos
+data-raw/microdatos/2023/SPSS/EPA_2023T3.sav,EPA_2023T3.sav,sav,Microdatos
+data-raw/microdatos/2023/SPSS/EPA_2023T4.sav,EPA_2023T4.sav,sav,Microdatos
+data-raw/microdatos/2023/STATA/EPA_2023T1.dta,EPA_2023T1.dta,dta,Microdatos
+data-raw/microdatos/2023/STATA/EPA_2023T2.dta,EPA_2023T2.dta,dta,Microdatos
+data-raw/microdatos/2023/STATA/EPA_2023T3.dta,EPA_2023T3.dta,dta,Microdatos
+data-raw/microdatos/2023/STATA/EPA_2023T4.dta,EPA_2023T4.dta,dta,Microdatos
+data-raw/microdatos/2024/CSV/EPA_2024T1.tab,EPA_2024T1.tab,tab,Microdatos
+data-raw/microdatos/2024/CSV/EPA_2024T2.tab,EPA_2024T2.tab,tab,Microdatos
+data-raw/microdatos/2024/CSV/EPA_2024T3.tab,EPA_2024T3.tab,tab,Microdatos
+data-raw/microdatos/2024/CSV/EPA_2024T4.tab,EPA_2024T4.tab,tab,Microdatos
+data-raw/microdatos/2024/dr_EPA_2021.json,dr_EPA_2021.json,json,Microdatos
+data-raw/microdatos/2024/Leeme.txt,Leeme.txt,txt,Microdatos
+data-raw/microdatos/2024/md_EPA_2024T1.parquet,md_EPA_2024T1.parquet,parquet,Microdatos
+data-raw/microdatos/2024/md_EPA_2024T1.txt,md_EPA_2024T1.txt,txt,Microdatos
+data-raw/microdatos/2024/md_EPA_2024T2.parquet,md_EPA_2024T2.parquet,parquet,Microdatos
+data-raw/microdatos/2024/md_EPA_2024T2.txt,md_EPA_2024T2.txt,txt,Microdatos
+data-raw/microdatos/2024/md_EPA_2024T3.parquet,md_EPA_2024T3.parquet,parquet,Microdatos
+data-raw/microdatos/2024/md_EPA_2024T3.txt,md_EPA_2024T3.txt,txt,Microdatos
+data-raw/microdatos/2024/md_EPA_2024T4.parquet,md_EPA_2024T4.parquet,parquet,Microdatos
+data-raw/microdatos/2024/md_EPA_2024T4.txt,md_EPA_2024T4.txt,txt,Microdatos
+data-raw/microdatos/2024/R/EPA_2024T1.RData,EPA_2024T1.RData,rdata,Microdatos
+data-raw/microdatos/2024/R/EPA_2024T2.RData,EPA_2024T2.RData,rdata,Microdatos
+data-raw/microdatos/2024/R/EPA_2024T3.RData,EPA_2024T3.RData,rdata,Microdatos
+data-raw/microdatos/2024/R/EPA_2024T4.RData,EPA_2024T4.RData,rdata,Microdatos
+data-raw/microdatos/2024/SAS/epa_2024t1.sas7bdat,epa_2024t1.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2024/SAS/EPA_2024T1_conFormato.sas,EPA_2024T1_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2024/SAS/epa_2024t2.sas7bdat,epa_2024t2.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2024/SAS/EPA_2024T2_conFormato.sas,EPA_2024T2_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2024/SAS/epa_2024t3.sas7bdat,epa_2024t3.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2024/SAS/EPA_2024T3_conFormato.sas,EPA_2024T3_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2024/SAS/epa_2024t4.sas7bdat,epa_2024t4.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2024/SAS/EPA_2024T4_conFormato.sas,EPA_2024T4_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2024/SPSS/EPA_2024T1.sav,EPA_2024T1.sav,sav,Microdatos
+data-raw/microdatos/2024/SPSS/EPA_2024T2.sav,EPA_2024T2.sav,sav,Microdatos
+data-raw/microdatos/2024/SPSS/EPA_2024T3.sav,EPA_2024T3.sav,sav,Microdatos
+data-raw/microdatos/2024/SPSS/EPA_2024T4.sav,EPA_2024T4.sav,sav,Microdatos
+data-raw/microdatos/2024/STATA/EPA_2024T1.dta,EPA_2024T1.dta,dta,Microdatos
+data-raw/microdatos/2024/STATA/EPA_2024T2.dta,EPA_2024T2.dta,dta,Microdatos
+data-raw/microdatos/2024/STATA/EPA_2024T3.dta,EPA_2024T3.dta,dta,Microdatos
+data-raw/microdatos/2024/STATA/EPA_2024T4.dta,EPA_2024T4.dta,dta,Microdatos
+data-raw/microdatos/2025/CSV/EPA_2025T1.tab,EPA_2025T1.tab,tab,Microdatos
+data-raw/microdatos/2025/CSV/EPA_2025T2.tab,EPA_2025T2.tab,tab,Microdatos
+data-raw/microdatos/2025/CSV/EPA_2025T3.tab,EPA_2025T3.tab,tab,Microdatos
+data-raw/microdatos/2025/CSV/EPA_2025T4.tab,EPA_2025T4.tab,tab,Microdatos
+data-raw/microdatos/2025/dr_EPA_2021.json,dr_EPA_2021.json,json,Microdatos
+data-raw/microdatos/2025/Leeme.txt,Leeme.txt,txt,Microdatos
+data-raw/microdatos/2025/md_EPA_2025T1.parquet,md_EPA_2025T1.parquet,parquet,Microdatos
+data-raw/microdatos/2025/md_EPA_2025T1.txt,md_EPA_2025T1.txt,txt,Microdatos
+data-raw/microdatos/2025/md_EPA_2025T2.parquet,md_EPA_2025T2.parquet,parquet,Microdatos
+data-raw/microdatos/2025/md_EPA_2025T2.txt,md_EPA_2025T2.txt,txt,Microdatos
+data-raw/microdatos/2025/md_EPA_2025T3.parquet,md_EPA_2025T3.parquet,parquet,Microdatos
+data-raw/microdatos/2025/md_EPA_2025T3.txt,md_EPA_2025T3.txt,txt,Microdatos
+data-raw/microdatos/2025/md_EPA_2025T4.parquet,md_EPA_2025T4.parquet,parquet,Microdatos
+data-raw/microdatos/2025/md_EPA_2025T4.txt,md_EPA_2025T4.txt,txt,Microdatos
+data-raw/microdatos/2025/R/EPA_2025T1.RData,EPA_2025T1.RData,rdata,Microdatos
+data-raw/microdatos/2025/R/EPA_2025T2.RData,EPA_2025T2.RData,rdata,Microdatos
+data-raw/microdatos/2025/R/EPA_2025T3.RData,EPA_2025T3.RData,rdata,Microdatos
+data-raw/microdatos/2025/R/EPA_2025T4.RData,EPA_2025T4.RData,rdata,Microdatos
+data-raw/microdatos/2025/SAS/epa_2025t1.sas7bdat,epa_2025t1.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2025/SAS/EPA_2025T1_conFormato.sas,EPA_2025T1_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2025/SAS/epa_2025t2.sas7bdat,epa_2025t2.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2025/SAS/EPA_2025T2_conFormato.sas,EPA_2025T2_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2025/SAS/epa_2025t3.sas7bdat,epa_2025t3.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2025/SAS/EPA_2025T3_conFormato.sas,EPA_2025T3_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2025/SAS/epa_2025t4.sas7bdat,epa_2025t4.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2025/SAS/EPA_2025T4_conFormato.sas,EPA_2025T4_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2025/SPSS/EPA_2025T1.sav,EPA_2025T1.sav,sav,Microdatos
+data-raw/microdatos/2025/SPSS/EPA_2025T2.sav,EPA_2025T2.sav,sav,Microdatos
+data-raw/microdatos/2025/SPSS/EPA_2025T3.sav,EPA_2025T3.sav,sav,Microdatos
+data-raw/microdatos/2025/SPSS/EPA_2025T4.sav,EPA_2025T4.sav,sav,Microdatos
+data-raw/microdatos/2025/STATA/EPA_2025T1.dta,EPA_2025T1.dta,dta,Microdatos
+data-raw/microdatos/2025/STATA/EPA_2025T2.dta,EPA_2025T2.dta,dta,Microdatos
+data-raw/microdatos/2025/STATA/EPA_2025T3.dta,EPA_2025T3.dta,dta,Microdatos
+data-raw/microdatos/2025/STATA/EPA_2025T4.dta,EPA_2025T4.dta,dta,Microdatos
+data-raw/microdatos/2026/CSV/EPA_2026T1.tab,EPA_2026T1.tab,tab,Microdatos
+data-raw/microdatos/2026/CSV/EPA_2026T2.tab,EPA_2026T2.tab,tab,Microdatos
+data-raw/microdatos/2026/CSV/EPA_2026T3.tab,EPA_2026T3.tab,tab,Microdatos
+data-raw/microdatos/2026/dr_EPA_2026.json,dr_EPA_2026.json,json,Microdatos
+data-raw/microdatos/2026/Leeme.txt,Leeme.txt,txt,Microdatos
+data-raw/microdatos/2026/md_EPA_2026T1.parquet,md_EPA_2026T1.parquet,parquet,Microdatos
+data-raw/microdatos/2026/md_EPA_2026T1.txt,md_EPA_2026T1.txt,txt,Microdatos
+data-raw/microdatos/2026/md_EPA_2026T2.parquet,md_EPA_2026T2.parquet,parquet,Microdatos
+data-raw/microdatos/2026/md_EPA_2026T2.txt,md_EPA_2026T2.txt,txt,Microdatos
+data-raw/microdatos/2026/md_EPA_2026T3.parquet,md_EPA_2026T3.parquet,parquet,Microdatos
+data-raw/microdatos/2026/md_EPA_2026T3.txt,md_EPA_2026T3.txt,txt,Microdatos
+data-raw/microdatos/2026/R/EPA_2026T1.RData,EPA_2026T1.RData,rdata,Microdatos
+data-raw/microdatos/2026/R/EPA_2026T2.RData,EPA_2026T2.RData,rdata,Microdatos
+data-raw/microdatos/2026/R/EPA_2026T3.RData,EPA_2026T3.RData,rdata,Microdatos
+data-raw/microdatos/2026/SAS/epa_2026t1.sas7bdat,epa_2026t1.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2026/SAS/EPA_2026T1_conFormato.sas,EPA_2026T1_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2026/SAS/epa_2026t2.sas7bdat,epa_2026t2.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2026/SAS/EPA_2026T2_conFormato.sas,EPA_2026T2_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2026/SAS/epa_2026t3.sas7bdat,epa_2026t3.sas7bdat,sas7bdat,Microdatos
+data-raw/microdatos/2026/SAS/EPA_2026T3_conFormato.sas,EPA_2026T3_conFormato.sas,sas,Microdatos
+data-raw/microdatos/2026/SPSS/EPA_2026T1.sav,EPA_2026T1.sav,sav,Microdatos
+data-raw/microdatos/2026/SPSS/EPA_2026T2.sav,EPA_2026T2.sav,sav,Microdatos
+data-raw/microdatos/2026/SPSS/EPA_2026T3.sav,EPA_2026T3.sav,sav,Microdatos
+data-raw/microdatos/2026/STATA/EPA_2026T1.dta,EPA_2026T1.dta,dta,Microdatos
+data-raw/microdatos/2026/STATA/EPA_2026T2.dta,EPA_2026T2.dta,dta,Microdatos
+data-raw/microdatos/2026/STATA/EPA_2026T3.dta,EPA_2026T3.dta,dta,Microdatos
